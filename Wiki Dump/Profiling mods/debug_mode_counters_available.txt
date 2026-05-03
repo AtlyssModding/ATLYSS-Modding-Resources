@@ -1,0 +1,1973 @@
+Group: Virtual Texturing
+  VirtualTexturing.Context.ProcessPackedTiles
+  VirtualTexturingManager.MarkRequestsFinished
+  VirtualTexturingManager.GetActiveRequestInfos
+  VirtualTexturing.Procedural.GetActiveRequestInfos
+  VirtualTexturing.Procedural.GetActiveRequests
+  VirtualTexturingManager.UpdateTilesetConstantBuffers
+  VirtualTexturingManager.SetCpuCacheSizeRT
+  VirtualTexturingManager.InvalidateRegionRT
+  VirtualTexturingManager.RequestRegionRT
+  VirtualTexturingManager.FindTextureStackHandle
+  VirtualTexturingManager.PostLoadTileSetRT
+  VirtualTexturingManager.LoadProceduralTileSetRT
+  VirtualTexturingManager.GetActiveRequests
+  VirtualTexturingManager.OpenProcedural
+  VirtualTexturingManager.DecRefTextureStackHandle
+  VirtualTexturingManager.IncRefTextureStackHandle
+  VirtualTexturingManager.GetShaderParametersId
+  VirtualTexturingManager.GetShaderParametersHandle
+  VirtualTexturingManager.ProcessFeedback
+  VirtualTexturingManager.UpdatePreloadMipsRT
+  VirtualTexturingManager.UpdateRT
+  VirtualTexturingManager.Update
+  GraphineGfxDevice.UploadGPURectangles
+  GraphineGfxDevice.UploadTiledRectangles
+  GraphineGfxDevice.UploadDiscardRectangles
+  VirtualTextureResolver.FlushInternal
+  VirtualTextureResolver.InitInternal
+  VirtualTextureResolver.Process.Update
+  VirtualTextureResolver.Process
+  TranslationTableGenerator.UpsampleGPUSubmission.ConstantBufferUpdate
+  TranslationTableGenerator.UpsampleGPUSubmissionDispatch
+  TranslationTableGenerator.UpsampleGPUSubmission
+  TranslationTableGenerator.Upsample
+  TranslationTableGenerator.Replace
+  TranslationTableGenerator.Update
+  VirtualTexturingUploadStrip.Memcpy
+  VirtualTexturingUploadStrip.Map
+  VirtualTexturingBatchUploader.UploadRectangle
+  VirtualTexturingBatchUploader.FlushUploads
+  Required Tiles
+  Atlases
+  Total CPU Cache Size
+  Total GPU Cache Size
+  Missing Disk Data
+  Read From Disk
+  Max Cache Mip Bias
+  Max Cache Demand
+  Missing Streaming Tiles
+Group: Video
+  VideoMediaOutput.UpdateTextures
+  VideoPlayer.DecodeNextFrame
+  WindowsVideoTextureOutput.RecreateDevice
+  WindowsVideoTextureOutput.OpenSharedResource
+  WindowsVideoTextureOutput.OpenHandle
+  WindowsVideoTextureOutput.GetHandle
+  WindowsVideoTextureOutput.ReleaseNative
+  WindowsVideoTextureOutput.Blit
+  WindowsVideoTextureOutput.FlushDevice
+  WindowsVideoMedia.GetNextAudioSamples
+  WindowsVideoMedia.DecodeEnqueue
+  WindowsVideoMedia.DecodeRead
+  WindowsVideoMedia.Convert
+  WindowsVideoMedia.WriteSample
+  WindowsVideoMedia.ToBitmap
+  WindowsVideoMedia.CreateBuffer
+  WindowsVideoMedia.AddVideoFrame
+  WindowsVideoMedia.InitMediaFoundation
+  VP8VideoMedia.AddVideoFrame.EncodeYUV
+  VP8VideoMedia.AddVideoFrame.Memset
+  VP8VideoMedia.VpxEncodeFrame
+  VideoPlayer.InitTexture
+  VideoPlayer.InvokeScriptCallbacks
+  VideoPlayer.Stop
+  VideoPlayer.Render
+  VideoPlayer.Update
+  VideoPlayer.Prepare
+  VideoPlayer.DestroyPlayback
+  VideoPlayer.CleanupPlayback
+  VideoPlayer.SetupPlayback
+  VideoPlayer.OpenPlayback
+  VideoPlayer.Loop
+  VideoPlayer.Seek
+Group: Render
+  SpeedTreeWind.Advance
+  Gfx.ProcessCommand
+  GPUProfiler.EndQueries
+  GPUProfiler.BeginQueries
+  Gfx.PresentFrame
+  Gfx.SetRenderTarget
+  Gfx.DrawDynamic
+  Gfx.UpdateAsyncReadbackData
+  Gfx.RequestAsyncReadbackData
+  Gfx.InitializeBuffer
+  Gfx.UploadTexture
+  Shader.ParseMainThread
+  Shader.ParseThreaded
+  Shader.MainThreadCleanup
+  TrailRenderer.Render
+  TrailRenderer.RenderGeometryJob
+  TrailRenderer.ScheduleGeometryJobs
+  Mesh.CalcBoneBounds
+  Mesh.CreateMesh
+  Mesh.CopyTransformed
+  LineRenderer.Render
+  LineRenderer.RenderGeometryJob
+  LineRenderer.ScheduleGeometryJobs
+  UIR.DrawChain
+  UIR.DrawRanges
+  UIR.Job.CopyClosingMesh
+  UIR.Job.ConvertMesh
+  UIR.Job.Nudge
+  CanvasRenderer.SyncClipRect
+  CanvasRenderer.SyncWorldRect
+  CanvasRenderer.SyncTransform
+  Canvas.GeometryJob
+  Canvas.PrepareBatchesJob
+  Canvas.SortJob
+  Canvas.CombineInstructionsJob
+  Canvas.SplitInstructionsJob
+  Canvas.Sort
+  Canvas.RenderSubBatch
+  Canvas.PrepareBatches
+  TilemapRenderer.CleanupIndividualJob
+  TilemapRenderer.ExecuteIndividualJob
+  TilemapRenderer.CombineIndividualJob
+  TilemapRenderer.CountIndividualJob
+  TilemapRenderer.ScheduleIndividual
+  TilemapRenderer.Render
+  TilemapRenderer.GeometryJob
+  TilemapRenderer.DispatchJob
+  TilemapRenderer.BuildChunkJob
+  TilemapRenderer.CameraBoundsJob
+  TilemapRenderer.DistributeJobs
+  TilemapRenderer.CheckDirtyChunks
+  TilemapRenderer.ClearChunks
+  TilemapRenderer.PrepareIndividualMode
+  TilemapRenderer.PrepareChunkMode
+  TilemapRenderer.CameraBoundsCheck
+  TilemapRenderer.CalculateChunkCullingBounds
+  Terrain.UpdateTreeBillboardTexture2
+  DetailMesh.InstanceGenerationJob
+  DetailMesh.MeshGenerationJob
+  Tree.TickSpeedTreeWind
+  Tree.ComputeSpeedTreeWindProperties
+  Tree.ComputeWindPropertiesForAllVisible
+  ComputeLocalWindVector
+  SpeedTreeWindManager.LinearSearchGlobalWinds
+  SpeedTreeWindManager.GetCachedGlobalWindVector
+  SpeedTreeWindManager.Update
+  SpeedTreeWindManager.GetWind
+  SpeedTreeWindManager.TickWind
+  SpeedTreeWindManager.PrepareWindProperties
+  SpeedTreeWindManager.FillWindProperties
+  TreeRenderer.UpdateTreeSceneNodes
+  TreeRenderer.UpdateVisibility
+  TreeRenderer.TreeUpdated
+  TreeRenderer.Render
+  TerrainManager.CullAllTerrains
+  Terrain.Trees.OnWillRender
+  Terrain.Trees.Render
+  Terrain.Details.Render
+  Terrain.Trees.RayTracingCulling
+  Terrain.Heightmap.RayTracingCullingStep3
+  Terrain.Heightmap.RayTracingCullingStep2
+  Terrain.Heightmap.RayTracingCullingStep1
+  Terrain.Heightmap.RenderStep3
+  Terrain.Heightmap.RenderStep2
+  Terrain.Heightmap.RenderStep1
+  Terrain.UpdateSplatMaterials
+  Terrain.UpdateSplatProperties
+  Terrain.FlushDirty
+  QuadTreeBatchNode.Render
+  Terrain.UpdateTreeBillboardTexture
+  DetailInstances.Batching
+  LODTreeInstanceRenderer.UpdateWind
+  QuadTreeNode.Render
+  DetailInstances.BuildCB
+  DetailInstances.BatchingWithCB
+  SpriteMask.Render
+  ParticleSystem.Draw
+  ParticleSystem.DrawSystem
+  FontEngine.GlyphRasterizer.Calculate3x3AAEDT
+  FontEngine.RenderGlyphJob
+  TextRendering.Cleanup
+  Font.CacheFontForText
+  ClothManager.UploadSimulatedSkinData
+  MeshSkinning.CalculateSkinningMatrices
+  Create GfxDeviceClient
+  Create Client Gfx Device Main
+  CreateGfxDeviceWorker
+  Gfx.WaitForRenderThread
+  Gfx.EndAsyncJobFrame
+  Gfx.GetComputeBufferData_Request
+  Gfx.ReadbackImage
+  Gfx.CaptureScreenshot
+  Gfx.FinishRendering
+  Gfx.WaitForPresentOnGfxThread
+  CreateGLESGfxDevice
+  gD3D12SetHitGroupShadersJob
+  GfxDeviceD3D12.SetRayTracingInstanceShaders
+  GfxDeviceD3D12.BuildRayTracingAccelerationStructures
+  GfxDeviceD3D12.UpdateRayTracingAccelerationStructures
+  GfxDeviceD3D12.BuildTopLevelAccelerationStructure
+  BuildBottomLevelAccelerationStructure
+  PlaceBottomLevelAccelerationStructure
+  GfxDeviceD3D12.BuildBottomLevelAccelerationStructures
+  GfxDeviceD3D12Base.DispatchRayTracingProgram
+  D3D12RayTracingStateObject.CacheShaderIdentifiers
+  D3D12RayTracingState.CreateCollection
+  D3D12RayTracingState.Create
+  D3D12RayTracingState.SetShaderRecordDescriptors
+  D3D12RayTracingState.SetDescriptorHeaps
+  D3D12RayTracingState.Setup
+  D3D12RayTracingState.ResourceBarriers
+  D3D12RayTracingState.Transition
+  D3D12RayTracingState.SetGlobalDescriptorTables
+  WriteHitGroupRecordsJobKernel
+  D3D12RayTracingState.WriteHitGroupRecords
+  D3D12RayTracingState.WriteShaderTableRecords
+  D3D12RayTracingShaderRuntimeData.GetGlobalResources
+  CreateResourceWithTag
+  CreateCommittedResourceWithTag
+  CreateGraphicsPipelineAsync
+  GfxDeviceD3D12Base_InvalidateState
+  CreateGfxDeviceD3D12
+  GfxDeviceD3D12Base
+  CreateD3D12GfxDevice
+  GfxDeviceD3D12.ReserveScratchMemory
+  GfxDeviceD3D12.FinishRenderingWithMessagePump
+  GfxDeviceD3D12.FinishRendering
+  GfxDeviceD3D12.WaitForGPU
+  D3D12UploadBuffer.Wait
+  D3D12UploadBuffer.Deallocate
+  D3D12UploadBuffer.Allocate
+  InitializeD3D12.CreateD3D11On12Device
+  InitializeD3D12.D3D12_CreateCommandQueue
+  InitializeD3D12.CreateCommandQueues
+  InitializeD3D12.CreateDevice
+  InitializeD3D12.EnumAdapter
+  InitializeD3D12.LoadDxgi
+  InitializeD3D12.LoadD3D12
+  InitializeD3D12.LoadD3D11
+  InitializeD3D12
+  InitializeD3D12DebugLayer
+  CreatePSO.Job
+  GfxTask_PluginEventAndData
+  GfxTask_ReadValue
+  GfxTask_UnmapTiledResource
+  GfxTask_MapTiledResource
+  GfxTask_UpdateCopyFence
+  GfxTask_WaitOnGpuFence
+  GfxTask_InsertGpuFence
+  GfxTask_RecycleGfxDevice
+  GfxTask_Present
+  GfxTask_DeleteBuffer
+  GfxTask_ReleaseAsyncCommandHeader
+  GfxTask_ExecuteFromPlugin
+  GfxTask_Execute
+  GfxTask_SyncJobFence
+  GfxDeviceD3D12.ResourceBarriers
+  GfxDeviceD3D12.ExecuteCommandList
+  GfxDeviceD3D12.Reuse
+  GfxDeviceD3D12.Swap
+  GraphicsCaps.InitD3D12
+  CreateGraphicsPipelineImpl
+  BufferD3D12.InitializeResource
+  BufferD3D12.CreateBufferResource
+  BufferD3D12.UpdateInternal
+  BufferD3D12.Reinitialize
+  BufferD3D12.CleanupResource
+  BufferD3D11.UpdateBuffer
+  CreateD3D11GfxDevice
+  IDXGISwapChain::Present
+  GfxDeviceD3D11.RefreshSafeFrame
+  GfxDeviceD3D11.PopEventQuery
+  GfxDeviceD3D11.WaitForQueuedPresentsToComplete
+  CreateGraphicsPipelineAsync
+  CreateVKGfxDevice
+  Gfx.CreateBufferResource
+  AcquireNextFrame
+  CreateGraphicsPipelineImpl
+  VKUploadBuffer.Deallocate
+  VKUploadBuffer.Allocate
+  GfxDeviceVK.ExecuteCommandList
+  GfxDeviceVK.Present
+  GfxDeviceVK.SyncSubmission
+  CreatePSO.Job
+  Batch.ProcessGeometryJob
+  Batch.DrawDynamic
+  Batch.DrawStatic
+  RenderLoopDevice.Idle
+  Batch.DrawInstanced
+  Batch.FillInstanceProperties
+  FrameTime.GPU
+  Initialize Gfx Device
+  CreateRealGfxDevice
+  Gfx.UpdateBufferRanges
+  Gfx.EndTextureWrite
+  Gfx.BeginTextureWrite
+  DrawBuffersBatchMode
+  Gfx.CopyTextureData
+  Gfx.UnmapTexture
+  Gfx.MapTexture
+  Gfx.Reserve
+  Gfx.IntegrateTexture
+  Gfx.UploadTextureData
+  Gfx.CreateTextureThreaded
+  Gfx.CreateTexture
+  ComputeSkinningDispatch
+  EndDynamicVBOFrame
+  EndGraphicsJobs
+  WaitForRenderJobs
+  PutAllGeometryJobFence
+  PutGeometryJobFence
+  ScheduleGeometryJobs
+  Profiler.FlushRenderCounters
+  Profiler.ExceededUsedTextureStatsSlots
+  Profiler.CollectUsedTextureStats
+  GpuRecorder.FrameTick
+  CreateGpuProgram
+  Shader.DynamicLoadGPUProgram
+  Shader.CompileGPUProgram
+  Shader.CreateGPUProgram
+  Shader.EditorLoadVariant
+  Shader.WarmupAllShaders
+  ShaderVariantCollection.WarmupShaders
+  RayTracingAccelerationStructure.PrepareGeometries
+  RayTracingAccelerationStructure.Delete
+  RayTracingAccelerationStructure::AddInstanceList
+  RayTracingAccelerationStructure.CullInstances
+  RayTracingAccelerationStructure.ClearInstances
+  RayTracingAccelerationStructure.Build
+  RayTracingAccelerationStructure.SetInstanceShaders
+  RayTracingAccelerationStructureManager.Update
+  ShaderFromSerializedShader
+  RayTracingShadersSetupLoop.Execute
+  RayTracingShadersSetupLoop.SetupShadersForRange
+  ApplyDeferredShaderLoadActions
+  RayTracing.SetInstanceShaders
+  RayTracing.Dispatch
+  Material.ResetAllCachedMaterialData
+  Material.SetPassFast
+  Compute.Dispatch
+  ApplyPass.PrepareKeywords
+  RayTracingInstanceCulling.GenerateInstances
+  RayTracingInstanceCulling.CullingJob
+  FrameDebugger.SetEnabled
+  Graphics.PresentAndSync
+  Device.Present
+  Initialize Graphics
+  InitializeEngineGraphics
+  SRPBatcher.DrawCommandsInjection
+  SRPBRender.ApplyShader
+  StdRender.ApplyShader
+  RenderLoop.ScheduleDraw
+  RenderLoop.DrawSRPBatcher
+  RenderLoop.Draw
+  RenderLoop.Sort
+  RenderLoop.Prepare
+  SRPBatcher.InstancedFill
+  SRPBatcher.Flush
+  SRPBShadow.ApplyShader
+  StdShadow.ApplyShader
+  Shadows.ExtractShaderPassContext
+  Shadows.ScheduleRenderJobs
+  Shadows.ExecuteDrawShadows
+  Shadows.PrepareDrawShadows
+  Shadows.DrawSRPBatcher
+  Shadows.Draw
+  Shadows.ExtractCasters
+  Shadows.SplitAndSortCasters
+  Shadows.Sort
+  CullResultsToVisibleReflectionProbes
+  CullResultsToVisibleLights
+  CullResultsToNativeArrays
+  CullScriptable
+  MeshSkinning.Skin
+  MeshSkinning.GPUSkinning
+  UpdateSkinnedMeshBoundingVolumes
+  MeshSkinning.CalcMatrices
+  MeshSkinning.SkinOnGPU
+  MeshSkinning.WaitForSkinThreads
+  MeshSkinning.Render
+  MeshSkinning.Prepare
+  MeshSkinning.UpdateImmediate
+  MeshSkinning.Update
+  SkinnedMeshUpdateAllNeeded
+  SkinnedMeshFinalizeUpdate
+  SkinnedMeshPrepareDispatchUpdate
+  SkinnedMeshOncePerFrameUpdate
+  CopyChannels
+  StaticBatching.MakeBatch
+  StaticBatching.KickOffBatching
+  StaticBatching.Finish
+  StaticBatching.CollectBatches
+  StaticBatching.BakeTransforms
+  StaticBatching.SortObjects
+  StaticBatching.FilterObjects
+  CombineIndices
+  CombineVertices
+  CombineMeshes
+  MeshRendererFinalizeUpdate
+  MeshRendererPrepareDispatchUpdate
+  MeshRenderer.ComputeScaledMesh
+  MeshRenderer.Render
+  FillQuadIndexBuffer
+  LOD.ComputeLOD
+  CommandBuffer.AfterShadowMapPass
+  CommandBuffer.BeforeShadowMapPass
+  CommandBuffer.AfterScreenspaceMask
+  CommandBuffer.BeforeScreenspaceMask
+  CommandBuffer.AfterShadowMap
+  CommandBuffer.BeforeShadowMap
+  CommandBuffer.AfterHaloAndLensFlares
+  CommandBuffer.BeforeHaloAndLensFlares
+  CommandBuffer.AfterReflections
+  CommandBuffer.BeforeReflections
+  CommandBuffer.AfterEverything
+  CommandBuffer.AfterImageEffects
+  CommandBuffer.BeforeImageEffects
+  CommandBuffer.AfterForwardAlpha
+  CommandBuffer.BeforeForwardAlpha
+  CommandBuffer.AfterSkybox
+  CommandBuffer.BeforeSkybox
+  CommandBuffer.AfterImageEffectsOpaque
+  CommandBuffer.BeforeImageEffectsOpaque
+  CommandBuffer.AfterForwardOpaque
+  CommandBuffer.BeforeForwardOpaque
+  CommandBuffer.AfterFinalPass
+  CommandBuffer.BeforeFinalPass
+  CommandBuffer.AfterLighting
+  CommandBuffer.BeforeLighting
+  CommandBuffer.AfterGBuffer
+  CommandBuffer.BeforeGBuffer
+  CommandBuffer.AfterDepthNormalsTexture
+  CommandBuffer.BeforeDepthNormalsTexture
+  CommandBuffer.AfterDepthTexture
+  CommandBuffer.BeforeDepthTexture
+  RenderingCommandBuffer.PrepareKeywords
+  Billboard.BatchJob
+  Graphics.DrawProcedural
+  Render.LineOrTrail
+  Render.Mesh
+  Mesh.DrawVBO
+  CustomRenderTextures.Update
+  RenderTexture.ResolveAA
+  RenderTexture.SetActive
+  RenderTexture.GrabPixels
+  WatermarkRender
+  SplashScreenRenderForeground
+  SplashScreenRenderBackground
+  SplashScreenRender
+  Renderers.OncePerFrameUpdate
+  Renderers.DebugDataAlloc
+  SyncUpdateRendererBoundingVolumes
+  FinalizeUpdateRendererBoundingVolumes
+  UpdateRendererBoundingVolumes
+  ScheduleUpdateRendererBoundingVolumes
+  PrepareUpdateRendererBoundingVolumes
+  RenderTexture.GarbageCollectTemporary
+  SpriteMeshGenerator.Simplify
+  SpriteMeshGenerator.TraceShape
+  SpriteMeshGenerator.Decompose
+  DepthNormalsPass.Sort
+  DepthNormalsPass.Job
+  ReplacementPass.Sort
+  ReplacementPass.Job
+  DepthPass.Sort
+  DepthPass.Job
+  MotionVector.RenderJob
+  MotionVector.Render
+  MotionVector.Sort
+  RenderForward.PrepareRenderNodes
+  RenderForward.AssignProjectorQueuesJob
+  RenderForward.RenderLoopJob
+  RenderForwardAlpha.Render
+  RenderForwardAlpha.Sort
+  RenderForwardAlpha.Prepare
+  RenderForwardOpaque.Render
+  RenderForwardOpaque.CollectShadows
+  RenderForwardOpaque.Sort
+  RenderForwardOpaque.Prepare
+  RenderDeferred.CopyDepth
+  BatchRenderer.RenderSingle
+  BatchRenderer.Flush
+  Camera.AAResolve
+  RenderDeferred.ForwardObjectsIntoDepthNormals
+  RenderDeferred.ForwardObjectsIntoDepth
+  Render.MotionVectors
+  Render.TransparentGeometry
+  Render.OpaqueGeometry
+  Render.Prepare
+  CalculateLightProbeSamplingCoordinates
+  RenderDeferred.ReflectionsToEmissive
+  RenderDeferred.ReflProbeQuad
+  RenderDeferred.DefaultReflection
+  RenderDeferred.Reflections
+  RenderDeferred.CombineDepthNormals
+  RenderDeferred.ForwardObjectsToDepth
+  RenderDeferred.FinalPass
+  RenderDeferred.Light
+  RenderDeferred.Lighting
+  RenderDeferred.GBuffer
+  RenderDeferred.Sort
+  GUITexture.Draw
+  CullPerObjectReflectionProbesJob
+  CullPerObjectReflectionProbesCombine
+  CullPerObjectReflectionProbes
+  ComputeNeedsPerObjectLights
+  CullPerObjectLightsCombine
+  CullPerObjectLights
+  CullObjectsWithoutUmbra
+  CullDynamicObjectsWithUmbra
+  Shadows.CullShadowCastersDetailSpot
+  Shadows.CullShadowCastersDetailPoint
+  CullingGroupSendEvents
+  CullGroupCombineResults
+  CullGroupSphereRange
+  ScheduleCullingGroups
+  FrustumCullReflectionProbesJob
+  Camera.RenderSkybox
+  RenderLoop.CleanupNodeQueue
+  RenderLoop.PrepareRenderNodes.AddProjectorNodes
+  RenderLoop.PrepareRenderNodes
+  SortLights
+  AddCustomActiveLocalLights
+  AddActiveLocalLights
+  AddDirectionalLights
+  FindBrightestDirectionalLight
+  FindActiveLights
+  CullLightFrustumLocal
+  OcclusionAndConnectivityCullLight
+  FrustumAndOcculusionCullLocalLightsCombine
+  FrustumAndOcculusionCullLocalLights
+  AddReflectionProbes
+  AddLocalLights
+  CullSendEvents
+  FindShadowCastingLights
+  FindLocalShadowCastingLights
+  FindDirectionalShadowCastingLights
+  PrepareSceneNodesCombineJob
+  SceneNodesInitJob
+  PrepareSceneNodesJob
+  PrepareSceneNodesSetUp
+  PrepareSceneNodes
+  CullSceneObjects
+  CullAllVisibleReflectionProbes
+  CullAllVisibleLights
+  SceneCulling
+  CullResults.CreateSharedRendererScene
+  DestroyCullResults
+  Recalc Bounds
+  Camera.Render
+  Graphics.Blit
+  Camera.ImageEffects
+  Halo.GeometryJob
+  Halo.Render
+  Prewarm Shaders
+  BlendCubemap
+  ReflectionProbes.Convolution
+  Camera.FindStacks
+  CollectTreeRenderers
+  PrepareSceneCullingParameters
+  UpdateODSWorldTexture
+  UpdateDepthNormalsTexture
+  UpdateDepthTexture
+  DrawingMultiCustomPost
+  DrawingMultiCustom
+  DrawingMultiCustomPre
+  Drawing
+  Culling
+  Camera.RenderToCubemap
+  Camera.CustomRender
+  Clear
+  Shadows.CullingCallbacks
+  Shadows.CombineLocalShadowCasterBoundsAndDestroyJob
+  Shadows.CombineLocalShadowCasterCullignIndexListsAndDestroy
+  Shadows.CombineDirectionalShadowCasterCullignIndexListsAndDestroy
+  Shadows.GenerateCombinedDynamicVisibleList
+  Shadows.CullShadowCastersWithoutUmbra
+  Shadows.CullShadowCastersDirectionalUmbra
+  Shadows.CullDirectionalShadowCasters
+  Shadows.CreateUmbraShadowCuller
+  Shadows.PrepareUmbraShadowCullerBuffers
+  Shadows.CullDirectionalCascades
+  Shadows.CullLocalLightShadowCasters
+  Shadows.CullShadowCastersLocalDetail
+  Shadows.CullShadowCastersLocal
+  Shadows.CullShadowCastersDirectionalDetail
+  Shadows.CullShadowCastersDirectional
+  CullSceneDynamicObjectsCombineJob
+  CullSceneDynamicObjects
+  CullQueryPortalVisibilityCombineJob
+  CullQueryPortalVisibilityUmbra
+  EndRenderQueueExtraction
+  BeginRenderQueueExtraction
+  QueuePrepareIntegrateMainThreadObjects
+  ExecuteRenderQueueJob
+  BlendLightProbesJobHalfFloat
+  BlendLightProbesJob
+  LightProbeProxyVolumeManager.Update
+  ReflectionProbes.Update
+  Projector.Render
+  ProbeSetTetrahedralizationBuildBoundingBox
+  GetLightProbeInterpolationWeights
+  ReflectionProbeAnchorPositionUpdate
+  ReflectionProbeAnchorManagerUpdate
+  ReflectionProbes.RenderProbe
+  Update Lights
+  BatchRendererGroup.AddReader
+  BatchRendererGroup.AcquireWrite
+  BatchRendererGroup.IncorporateCacheDelta
+  BatchRendererGroup.InvalidateStaleBatches
+  BatchRendererGroup.InvalidateMetadata
+  BatchRendererGroup.GetCacheDeltaWritable
+  BatchRendererGroup.UpdateMetadataCache
+  BatchRendererGroup.CreateMissingMetadata
+  Shadows.PrepareJob
+  Shadows.PrepareShadowmap
+  Shadows.RenderJobDir
+  Shadows.RenderJobSpot
+  Shadows.RenderJobPoint
+  Shadows.RenderJob
+  Shadows.ExtractCasters
+  Shadows.GenerateRenderNodeQueue
+  Shadows.RenderShadowMap
+  Shadows.Sort
+  Shadows.CollectShadows
+  SamplePerObjectReflectionProbes
+  Flare.GeometryJob
+  Flare.Update
+  Flare.Render
+  Sprite.GetSpriteTileVertexAndIndexCount
+  Sprite.GetSourceAndDestinationRect
+  Sprite.Get9SliceRenderDataJob
+  SpriteRenderer.RenderMultiple
+  SpriteRenderer.Render
+  SpriteRenderer.PrepareNode
+  Render Textures Count
+  Render Textures Bytes
+  Batches Count
+  Draw Calls Count
+  Triangles Count
+  Vertices Count
+  SetPass Calls Count
+  Shadow Casters Count
+  Visible Skinned Meshes Count
+  Render Textures Changes Count
+  Used Buffers Count
+  Used Buffers Bytes
+  Vertex Buffer Upload In Frame Count
+  Vertex Buffer Upload In Frame Bytes
+  Index Buffer Upload In Frame Count
+  Index Buffer Upload In Frame Bytes
+  Video Memory Bytes
+  Dynamic Batches Count
+  Dynamic Batched Draw Calls Count
+  Dynamic Batched Triangles Count
+  Dynamic Batched Vertices Count
+  Static Batches Count
+  Static Batched Draw Calls Count
+  Static Batched Triangles Count
+  Static Batched Vertices Count
+  Instanced Batches Count
+  Instanced Batched Draw Calls Count
+  Instanced Batched Triangles Count
+  Instanced Batched Vertices Count
+  Used Textures Count
+  Used Textures Bytes
+  Dynamic Batching Time
+  CPU Total Frame Time
+  CPU Main Thread Frame Time
+  CPU Render Thread Frame Time
+  GPU Frame Time
+Group: Particles
+  ParticleSystem.TrailGeometryJob
+  ParticleSystem.InstancedMeshJob
+  ParticleSystem.GeometryJob
+  ParticleSystem.ScheduleGeometryJobs
+  ParticleSystem.WaitForPreMapping
+  ParticleSystem.VelocityOverLifetimeModule
+  ParticleSystem.TextureSheetModule
+  ParticleSystem.ShapeModule
+  ParticleSystem.NoisePreviewJob
+  ParticleSystem.NoiseJob
+  ParticleSystem.NoiseModule
+  ParticleSystem.ExternalForcesModule
+  ParticleSystem.WaitForPreviousRenderingToFinish
+  ParticleSystem.UpdateJob
+  ParticleSystem.EndUpdateAll
+  ParticleSystem.Update2
+  ParticleSystem.Simulate
+  ParticleSystem.Update
+  ParticleSystem.Sort
+  ParticleSystem.LightsModule
+  ParticleSystem.ColorByVelocityModule
+  ParticleSystem.TriggerModule
+  ParticleSystem.TrailModule
+  ParticleSystem.InheritVelocityModule
+  ParticleSystem.SizeOverLifetimeModule
+  ParticleSystem.LifetimeByEmitterSpeedModule
+  ParticleSystem.CustomDataModule
+  ParticleSystem.RotationOverLifetimeModule
+  ParticleSystem.CollisionModule
+  ParticleSystem.ClampVelocityModule
+  ParticleSystem.SizeOverVelocityModule
+  ParticleSystem.ForceModule
+  ParticleSystem.ColorOverLifetimeModule
+  ParticleSystem.RotationByVelocityModule
+Group: Animation
+  ConstraintJob::ComputeConstraints
+  ConstraintComponentData::ConstraintComponentData
+  ComputeNormalizedSourceWeights
+  GenerateMuscleClip
+  AnimatorControllerPlayable.PrepareFrame
+  AnimationScriptPlayable.ProcessAnimation
+  AnimationScriptPlayable.ProcessRootMotion
+  AnimationClipPlayable.EvaluateClip
+  SortConstraintsByDependencies
+  ConstraintManager::Update::JobSetup
+  ConstraintManager::Update
+  AvatarBuilder.BuildAvatar
+  GameObject.SampleAnimation
+  CopyAnimation
+  ClipAnimation
+  Animator.Rebind
+  Animator.ApplyOnAnimatorMove
+  Animator.ApplyBuiltinRootMotion
+  Animator.FireStateMachineBehaviours
+  Animator.FireAnimationEvents
+  Animator.PrepareAnimationEvents
+  Animator.WriteProperties
+  Animator.WriteTransforms
+  Animator.EvaluateTwistBone
+  Animator.EvaluateIK
+  Animator.EvaluateRetargeter
+  Animator.SetupControllerDataSet
+  Animator.SetupAvatarDataSet
+  Animator.Initialize
+  Animators.SortWriteJob
+  Animators.WriteJob
+  Animators.IKAndTwistBoneJob
+  Animators.RetargeterJob
+  Animators.ProcessAnimationsJob
+  Animators.ProcessGraphJob
+  Animators.PrepareSecondPass
+  Animators.PrepareFirstPass
+  Animators.WriteProperties
+  Animators.FireAnimationEventsAndBehaviours
+  Animators.ApplyOnAnimatorMove
+  Animators.Update
+  RemoveUnnecessaryTransforms
+  DeoptimizeTransformHierarchy
+  OptimizeTransformHierarchy
+  Animator.ProcessAnimations
+  Animator.ProcessGraph
+  Animation.ModifyAnimationClip [Triggers RebuildInternalState]
+  Animation.RemoveMixingTransform [Triggers RebuildInternalState]
+  Animation.AddMixingTransform [Triggers RebuildInternalState]
+  ValidateBoundCurves
+  Animation.Deactivate [Triggers RebuildInternalState]
+  Animation.Clone [Triggers RebuildInternalState]
+  Animation.RemoveClip [Triggers RebuildInternalState]
+  Animation.AddClip [Triggers RebuildInternalState]
+  Animation.DestroyAnimationClip [Triggers RebuildInternalState]
+  Animation.Sample
+  Animation.Update
+  Animation.RebuildInternalState
+Group: Loading
+  Load Default Shaders
+  Mesh.UploadMeshData
+  Mesh.AwakeFromLoad
+  TerrainData.AwakeFromLoad
+  ContentLoad.WaitForCompletion
+  ContentLoad.Integrate
+  ContentLoad.IntegrateTimeSliced
+  ContentLoadFrontend.IntegrateUpdate
+  ContentLoad.AwakeFromLoad
+  ContentLoad.AddToIntegrateQueue
+  ContentLoad.ReadObject
+  ContentLoad.ProcessObject
+  ContentLoad.ReadObjects
+  ContentLoad.ProduceObjects
+  ContentLoad.GetProduceData
+  ContentLoad.AllocateInstanceIDs
+  ContentLoad.InitializeSerializedFile
+  StopVideoTextures
+  Init FMOD
+  AssetBundles.LoadFromManagedStream
+  AssetBundleLoadFromAsyncOperation.IsCrc32Valid
+  AssetBundle.LoadBundleObject
+  AssetBundle.LoadAssetBundle
+  AssetBundle.LoadAsset
+  AssetBundle.Unload
+  AssetBundle.asset/allAssets [Forced assets loading]
+  AssetBundle.PerformAssetLoad
+  AssetBundle.allAssets
+  AssetBundle.asset
+  AssetBundle.LoadAssetAsync [Collecting dependencies]
+  AssetBundle.LoadAssetAsync
+  AssetBundle.UnloadAsync.Integrate.CleanupStorage
+  AssetBundle.UnloadAsync.Integrate.CloseFiles
+  AssetBundle.UnloadAsync.Integrate.DestroyObjects
+  AssetBundle.UnloadAsync.Integrate
+  AssetBundle.UnloadAsync.UnmapStreams
+  AssetBundle.UnloadAsync.SortInstanceIds
+  AssetBundle.UnloadAsync.CollectInstanceIDs
+  AssetBundle.UnloadAsync.Perform
+  AssetBundles.LoadFromFile
+  Loading.AwakeFromLoad
+  ReadObjectFromSerializedFile
+  Loading.LoadFileCompletely
+  LoadFileThreaded
+  LoadFileThreaded_LoadObjects
+  Loading.LoadRemainingPreallocatedObjects
+  LoadObjectsThreaded
+  AwakeFromLoad Threaded
+  IntegrateAllThreadedObjects
+  Loading.ReadObjectThreaded
+  Loading.LoadFileHeaders
+  Loading.RegisterAndAwakeAssetsTimeSliced
+  Loading.LoadFromActivationQueue stalled [wait for loading operation to finish]
+  Loading.LoadObjectsThreaded
+  Loading.LockPersistentManager
+  Loading.IsObjectAvailable
+  Loading.LoadFile
+  Loading.ReadObject
+  Loading.FindInThreadedActivationQueue
+  Loading.WriteFile
+  Loading.IDRemapping
+  Loading.MakeObjectPersistent
+  Loading.MakeObjectUnpersistent
+  BackupScriptedObjects
+  AwakeScriptedObjects
+  RestoreManagedReferences
+  ManagedObjectProxy.Cleanup
+  ManagedObjectProxy.Init
+  Mono.JIT
+  BackupInstance
+  LoadAssembly
+  DomainReloadProfiling:SnapshotPrint
+  DomainReloadProfiling:SnapshotSort
+  DomainReloadProfiling:SnapshotCreate
+  RebuildTransferFunctionScriptingTraits
+  FinalizeReload
+  LoadAllAssembliesAndSetupDomain
+  BeginReloadAssembly
+  LoadAssemblies
+  ReloadAssembly
+  RebuildNativeTypeToScriptingClass
+  RebuildCommonClasses
+  CreateAndSetChildDomain
+  ReleaseScriptingObjects
+  MonoScriptManager.CollectGarbage
+  MonoScript.PopulateMethods
+  MonoScript.Renew
+  MonoScript.Release
+  Texture.WaitForAsyncUpload
+  Loading.MemoryFileSystemWrite
+  Loading.MemoryFileSystemRead
+  Loading.MemoryFileSystemSize
+  Loading.MemoryFileSystemClose
+  Loading.MemoryFileSystemOpen
+  ManagedStreamFile.AllocateManagedBuffer
+  ManagedStreamFile.ReadInternal
+  ManagedStreamFile.Read
+  Loading.ArchiveFileSystemWrite
+  Loading.ArchiveFileSystemRead
+  Loading.ArchiveFileSystemSize
+  Loading.ArchiveFileSystemClose
+  Loading.ArchiveFileSystemOpen
+  Loading.ArchiveFileSystemMountFromMemory
+  Loading.ArchiveFileSystemMount
+  TextureStreamingManager.RemapResults
+  TextureStreamingManager.CompactResults
+  TextureStreamingManager.CopyResults
+  TextureStreamingManager.Compact
+  TextureStreamingManager.CopyJobData
+  TextureStreamingManager.ResetMipLevels
+  TextureStreamingManager.UpdateStats
+  TextureStreamingManager.RemoveTexture
+  TextureStreamingManager.AddTexture
+  TextureStreamingManager.RemoveRenderer
+  TextureStreamingManager.AddRenderer
+  TextureStreamingManager.LoadMipLevels
+  TextureStreamingManager.UpdateLoadingState
+  TextureStreamingManager.UpdateRenderers
+  TextureStreamingManager.Update
+  TextureStreamingManager.CalcLoadOrder
+  TextureStreamingManager.MemoryBudget
+  TextureStreamingManager.UpdateJob
+  TextureStreamingManager.UpdateCameras
+  SceneManager.LoadSceneAsyncInto
+  Object.SetName
+  GfxResource.Unregister
+  GfxResource.Register
+  Object.Unregister
+  Object.Register
+  UpdatePreloading
+  Preload Single Step
+  PreloadManager.Stop
+  Application.WaitForAsyncOperationToComplete
+  Application.Integrate Assets in Background
+  Application.Wait for Integration
+  Application.Preload Assets
+  Application.LoadLevelAsync Integrate
+  LoadSceneOperation
+  Loading.Perform [Preloading assets]
+  Initialize All BuiltinResources
+  SwitchToStandaloneDefaultSettings
+  LoadFirstScene
+  Initialize Player
+  MarkObjectDependencies
+  MarkBehavior
+  GarbageCollectWorker
+  GC.BuildLiveObjectMaps
+  GC.MarkSceneRootsAndReduceLiveObjects
+  GC.FindLiveObjects
+  ScriptableObject.OnDestroy
+  GC.DeleteUnusedAssets
+  GC.MarkNormalDependencies
+  GC.MarkExternalDependencies
+  GC.MarkStaticDependencies
+  GC.MarkDependencies
+  GarbageCollectAssetsProfile
+  BatchDeleteObjectsThread
+  BatchDeleteObjects
+  CollectGameObjects
+  UnloadScene
+  CachingManager.Reset
+  Async.AsyncVertexDataReadCompleteCallback
+  Async.ProcessRawVertexJob
+  Async.UploadMesh
+  Async.TextureProcessingFinalizeCallback
+  Async.DoCopyTextureDataJob
+  Async.TextureProcessingUploadCallback
+  Async.TextureProcessingCompleteCallback
+  Async.TextureReadCompleteCallback
+  Async.PrecreateTextureJob
+  Async.DoCubemapMipmapJob
+  Async.ScalingAndPaddingTexture
+  Async.CubemapMipSkipping
+  Async.DecrunchTexture
+  Async.DirectTextureUploadComplete
+  Async.DirectTextureEndWrite
+  Async.DirectTextureReadComplete
+  Async.DirectTextureLoadStart
+  Async.DirectTextureRequestGPU
+  Async.DirectTextureCreate
+  Async.DirectTextureLoadBegin
+  Async.UploadTexture
+  Async.UploadTextureBegin
+  Texture2D.Compress
+  Texture.AwakeFromLoad
+  AsyncUploadManager.AsyncBufferDelete [Review Async Upload Buffer Size in Quality Settin
+  AsyncUploadManager.AsyncBufferResized [Review Async Upload Buffer Size in Quality Setti
+  AsyncUploadManager.CloseFile
+  AsyncUploadManager.AsyncReadCompletion
+  AsyncUploadManager.ScheduleAsyncRead
+  AsyncUploadManager.ScheduleAsyncCommand
+  AsyncUploadManager.ScheduleAsyncCommands
+  AsyncUploadManager.AsyncResourceUploadBlocking
+  AsyncUploadManager.AsyncResourceUploadGfxCallback
+  AsyncUploadManager.AsyncResourceUpload
+  AsyncUploadManager.AsyncResourceUploadAll
+  Instantiate.Copy
+  Instantiate.Produce
+  Instantiate.Awake
+  InstantiateAsync
+  Instantiate
+  CoroutinesDelayedCallsCleanup
+  InstantiateMultiple.DeserializeClones.Job
+  InstantiateMultiple.SerializeOrigin.Job
+  InstantiateMultiple.Awake
+  InstantiateMultiple.IntegrateInMainThread
+  InstantiateMultiple.CancelAndCleanupInMainThread
+  InstantiateMultiple.Produce.GameObjectAndTransform.Job
+  InstantiateMultiple.Produce.Components.Job
+  AsyncInstantiateOperation.WaitForCompletion
+  AsyncInstantiateOperation.IntegrateInMainThread
+  AsyncInstantiateOperation.CancelAndCleanupInMainThread
+  AsyncInstantiateOperation.Schedule
+  AsyncInstantiateOperation.Create
+  AsyncReadManager.GetFileInfo
+  AsyncReadManager.CloseHandleAsync
+  AsyncReadManager.CloseFileAsync
+  AsyncReadManager.OpenAsync
+  AsyncReadManager.ReadFile
+  AsyncReadManager.BeginRequest
+  AsyncReadManager.SyncRequest
+  AsyncReadManager.ClearMetrics
+  AsyncReadManager.UpdateMetrics
+  AsyncReadManager.GetMetricsSummary
+  GameObject.ActivateAwakeRecursively
+  Component.SetGameObject
+  Loading Gloabl Managers
+  Loading Manager
+  CollectGameManagers
+  Other Reads
+  Texture Reads
+  Virtual Texture Reads
+  Mesh Reads
+  Audio Reads
+  Scripting Reads
+  Entities Reads
+Group: Other
+  LogStringToConsole
+  QualitySettings.ApplyChanges
+  Mesh.RecalculateNormals
+  CompareHashes
+  Webcam.ConversionNV12
+  Webcam.ConversionYUY2
+  Webcam.ConversionBGR
+  VectorAPI_StrokeCap
+  VectorAPI_StrokeJoin
+  VectorAPI_StrokeBezier
+  VectorAPI_StrokeArcTo
+  VectorAPI_StrokeArc
+  VectorAPI_StrokeLine
+  VectorAPI_Stroke
+  VectorAPI_FillGenerateMesh
+  VectorAPI_Tessellate_RemapNewVertices
+  VectorAPI_Tessellate_LibTess
+  VectorAPI_Tessellate
+  VectorAPI_GenerateFilledArcs
+  VectorAPI_Fill
+  Terrain.UpdateCompressedHolesTexture
+  Terrain.UpdateHolesTexture
+  Terrain.ReadbackHeightmap
+  Terrain.UpdateHeightmapTexture
+  Terrain.RecomputeInvalidPatches
+  SpriteShape.BuildJob.Corners
+  SpriteShape.BuildJob.Contour
+  SpriteShape.BuildJob.Heights
+  SpriteShape.BuildJob.Edges
+  SpriteShape.Builder
+  PerformanceReporting.Initialize
+  CrashReporter.RegisterLogCallback
+  Analytics.CloseService
+  Analytics.StopSession
+  Analytics.PauseSession
+  Analytics.ResumeSession
+  Analytics.StartSession
+  Analytics.InitializeSession
+  Analytics.OnPlayerSessionStateChanged
+  WebCamTexture.GetPixels32
+  WebCamTexture.GetPixels
+  YuvToRgb
+  YuvToRgbProcess
+  AssetBundles.RecompressBundle
+  Sort BuildCurveKeys
+  Webcam.UploadTexture
+  Webcam.Update
+  CompareHashes
+  CompareHashes
+  UnloadDomain
+  GlobalCallbacks.logCallback
+  CompareHashes
+  CompareHashes
+  MemoryProfiler.TakeSnapshot
+  Sorting tests
+  FileUtilities.MoveFileOrDirectory
+  FileUtilities.IsParentDirectoryCreated
+  FileVFS.IsDirectoryCreated
+  Sorting tests
+  TransformChangeSystem
+  Transform.SetHierarchyCapacity
+  Transform.SetParent
+  TestStats
+  TestRunning
+  TestPrepare
+  Test
+  Sampler.SetSamplersEnabled
+  ProcessRemoteInput
+  PlayerInitState
+  Destroy
+  FindMainCamera
+  Create Job Queue
+  Create Job System
+  Mesh.SetIndexBufferData
+  Mesh.SetVertexBufferData
+  Mesh.SetIndexBufferParams
+  Mesh.SetVertexBufferParams
+  Image.ResizeJob
+  Image.FreeImageData
+  Image.AllocateImageData
+  CubemapProcessor.ConvolutionJob
+  CubemapProcessor.Convolution
+  CubemapArray.GetPixels32
+  CubemapArray.GetPixels
+  Cubemap.GetPixels
+  Texture3D.GetPixels32
+  Texture3D.GetPixels
+  Texture2DArray.GetPixels32
+  Texture2DArray.GetPixels
+  Texture2D.GetPixels32
+  Texture2D.GetPixels
+  CompareHashes
+  SplashScreenEnd
+  SplashScreenFade
+  SplashScreenBegin
+  CoroutinesDelayedCalls
+  DelayedCallManager.HasDelayedCall
+  DelayedCallManager.CancelAllCallDelayed
+  DelayedCallManager.CancelCallDelayed
+  RenderSettings.CalculateReflectionFromSkybox
+  RenderSettings.CalculateAmbientProbeFromSkybox
+  CompareHashes
+  CompareHashes
+  FindObjectsOfType
+  CompareHashes
+Group: Overhead
+  Profiler.CollectVTStats
+  Profiler.CollectPhysicsStats
+  Profiler.CollectGIStats
+  Profiler.CollectUICanvasStats
+  Profiler.CollectNetworkMessagesStats
+  Profiler.CollectNetworkOperationStats
+  Profiler.CollectVideoStats
+  Profiler.CollectAudioStats
+  CollectGPUSamples
+  Profiler.CollectAudioStats
+  Profiler.CollectLegacyStats
+  Profiler.SerializeStats
+  Profiler.FlushCounters
+  Profiler.FlushMemoryCounters
+  Profiler.FlushFileIOCounters
+  Profiler.FlushCountersWithFlushOnEndOfFrame
+  PlayerConnection.Poll
+  Texture.ReleaseTextureUploadMemory
+  Texture.CopyTextureDataThreaded
+  Texture.AcquireTextureUploadMemory
+Group: Physics
+  Dynamic WheelCollider.Create
+  Physics.TerrainCollider.ForceRebuildCollisions
+  ClothScene.SolverChunkJob
+  ClothScene.ReadbackJob
+  ClothScene.SkinningJob
+  ClothScene.Update
+  ClothManager.LateUpdate
+  Physics.SwapBuffers
+  Physics.ContactEvent
+  Physics.StorePhysXContacts
+  Physics.PrepareContactBuffers
+  StoreInterpolationPoses
+  Physics.JointBreaks
+  Physics.Contacts
+  Physics.TriggerStays
+  Physics.TriggerEnterExits
+  Physics.ExecuteDeferredTriggerErase
+  Physics.ProcessReports
+  PxScene.simulate
+  BatchQuery.ExecuteSpherecastJob
+  BatchQuery.ExecuteOverlapSphereJob
+  BatchQuery.ExecuteOverlapCapsuleJob
+  BatchQuery.ExecuteOverlapBoxJob
+  BatchQuery.ExecuteCapsulecastJob
+  BatchQuery.ExecuteBoxcastJob
+  BatchQuery.ExecuteRaycastJob
+  BatchQuery.ExecuteClosestPointJob
+  Rigidbody.SetKinematic [Re-create non-convex MeshCollider for Rigidbody]
+  Rigidbody.SetKinematic
+  Rigidbody.SweepTestAll
+  Rigidbody.SweepTest
+  FastCookTriangleMesh
+  Physics.RecreatePhysicsScene
+  Physics.SyncBatchQueries
+  Physics.HandleArticulationHierarchyChanges
+  Physics.HandleBodyHierarchyChanges
+  Physics.HandleColliderHierarchyChanges
+  Physics.SyncRigidbodyTransform
+  Physics.SyncColliderTransform
+  Physics.UpdateVehicles
+  Physics.UpdateArticulations
+  Physics.UpdateBodies
+  Physics.Simulate
+  Physics.InterpolationSorting
+  Physics.Interpolation
+  Physics.FetchResults
+  Physics.BoxCastNonAlloc
+  Physics.CapsuleCastNonAlloc
+  Physics.RaycastNonAlloc
+  Physics.OverlapBoxNonAlloc
+  Physics.OverlapCapsuleNonAlloc
+  Physics.OverlapSphereNonAlloc
+  Physics.OverlapBox
+  Physics.BoxCastAll
+  Physics.BoxCast
+  Physics.CheckBox
+  Physics.CapsuleCastAll
+  Physics.CapsuleCast
+  Physics.SphereCastNonAlloc
+  Physics.SphereCastAll
+  Physics.SphereCast
+  Physics.CheckSphere
+  Physics.OverlapCapsule
+  Physics.OverlapSphere
+  Physics.CheckCapsule
+  Physics.RaycastAll
+  Physics.Raycast
+  Mesh.Bake Scaled Mesh PhysX CollisionData
+  Mesh.Bake PhysX CollisionData
+  BatchQuery.ResultsJob
+  Active Dynamic Bodies
+  Active Kinematic Bodies
+  Static Colliders
+  Dynamic Bodies
+  Articulation Bodies
+  Active Constraints
+  Overlaps
+  Discreet Overlaps
+  Continuous Overlaps
+  Modified Overlaps
+  Trigger Overlaps
+  Colliders Synced
+  Rigidbodies Synced
+  Physics Queries
+  Broadphase Adds/Removes
+  Broadphase Adds
+  Broadphase Removes
+  Narrowphase Touches
+  Narrowphase New Touches
+  Narrowphase Lost Touches
+Group: Vr
+  XR.BlitDepth
+  XR.MirrorToGameView
+  XR.DeviceSDK
+  XR.SetRenderTarget
+  XR.Blit
+  XR.UpdateInput
+  XR.CheckForDevice
+  XR.AcquireFromProvider
+  XR.CopyMeshData
+  XR.TransformMeshData
+  XR.ProcessMeshJob
+  XR.ReleaseMeshData
+  XR.AcquireMeshData
+  XR.WriteMeshData
+  XR.Display.UpdateLateLatchingRenderPoses
+  XR.LateLatchPatch
+  XR.LateLatchSetUnder
+  XR.LateLatchSetAbove
+  XR.LateLatchUpdate
+  XR.Display.BlitToMirrorViewRenderTarget
+  XR.Display.Stop
+  XR.Display.PopulateNextFrameDesc
+  XR.Display.SubmitCurrentFrame
+  XR.Display.Start
+  XR.Display.BlitMirrorViewNative
+  XR.BlitDepth
+  XR.CopyDepth
+Group: VSync
+  XR.WaitForGPU
+  DXGI.WaitOnSwapChain
+  GfxDeviceD3D12.WaitForLastPresent
+  GfxDeviceD3D11.WaitForLastPresent
+  XR.WaitForTargetFPS
+  WaitForTargetFPS
+Group: VFX
+  VisualEffect.Transfer
+  VisualEffect.Simulate
+  VisualEffect.Update
+  VisualEffect.PrepareMaterial
+  VFX.CopyIndirectCount
+  VFX.SortBuffer
+  VFX.InitializeBoundsBuffer
+  VFX.ZeroInitializeBuffer
+  VFX.InitializeDeadListBuffer
+  VFX.CopyBuffer
+  VFX.FillIndirectRenderArgs
+  VFX.ProcessCamera
+  VFX.CollectCullResults
+  VFX.PrepareCamera
+  VFX.ProcessCommandList
+  VFX.ScheduleJobs
+  VFX.Prepare
+  VFX.NotifyDeletedAsset
+  VFX.NotifyModifiedAsset
+  VFX.Update
+  VFX.CullJob
+  VFX.CullJob
+  VFX.GetBatchedEffectInfo
+  VFXBatch.PostUpdate
+  VFXBatch.PreUpdate
+  VFXBatch.Update
+  VFX.ParticleSystem.BatchUpdateStrip
+  VFX.ParticleSystem.BatchReadbackCount
+  VFX.ParticleSystem.BatchReadbackBounds
+  VFX.ParticleSystem.BatchUpdate
+  VFX.ParticleSystem.BatchInit
+  VFX.ParticleSystem.BatchCopyDeadListCount
+  VFX.ParticleSystem.BatchUploadStepData
+  VFX.ParticleSystem.RenderMeshIndirect
+  VFX.ParticleSystem.RenderMesh
+  VFX.ParticleSystem.RenderHexahedronIndirect
+  VFX.ParticleSystem.RenderHexahedron
+  VFX.ParticleSystem.RenderOctagonIndirect
+  VFX.ParticleSystem.RenderOctagon
+  VFX.ParticleSystem.RenderQuadIndirect
+  VFX.ParticleSystem.RenderQuad
+  VFX.ParticleSystem.RenderTriangleIndirect
+  VFX.ParticleSystem.RenderTriangle
+  VFX.ParticleSystem.RenderLineIndirect
+  VFX.ParticleSystem.RenderLine
+  VFX.ParticleSystem.RenderPointIndirect
+  VFX.ParticleSystem.RenderPoint
+  VFX.MeshSystem.Render
+Group: UI Render
+  Canvas.BuildBatch
+  Canvas.RenderOverlays
+  Render
+  UGUI.Rendering.UpdateBatches
+  UGUI.Rendering.EmitWorldScreenspaceCameraGeometry
+  UGUI.Rendering.EmitGeometryForCamera
+  UGUI.Rendering.EmitScreenSpaceCamerasGeometryForCamera
+  UGUI.Rendering.RenderOverlays
+  FontEngine.GetOpenTypeLayoutTables
+  FontEngine.Get_GSUB_Scripts
+  FontEngine.Get_GSUB_Features
+  FontEngine.Get_GSUB_Lookups
+  FontEngine.Get_GSUB_Table
+  FontEngine.Get_GPOS_Scripts
+  FontEngine.Get_GPOS_Features
+  FontEngine.Get_GPOS_Lookups
+  FontEngine.Get_GPOS_Table
+  FontEngine.GetMarkToMarkFeatures
+  FontEngine.GetMarkToBaseFeatures
+  FontEngine.GetPairAdjustmentRecords
+  FontEngine.GetChainingContextualSubstitutionRecords
+  FontEngine.GetContextualSubstitutionRecords
+  FontEngine.GetLigatureSubstitutionRecords
+  FontEngine.GetAlternateSubstitutionRecords
+  FontEngine.GetMultipleSubstitutionRecords
+  FontEngine.GetSingleSubstitutionRecords
+  FontEngine.GetSingleAdjustmentRecords
+  FontEngine.OpenTypeValidation
+  FontEngine.GetOpenTypeFontFeatures
+  FontEngine.LoadFontFace_From_Cache
+  FontEngine.LoadFontFace_From_Memory
+  FontEngine.LoadFontFace_From_File
+  FontEngine.LoadFontFace
+Group: UI Layout
+  Layout
+Group: PlayerLoop
+  Tilemap.GetSyncTiles()
+  Tilemap.UpdateTileAnimation()
+  Tilemap.SendAndClearSyncTile()
+  Tilemap.Update()
+  Director.Update
+  PlayerLoop
+  GlobalEventQueue
+  Cleanup Unused Cached Data
+  Loading.UpdatePreloading
+  Loading.UpdateWebStream
+  ObjectDispatcher.FilterInstancesAndCreateScriptingArrayJob
+  ObjectDispatcher.FilterInstancesJob
+  ObjectDispatcher.FilterInstancesAndCreateScriptingArray
+  ObjectDispatcher.CreateScriptingArray
+  ObjectDispatcher.CollectInstancesAndTransformsJob
+  ObjectDispatcher.CollectInstancesAndTransforms
+  ObjectDispatcher.CollectInstances
+  ObjectDispatcher.DispatchTransformChanges
+  ObjectDispatcher.DispatchTypeChanges
+  InitializeDefaultPlayerLoop
+  TimeManager.Update
+  LateBehaviourUpdate
+  FixedBehaviourUpdate
+  BehaviourUpdate
+  SortingGroup.UpdateSortingGroup
+  SortingGroup.UpdateRenderer
+  SortingGroupManager.Update
+  SortingGroup.SortChildren
+  loadedScriptingRuntime.Invoke
+  initializedPreloadedPlugins.Invoke
+  PreloadPlugins.Initialize
+  beforeInitializeEngineGraphics.Invoke
+  XRPreInit.Initialize
+  Subsystems.Initialize
+  VR.BeforeInitializeEngineGraphics
+  pluginGraphicsDeviceEvent.Invoke
+  initializedGraphicsCaps.Invoke
+  initializedEngineGraphics.Invoke
+  TrailRenderer.OnGfxInitialized
+  LineRenderer.OnGfxInitialized
+  ParticleSystem.OnGfxInitialized
+  SpriteRenderer.OnGfxInitialized
+  TileMap.OnGfxInitialized
+  SpriteShape.OnGfxInitialized
+  audioSystemStartedUp.Invoke
+  onBeforeAssemblyReload.Invoke
+  registerTransferFunctionScriptingTraits.Invoke
+  didReloadMonoDomain.Invoke
+  ScriptingProfiler.LookupIgnoreAttributeClass
+  Input.ResetTime
+  createMonoScriptCache.Invoke
+  doneInitializingEngineGraphics.Invoke
+  SpriteMask.OnInitializeGraphics
+  screenResolutionChanged.Invoke
+  didChangeActiveScene.Invoke
+  playerLoadFirstScenePreAwake.Invoke
+  VR.PlayerLoadFirstScenePreAwake
+  Graphics.WarmupPreloadedShaders
+  splashScreenStateChange.Invoke
+  suspendPointHook.Invoke
+  preloadManagerLoop.Invoke
+  didUnloadScene.Invoke
+  didDestroyWorld.Invoke
+  PhysicsManager.RecreateScene
+  sceneLoadedBeforeAwake.Invoke
+  playerSessionStateChanged.Invoke
+  gameObjectChangedScene.Invoke
+Group: Physics2D
+  TilemapCollider2D.CompositeFinal
+  TilemapCollider2D.CompositeChunkJob
+  Physics2D.TilemapColliderTileUpdate
+  Physics2D.TilemapColliderPreparePaths
+  Physics2D.TilemapColliderPrepareShapes
+  Physics2D.UpdateTriggerContactsFinalize
+  Physics2D.UpdateTriggerContactsJob
+  Physics2D.UpdateTriggerContactsTask
+  Physics2D.SynchronizeFixturesMove
+  Physics2D.SynchronizeFixturesCombineSortJob
+  Physics2D.SynchronizeFixturesJob
+  Physics2D.SynchronizeFixturesTask
+  Physics2D.SolveDiscreteIslandIntegratePosesJob
+  Physics2D.SolveDiscreteIslandBodySleepJob
+  Physics2D.FindNewContactsCreate
+  Physics2D.FindNewContactsCombineSortJob
+  Physics2D.FindNewContactsFindJob
+  Physics2D.FindNewContactsTask
+  Physics2D.SynchronizeContinuousFixturesMove
+  Physics2D.SynchronizeContinuousFixturesCombineSortJob
+  Physics2D.SynchronizeContinuousFixturesJob
+  Physics2D.SynchronizeContinuousFixturesTask
+  Physics2D.SolveDiscreteIslandPostSolveJob
+  Physics2D.SolveDiscreteIslandTraversalTask
+  Physics2D.SolveDiscreteIslandTask
+  Physics2D.SolveContinuousIslandIntegratePositionsJob
+  Physics2D.SolveContinuousIslandIntegratePositionsTask
+  Physics2D.PrepareDiscreteIslandJointIndexJob
+  Physics2D.PrepareDiscreteIslandBodyIndexJob
+  Physics2D.InitializeVelocityConstraintsJob
+  Physics2D.WarmStartContactSolverJob
+  Physics2D.StoreConstraintImpulsesJob
+  Physics2D.SolveVelocityConstraintsJob
+  Physics2D.SolvePositionConstraintsJob
+  Physics2D.SolveDiscreteIslandWritePosesJob
+  Physics2D.SolveDiscreteIslandVelocitiesJob
+  Physics2D.FindMinimumContinuousContactFinalize
+  Physics2D.FindMinimumContinuousContactJob
+  Physics2D.FindMinimumContinuousContactTask
+  Physics2D.SolveContinuousTraversalIslandTask
+  Physics2D.SolveContinuousIslandTask
+  Physics2D.ClearContinuousBodyIslandFlagsJob
+  Physics2D.ClearContinuousContactIslandFlagsJob
+  Physics2D.gPhysics2D_ClearContinuousIslandFlagsTask
+  Physics2D.SolveDiscreteIslandPostSolveJob
+  Physics2D.PrepareDiscreteIslandContactIndexJob
+  Physics2D.InitializeVelocityJointConstraintsJob
+  Physics2D.InitializeContactSolverJob
+  Physics2D.ContactsCollideFinalize
+  Physics2D.ContactsCollideJob
+  Physics2D.ContactsCollideTask
+  Physics2D.ClearBodyIslandFlagsJob
+  Physics2D.ClearContactIslandFlagsJob
+  Physics2D.ClearIslandFlagsTask
+  Physics2D.ClearBodyForcesJob
+  Physics2D.ClearBodyForcesTask
+  Physics2D.ClearBodyForces
+  Physics2D.TriggerContactsFinalUpdate
+  Physics2D.SynchronizeFixtures
+  Physics2D.ClearIslandFlags
+  Physics2D.FindMinimumContinuousContact
+  Physics2D.SolveContinuousSynchronizeFixtures
+  Physics2D.SolveContinuousTraversal
+  Physics2D.ClearContinuousIslandFlags
+  Physics2D.SolveContinuous
+  Physics2D.SolveDiscreteTraversal
+  Physics2D.SolveDiscrete
+  Physics2D.ContactsCollide
+  Physics2D.Step
+  Physics2D.SolveContinuousIslandPostSolve
+  Physics2D.SolveContinuousIslandIntegratePoses
+  Physics2D.SolveContinuousIslandVelocityConstraints
+  Physics2D.SolveContinuousIslandPositionConstraints
+  Physics2D.SolveContinuousIslandReadBodyState
+  Physics2D.SolveContinuousIsland
+  Physics2D.SolveDiscreteIslandBodySleep
+  Physics2D.SolveDiscreteIslandPostSolve
+  Physics2D.SolveDiscreteIslandWritePoses
+  Physics2D.SolveDiscreteIslandPositionConstraints
+  Physics2D.SolveDiscreteIslandIntegratePoses
+  Physics2D.SolveDiscreteIslandVelocityConstraints
+  Physics2D.SolveDiscreteIslandVelocities
+  Physics2D.SolveDiscreteIsland
+  Physics2D.FindNewContacts
+  Physics2D.Rigidbody2D.GetShapes
+  Physics2D.Rigidbody2D.RecalculateContacts
+  Physics2D.Rigidbody2D.LayerChanged
+  Physics2D.JointBreakLimits
+  Physics2D.EffectorFixedUpdate
+  Physics2D.EdgeColliderPrepareShapes
+  Physics2D.CustomCollider2D.ClearCustomShapes
+  Physics2D.CustomCollider2D.DeleteCustomShapes
+  Physics2D.CustomCollider2D.SetCustomShapesNative
+  Physics2D.CustomCollider2D.SetCustomShapes
+  Physics2D.CustomCollider2D.SetCustomShapesAll
+  Physics2D.CustomCollider2D.SetCustomShapesAllNative
+  Physics2D.CustomCollider2D.GetCustomShapesAllNative
+  Physics2D.CustomCollider2D.GetCustomShapes
+  Physics2D.CustomCollider2D.PrepareShapes
+  Physics2D.CompositeColliderRemoveFromComposite
+  Physics2D.CompositeColliderCleanupCompositePaths
+  Physics2D.CompositeColliderAddToComposite
+  Physics2D.CompositeColliderPrepareShapesDecomposition
+  Physics2D.CompositeColliderPrepareShapesOutline
+  Physics2D.CompositeColliderPrepareShapes
+  Physics2D.CapsuleColliderPrepareShapes
+  Physics2D.BoxColliderPrepareShapes
+  Physics2D.PolygonColliderPrepareShapesDecomposition
+  Physics2D.PolygonColliderPrepareCompositePaths
+  Physics2D.PolygonColliderPrepareShapes
+  Physics2D.DestroyContacts
+  Physics2D.FlagContactsForExit
+  Physics2D.FlagContactsForRecreation
+  Physics2D.SendCollisionContactCallbacks
+  Physics2D.SendTriggerContactCallbacks
+  Physics2D.SendContactCallbacks
+  Physics2D.CompileContactCallbacksJob
+  Physics2D.CompileContactCallbacks
+  Physics2D.EndContact
+  Physics2D.PostSolveContact
+  Physics2D.PreSolveContact
+  Physics2D.BeginContact
+  Physics2D.Collider2D.GetShapes
+  Physics2D.Collider2D.RecalculateContacts
+  Physics2D.Collider2D.LayerChanged
+  Physics2D.Collider2D.TransformParentChanged
+  Physics2D.Collider2D.TransformChanged
+  Physics2D.Collider2D.DestroyShapes
+  Physics2D.Colldier2D.CreateShapes
+  Physics2D.CircleColliderPrepareShapes
+  Physics2D.CollectProfileInfo
+  Physics2D.ApplyParticleForces
+  Physics2D.SyncColliderTransformChanges
+  Physics2D.SyncRigidbodyTransformChanges
+  Physics2D.SyncTransformChanges
+  Physics2D.ConvertCollision2DForScript
+  Physics2D.UpdateTransforms
+  Physics2D.Simulate
+  Physics2D.InterpolationPosesJob
+  Physics2D.InterpolationPosesTask
+  Physics2D.InterpolatePoses
+  Physics2D.SetupMovementStatesJob
+  Physics2D.SetupMovementStatesTask
+  Physics2D.ConvertContactPoint2DForScript
+  Physics2D.GetRigidbodyContacts
+  Physics2D.GetColliderContacts
+  Physics2D.IsTouchingLayers
+  Physics2D.IsTouching
+  Physics2D.ClosestPoint
+  Physics2D.ColliderDistance
+  Physics2D.FindParticleOverlaps
+  Physics2D.FindParticleIntersections
+  Physics2D.GetRayIntersectionAll
+  Physics2D.GetRayIntersection
+  Physics2D.OverlapCollider
+  Physics2D.OverlapBoxAll
+  Physics2D.OverlapBox
+  Physics2D.OverlapCircleAll
+  Physics2D.OverlapCircle
+  Physics2D.OverlapPointAll
+  Physics2D.OverlapPoint
+  Physics2D.ColliderCastAll
+  Physics2D.ColliderCast
+  Physics2D.CapsuleCastAll
+  Physics2D.CapsuleCast
+  Physics2D.BoxCastAll
+  Physics2D.BoxCast
+  Physics2D.CircleCastAll
+  Physics2D.CircleCast
+  Physics2D.RaycastAll
+  Physics2D.Raycast
+  Physics2D.LinecastAll
+  Physics2D.Linecast
+  Physics2D.GenerateBoxTilingShape
+  Physics2D.GenerateTilingArea
+  Physics2D.PrepareTilingSegment
+  Total Bodies
+  Awake Bodies
+  Asleep Bodies
+  Dynamic Bodies
+  Kinematic Bodies
+  Static Bodies
+  Discrete Bodies
+  Continuous Bodies
+  Total Shapes
+  Awake Shapes
+  Asleep Shapes
+  Dynamic Shapes
+  Kinematic Shapes
+  Static Shapes
+  Total Contacts
+  Added Contacts
+  Removed Contacts
+  Broadphase Updates
+  Broadphase Pairs
+  Total Callbacks
+  Collision Enter
+  Collision Stay
+  Collision Exit
+  Trigger Enter
+  Trigger Stay
+  Trigger Exit
+  Total Queries
+  Raycast Queries
+  Shapecast Queries
+  Overlap Queries
+  IsTouching Queries
+  GetContacts Queries
+  Particle Queries
+  Total Transform Sync Calls
+  Transform Sync Bodies
+  Transform Sync Colliders
+  Transform Parent Sync Bodies
+  Transform Parent Sync Colliders
+  Solver World Count
+  Solver Simulation Count
+  Solver Discrete Islands
+  Solver Continuous Islands
+  Total Joints
+Group: Gui
+  GUI.ProcessEvents
+  GUI.Repaint
+  TextRendering.Render
+  PlayerCleanupCachedData
+  TextRendering.RenderMeshWithDynamicChunk
+Group: Scripts
+  Monobehaviour.OnMouse_
+  Scripting.GetDefaultExecutionOrder
+  Scripting.GetRequiredComponents
+  Scripting.GetParentTypeDisallowingMultipleInclusion
+  Initialize Mono
+  Script RebuildFromAwake
+  TransformAccessArray.Sort
+  PlayerEndOfFrame
+  GameObject.AddComponent
+  JobHandle.CompleteAll
+  JobHandle.Complete
+  CombineMeshes
+  SpriteRenderer.OnChangeSprite
+  GameObject.Deactivate
+  GameObject.Activate
+  MessageHandler ResolveCallbacks
+  UIElementsRuntimeUtility.DoDispatch(Repaint Event)
+Group: Audio Job
+  DSPGraph.JobBatchSubmit
+  DSPGraph.RootProcess
+  DSPGraph.Cleanup
+  DSPGraph.ClearUnusedMixInputs
+  DSPGraph.AddMixInput
+  DSPGraph.AddInterpolateMixInput
+  DSPGraph.MixInputs
+  DSPGraph.SetupSampleProviders
+  DSPGraph.SetupPortsReuse
+  DSPGraph.SetupPorts
+  DSPGraph.ClearPortBuffers
+  DSPGraph.SetupParameters.Interpolate
+  DSPGraph.NoopJob
+  DSPGraph.Prepare
+  DSPGraph.Alloc
+  DSPGraph.Job
+Group: Audio
+  DSPGraph.EndMix
+  DSPGraph.BeginMix
+  DSPGraph.SetupParameters
+  SoundManager.GetHandle
+  SoundManager.CreateSoundInternal
+  SoundManager.UpdateChannels
+  SoundManager.IntegrateFMODSound
+  SoundManager.LoadFMODSound
+  SoundManager.Update
+  SoundHandle.Instance.AsyncReadCallbackStatic
+  SoundHandle.Instance.FinalizeLoading
+  SoundHandle.Instance.UpdateLoadState
+  SoundHandle.Instance.LoadCompressedBackground
+  SoundHandle.Instance.Dispose
+  SoundHandle.Instance.CreateChannel
+  SoundHandle.Instance.Destructor
+  StreamingSoundDecoder.Stop
+  StreamingSoundDecoder.Seek
+  StreamingSoundDecoder.ReadData
+  SoundDecoder.ConvertSamples
+  SoundDecoder.SampleFramesRequired
+  SoundDecoder.Produce
+  AudioClip.CreateFSBDataAudioSampleProvider
+  AudioClip.CreateFSBStreamingAudioSampleProvider
+  AudioClip.CreateFileStreamingAudioSampleProvider
+  AudioClip.CreateMemoryAudioSampleProvider
+  AudioClip.CreateAudioSampleProvider
+  AudioProfiler.CaptureFrame
+  AudioProfiler.CaptureAudioClips
+  AudioProfiler.CaptureDSPNodes
+  AudioProfiler.CaptureChannelGroup
+  AudioSource.Update
+  AudioManager.FixedUpdate
+  AudioManager.Update
+  AudioManager.GetMemory
+  AudioManager.MarkAudioSourceOneShotDependencies
+  Audio.FMODSystemUpdate
+  Audio.Thread
+  Flush DSP connections
+  MasterDSP
+Group: Audio Update Job
+  DSPGraph.UpdateJob
+Group: Network
+  DownloadHandlerBuffer.OnReceiveData
+  TransportCurl.DoRequest
+  GeneralConnection.AcquireLocalIP
+  Connections.Remove
+  Connections.Process
+  Connections.Poll
+  GeneralConnection.Poll
+  Ping
+Group: Director
+  Director.AnimatedProperty
+  PlayableGraph.DestroyPendingPlayables
+  Director.PlayableManagement
+  Director.HouseKeeping
+  Director.ProcessFrame
+  Director.PrepareFrameJob
+  Director.PrepareFrame
+  Director.AdvanceTime
+  Director.SampleTime
+Group: Ai
+  NavMesh.GenerateOffMeshLinks
+  DynamicMesh.ClipDetailMesh
+  DynamicMesh.WriteDetailMesh
+  DynamicMesh.DynamicMeshToTile
+  DynamicMesh.TileToDynamicMesh
+  Carving.BuildBVTree
+  Carving.ProjectVertices
+  Carving.ConvexHulls
+  Carving.ApplyResults
+  Carving.Clipping
+  Carving.Prepare
+  DynamicMesh.Create
+  DynamicMesh.ClipPolys
+  DynamicMesh.FindNeighbors
+  NavMesh.ConnectOffMeshConnection
+  NavMesh.RemoveTile
+  NavMesh.AddTile
+  Crowd.HeightMesh
+  Crowd.OffMeshLinkMovement
+  Crowd.OffMeshLinkTrigger
+  Crowd.Steering
+  Crowd.Integrate
+  Crowd.Avoidance
+  Crowd.Collision
+  Crowd.Movement
+  Crowd.RepathTrigger
+  Crowd.ValidatePath
+  Crowd.Corners
+  Crowd.Proximity.Collect
+  Crowd.PathOptimization
+  Crowd.Pathfinding
+  Crowd.Proximity.Insert
+  NavMesh.GenerateHeightMesh
+  NavMesh.DestroyTempMesh
+  NavMesh.Recast.Free
+  NavMesh.Recast.Alloc
+  NavMesh.Integrate.UpdateSurface
+  NavMesh.Integrate.UpdateTiles
+  NavMesh.Integrate.RemoveTiles
+  NavMesh.Integrate
+  NavMesh.ReleaseSharedMesh
+  NavMesh.DebugDraw
+  NavMesh.AcquireSharedMesh
+  NavMesh.HashSource
+  NavMesh.HashTileAggregate
+  NavMesh.HashTile
+  NavMesh.RasterizeModifierBox
+  NavMesh.RasterizeAABox
+  NavMesh.Rasterize
+  NavMesh.MeshTriangles
+  NavMesh.ExtractTerrainMesh
+  NavMesh.TileMeshAggregate
+  NavMesh.TileMesh
+  NavMesh.CreateData
+  NavMesh.CombineTiles
+  NavMesh.UpdateNavMeshData
+  NavMesh.BuildNavMeshData
+  NavMesh.Recast.RasterizeTriangles
+  NavMesh.Recast.FilterWalkable
+  NavMesh.Recast.FilterBorder
+  NavMesh.Recast.ErodeArea
+  NavMesh.Recast.BuildCompactHeightfield
+  NavMesh.Recast.BuildRegionsFilter
+  NavMesh.Recast.BuildRegions
+  NavMesh.Recast.BuildContours
+  NavMesh.Recast.MergePolyMeshDetail
+  NavMesh.Recast.BuildPolyMeshDetail
+  NavMesh.Recast.BuildPolyMesh
+  TransformRenderers
+  TransformColliders
+  Terrrains
+  Colliders
+  Renderers
+  CollectSources
+  Components.NavMeshAgent.SendMessage
+  Components.NavMeshAgent.Transform
+  SynchronizeAgentTransformsToSimulation
+  SynchronizeSimulationToAgentTransforms
+  NavMeshManager.UnloadData
+  NavMeshManager.LoadData
+  NavMeshManager.SyncTileIndices
+  Components.OffMeshLink.Position
+  Components.NavMeshObstacle.Transform
+  Components.NavMeshAgent.State
+  NavMeshManager.NotifyNavMeshCleanup
+  NavMeshManager.NotifyNavMeshAdded
+  NavMeshManager
+Group: Internal
+  Gfx.WaitForGfxCommandsFromMainThread
+  Profiler.WriteBuffer
+  Profiler.Callstack
+  Semaphore.WaitForSignal
+  Profiler.SessionMetadata
+  Profiler.FrameMetadata
+  Profiler.Default
+  Main Thread
+  <Uninitialized ProfilerMarker>
+  bar
+  foo
+  ObjectDispatcher.SortInstancesJob
+  ObjectDispatcher.SortInstances
+  CompleteAllJobs
+  Idle
+  CombineDependencies
+  CombineJobResults
+  JobAlloc.Grow
+  MemoryManager.FallbackDeallocation
+Group: Lighting
+  EnlightenRuntimeManager.UpdateLights.Init
+  EnlightenRuntimeManager.UpdateLights.Enqueue
+  EnlightenRuntimeManager.UpdateAlbedo
+  EnlightenRuntimeManager.RemoveCustomLights
+  EnlightenRuntimeManager.AddCustomLights
+  EnlightenRuntimeManager.Prepare
+  EnlightenRuntimeManager.SyncRuntimeData
+  EnlightenRuntimeManager.LoadSystemsData
+  EnlightenRuntimeManager.LoadProbeSetsData
+  EnlightenRuntimeManager.UpdateGpuTexture
+  EnlightenRuntimeManager.PostUpdate
+  EnlightenRuntimeManager.GetCachedSystemRenderers
+  EnlightenRuntimeManager.UpdateProbeSets
+  EnlightenRuntimeManager.UpdateSystems
+  EnlightenRuntimeManager.UpdateEnvironmentLighting
+  EnlightenRuntimeManager.UpdateLights.Add
+  EnlightenRuntimeManager.UpdateLights.Remove
+  EnlightenRuntimeManager.UpdateLights
+  EnlightenRuntimeManager.UpdateMaterialsScheduledAsync
+  EnlightenRuntimeManager.UpdateMaterialsScheduled
+  EnlightenRuntimeManager.UpdateMaterialsForSystem
+  EnlightenRuntimeManager.FastUpdateEmissive
+  EnlightenRuntimeManager.ApplyAlbedoData
+  EnlightenRuntimeManager.RebuildCachedSystemRenderers
+  EnlightenRuntimeManager.PatchLightmapsOnLightmapSettings
+  RadiosityDataManager.PurgeProbeSets
+  RadiosityDataManager.PurgeSystems
+  RadiosityDataManager.AddAlbedoData
+  RadiosityDataManager.AddRadiosityData
+  RadiosityDataManager.AddVisibilityData
+  RadiosityDataManager.AddInputWorkspace
+  DilateAndDownsample
+  CallbackBakingStageReached
+  ExtractLightProbeGroupsRuntime
+  ExtractLights
+  ComputeMetaPassHash
+  MaterialRenderer.RenderEmissive
+  MaterialRenderer.RenderAlbedo
+  MaterialRenderer.RenderMaterials
+  MaterialRenderer.MeshDraw
+  ComputeEnvironmentLightingHash
+  SortedHashArray.sort
+  JobStealing
+  ReduceProbes
+  PostLoadSceneStaticLightmapSettings
+  OffsetLoadedRendererLightmapIndices
+  Global Illumination Support
+Group: GC
+  Mono.DomainUnload
+  GC.Finalizer
+  GC.Resize
+  GC.Collect
+  GarbageCollector.CollectIncremental
+Group: Memory
+  GC.Alloc
+  UnsafeUtility.Free
+  UnsafeUtility.Malloc
+  MemoryManager.FallbackAllocation
+  Native.DeallocSlow
+  Native.Dealloc
+  Native.Realloc
+  Native.Alloc
+  LargeAllocation.Free
+  LargeAllocation.Alloc
+  System Used Memory
+  System Total Used Memory
+  App Resident Memory
+  App Committed Memory
+  Total Used Memory
+  Total Reserved Memory
+  GC Used Memory
+  GC Reserved Memory
+  Profiler Used Memory
+  Profiler Reserved Memory
+  Audio Used Memory
+  Audio Reserved Memory
+  Video Used Memory
+  Video Reserved Memory
+  Asset Count
+  Scene Object Count
+  Game Object Count
+  GC Allocation In Frame Count
+  GC Allocated In Frame
+  Gfx Used Memory
+  Gfx Reserved Memory
+  Texture Memory
+  Texture Count
+  Mesh Memory
+  Mesh Count
+  Material Memory
+  Material Count
+  AnimationClip Memory
+  AnimationClip Count
+  AudioClip Memory
+  AudioClip Count
+  Object Count
+  Physics Used Memory (2D)
+  Physics Used Memory
+Group: FileIO
+  File.Seek
+  File.Write
+  File.Read
+  File.Close
+  File.Open
+  File Seeks
+  Files Opened
+  Files Closed
+  File Bytes Written
+  File Bytes Read
+  Reads in Flight
+  File Handles Open
+  File Reads Started
+  File Reads Finished
+Group: Debug
+  PlayerConnection.Poll
+Group: Jobs
+  Find dependency chain
+  KickJobs
+  ScheduleAllocJob
+  EndJob
+  BeginJob
+  WaitForCompleted
+  WaitForJobGroupID
+  ScheduleJob
+Group: Managed Jobs
+  NativeArrayDisposeJob
+  NativeArrayDisposeJob (Cleanup)
+Group: Burst Jobs
+  NativeArrayDisposeJob (Burst)
