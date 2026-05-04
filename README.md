@@ -1,9 +1,18 @@
-# ATLYSS-Modding-Resources
+# README
 Go to the [**Wiki page**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/wiki).\
-Dedicated wiki repository for modding ATLYSS, with resources for both beginner and experienced users/creators. The project is currently very work in progress and only has 1 active maintainer, but will gradually get progress to provide valuable information that isn't easily found elsewhere in the community.
+The official dedicated wiki repository for modding ATLYSS with resources for both beginner and expereienced user/creators. The goal of this project is to create a hub that connects the community's knowledge together into one coherent wiki for all to learn from. Everything is very work in progress and only pertains to one maintainer as of May 2026, but will gradually gather valuable information that isn't easily found elsewhere in the community.
 
-### Contributors
-- ZeinaKC: Wiki maintainer. [Github](https://github.com/kittycatto1), [Thunderstore](https://thunderstore.io/c/atlyss/p/ZeinaKC/).
-- Marioalexsan: Wiki and technical help. [Github](https://github.com/Marioalexsan), [Thunderstore](https://thunderstore.io/c/atlyss/p/Marioalexsan/)
-- Catman: Wiki and technical help. [Github](https://github.com/Catman-232), [Thunderstore](https://thunderstore.io/c/atlyss/p/Catman232/)
-- Miss Monster: Proofreading and feedback during active development. [Thunderstore](https://thunderstore.io/c/atlyss/p/MissMonster/)
+This repository is licensed under **CC BY-NC-SA** ([**Attribution-NonCommercial-ShareAlike 4.0 International**](https://creativecommons.org/licenses/by-nc-sa/4.0/)) and shall be free and public to use by all without additional restrictions applied to them. All work belongs to their respective contributors and owners, which will be noted below.
+#
+## Contributor Credits
+- `ZeinaKC:` Wiki maintainer. ([**Github**](https://github.com/kittycatto1) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/ZeinaKC/))
+- `Marioalexsan:` Wiki and technical help. ModAudio and Multitool documentation. ([**Github**](https://github.com/Marioalexsan) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Marioalexsan/))
+- `Catman:` Wiki and technical help. Homebrewery documentation. ([**Github**](https://github.com/Catman-232) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Catman232/))
+- `Miss Monster:` Proofreading and feedback during active development. ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/MissMonster/))
+
+Other linked resource authors.
+- `Nessie:` EasySettings documentation. ([**Github**](https://github.com/Nestorboy) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Nessie/))
+- `Soggy_Pancake:` CodeTalker and CommandLib documentation. ([**Github**](https://github.com/Soggy-Pancake) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Soggy_Pancake/))
+- `Yavamar:` CustomQuests documentation and QuestBuilder tool. ([**Github**](https://github.com/Yavamar) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Yavamar/))
+- `WolfKann:` MapLoader and Emote Wheel creator guides. ([**Github**](https://github.com/WolfKann) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/WolfKann/))
+- `WawaTofu:` AtlyssTools Google Drive. ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/WawaTofu/))
