@@ -9,10 +9,12 @@ This repository is licensed under **CC BY-NC-SA** ([**Attribution-NonCommercial-
 - `Marioalexsan:` Wiki and technical help. ModAudio and Multitool documentation. ([**Github**](https://github.com/Marioalexsan) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Marioalexsan/))
 - `Catman:` Wiki and technical help. Homebrewery documentation. ([**Github**](https://github.com/Catman-232) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Catman232/))
 - `Miss Monster:` Proofreading and feedback during active development. ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/MissMonster/))
+- `Manikun:` Provided the templates and info for [**Skin Templates**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Skin%20Templates). ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Manikun/))
 
-Other linked resource authors.
+Other linked resource authors. Additional READMEs may include other contributions that'll be noted separately!
 - `Nessie:` EasySettings documentation. ([**Github**](https://github.com/Nestorboy) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Nessie/))
 - `Soggy_Pancake:` CodeTalker and CommandLib documentation. ([**Github**](https://github.com/Soggy-Pancake) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Soggy_Pancake/))
 - `Yavamar:` CustomQuests documentation and QuestBuilder tool. ([**Github**](https://github.com/Yavamar) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Yavamar/))
 - `WolfKann:` MapLoader and Emote Wheel creator guides. ([**Github**](https://github.com/WolfKann) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/WolfKann/))
 - `WawaTofu:` AtlyssTools Google Drive. ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/WawaTofu/))
+  - [**Shaders**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Shaders) includes dedicated creditings.
