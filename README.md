@@ -21,7 +21,7 @@ Tools or resources that were used during the development of this wiki, some of t
 - `Catman:` Wiki and technical help. Homebrewery documentation. ([**Github**](https://github.com/Catman-232) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Catman232/))
 - `Miss Monster:` Proofreading and feedback during active development. ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/MissMonster/)) <3
 - `Manikun:` Provided the templates and info for [**Skin Templates**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Skin%20Templates). ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Manikun/))
-- `Saito:` Created the "Atlyss Equipment Across Patches" and "Atlyss Skill Changes" spreadsheets that were adopted to here with permission.
+- `Saito:` Creator of the data spreadsheets used for [Balance Changes](), granted permission to adopt them here.
 
 Other linked resource authors. Additional READMEs may include other contributions that'll be noted separately!
 - `Nessie:` EasySettings documentation. ([**Github**](https://github.com/Nestorboy) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Nessie/))
