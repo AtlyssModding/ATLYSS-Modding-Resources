@@ -1,7 +1,7 @@
 {
     "_heldItemStorage": [
         {
-            "_itemName": "Magistrate Circlet",
+            "_itemName": "Bunhost Garb",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 0,
@@ -12,7 +12,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Geistlord Crown",
+            "_itemName": "Festive Coat",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 1,
@@ -23,7 +23,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Nethercrypt Halo",
+            "_itemName": "Silken Top",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 2,
@@ -34,7 +34,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Mithril Halo",
+            "_itemName": "Noble Shirt",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 3,
@@ -45,7 +45,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Knightguard Halo",
+            "_itemName": "Vampiric Coat",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 4,
@@ -56,7 +56,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Glyphgrift Halo",
+            "_itemName": "Test Chestpiece",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 5,
@@ -67,7 +67,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Jestercast Memory",
+            "_itemName": "Festive Hat",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 6,
@@ -78,7 +78,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Geistlord Eye",
+            "_itemName": "Acolyte Hood",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 7,
@@ -89,7 +89,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Initiate Cloak",
+            "_itemName": "Bunhost Leggings",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 8,
@@ -100,7 +100,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Nokket Cloak",
+            "_itemName": "Festive Trousers",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 9,
@@ -111,7 +111,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Rugged Cloak",
+            "_itemName": "Silken Loincloth",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 10,
@@ -122,7 +122,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Regazuul Cape",
+            "_itemName": "Noble Pants",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 11,
@@ -133,7 +133,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Nethercrypt Cloak",
+            "_itemName": "Vampiric Leggings",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 12,
@@ -144,7 +144,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Cozy Cloak",
+            "_itemName": "Test Pants",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 13,
@@ -155,7 +155,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Forlorn Cloak",
+            "_itemName": "Wizard Hat",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 14,
@@ -166,7 +166,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Cobblerage Cloak",
+            "_itemName": "Dire Helm",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 15,
@@ -177,7 +177,183 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Meshlink Cape",
+            "_itemName": "Skill Scroll (Sturdy)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 0,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Sturdy)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 1,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Sturdy)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 2,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Sturdy)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 3,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Sturdy)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 4,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Sturdy)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 5,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Sturdy)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 6,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Sturdy)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 7,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Execute)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 8,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Execute)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 9,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Execute)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 10,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Execute)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 11,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Execute)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 12,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Execute)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 13,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Execute)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 14,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Execute)",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 15,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Skill Scroll (Spread Shot)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 16,
@@ -188,7 +364,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Sagecaller Cape",
+            "_itemName": "Skill Scroll (Spread Shot)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 17,
@@ -199,7 +375,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Deathward Cape",
+            "_itemName": "Skill Scroll (Spread Shot)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 18,
@@ -210,7 +386,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Necro Marrow",
+            "_itemName": "Skill Scroll (Spread Shot)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 19,
@@ -221,7 +397,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Leather Top",
+            "_itemName": "Skill Scroll (Spread Shot)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 20,
@@ -232,7 +408,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Sagecloth Top",
+            "_itemName": "Skill Scroll (Spread Shot)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 21,
@@ -243,7 +419,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Aero Top",
+            "_itemName": "Skill Scroll (Spread Shot)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 22,
@@ -254,7 +430,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Nutso Top",
+            "_itemName": "Skill Scroll (Spread Shot)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 23,
@@ -265,7 +441,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Slimecrust Chest",
+            "_itemName": "Skill Scroll (Fireball)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 24,
@@ -276,7 +452,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Worn Robe",
+            "_itemName": "Skill Scroll (Fireball)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 25,
@@ -287,7 +463,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Journeyman Vest",
+            "_itemName": "Skill Scroll (Fireball)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 26,
@@ -298,7 +474,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Poacher Cloth",
+            "_itemName": "Skill Scroll (Fireball)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 27,
@@ -309,7 +485,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Ghostly Tabard",
+            "_itemName": "Skill Scroll (Fireball)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 28,
@@ -320,7 +496,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Cryptsinge Chest",
+            "_itemName": "Skill Scroll (Fireball)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 29,
@@ -331,7 +507,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Slimek Chest",
+            "_itemName": "Skill Scroll (Fireball)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 30,
@@ -342,7 +518,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Iron Chestpiece",
+            "_itemName": "Skill Scroll (Fireball)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 31,
@@ -353,7 +529,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Warrior Chest",
+            "_itemName": "Skill Scroll (Cryo Needle)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 32,
@@ -364,7 +540,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Duelist Garb",
+            "_itemName": "Skill Scroll (Cryo Needle)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 33,
@@ -375,7 +551,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Tattered Battlerobe",
+            "_itemName": "Skill Scroll (Cryo Needle)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 34,
@@ -386,7 +562,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Sleeper's Robe",
+            "_itemName": "Skill Scroll (Cryo Needle)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 35,
@@ -397,7 +573,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Lord Breastplate",
+            "_itemName": "Skill Scroll (Cryo Needle)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 36,
@@ -408,7 +584,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Reapsow Garb",
+            "_itemName": "Skill Scroll (Cryo Needle)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 37,
@@ -419,7 +595,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Witchlock Robe",
+            "_itemName": "Skill Scroll (Cryo Needle)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 38,
@@ -430,7 +606,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Golem Chestpiece",
+            "_itemName": "Skill Scroll (Cryo Needle)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 39,
@@ -441,7 +617,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Nethercrypt Tabard",
+            "_itemName": "Skill Scroll (Spire)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 40,
@@ -452,7 +628,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Mithril Chestpiece",
+            "_itemName": "Skill Scroll (Spire)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 41,
@@ -463,7 +639,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Mercenary Vestment",
+            "_itemName": "Skill Scroll (Spire)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 42,
@@ -474,7 +650,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Ornamented Battlerobe",
+            "_itemName": "Skill Scroll (Spire)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 43,
@@ -485,7 +661,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Fortified Vestment",
+            "_itemName": "Skill Scroll (Spire)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 44,
@@ -496,7 +672,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Carbuncle Robe",
+            "_itemName": "Skill Scroll (Spire)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 45,
@@ -507,7 +683,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Gemveil Raiment",
+            "_itemName": "Skill Scroll (Spire)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 46,
@@ -518,7 +694,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Chainscale Chest",
+            "_itemName": "Skill Scroll (Spire)",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 47,
@@ -529,359 +705,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Lesser Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 16,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 17,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 18,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 19,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 20,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 21,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 22,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 23,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 24,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 25,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 26,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 27,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 28,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 29,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 30,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mgk. Defense Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 31,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 32,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 33,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 34,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 35,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 36,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 37,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 38,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 39,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 40,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 41,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 42,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 43,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 44,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 45,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 46,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Regeneration Potion",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 47,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Lesser Evasion Potion",
+            "_itemName": "Golem Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 0,
@@ -892,7 +716,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Lesser Evasion Potion",
+            "_itemName": "Golem Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 1,
@@ -903,7 +727,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Lesser Evasion Potion",
+            "_itemName": "Golem Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 2,
@@ -914,7 +738,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Lesser Evasion Potion",
+            "_itemName": "Golem Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 3,
@@ -925,7 +749,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Lesser Evasion Potion",
+            "_itemName": "Golem Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 4,
@@ -936,7 +760,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Lesser Evasion Potion",
+            "_itemName": "Golem Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 5,
@@ -947,7 +771,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Lesser Evasion Potion",
+            "_itemName": "Golem Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 6,
@@ -958,7 +782,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Lesser Evasion Potion",
+            "_itemName": "Golem Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 7,
@@ -969,7 +793,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Evasion Potion",
+            "_itemName": "Monolith Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 8,
@@ -980,7 +804,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Evasion Potion",
+            "_itemName": "Monolith Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 9,
@@ -991,7 +815,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Evasion Potion",
+            "_itemName": "Monolith Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 10,
@@ -1002,7 +826,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Evasion Potion",
+            "_itemName": "Monolith Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 11,
@@ -1013,7 +837,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Evasion Potion",
+            "_itemName": "Monolith Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 12,
@@ -1024,7 +848,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Evasion Potion",
+            "_itemName": "Monolith Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 13,
@@ -1035,7 +859,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Evasion Potion",
+            "_itemName": "Monolith Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 14,
@@ -1046,7 +870,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Evasion Potion",
+            "_itemName": "Monolith Gem",
             "_quantity": 99,
             "_maxQuantity": 99,
             "_slotNumber": 15,
@@ -1057,185 +881,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Mekboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
-            "_slotNumber": 0,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mekboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
-            "_slotNumber": 1,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mekboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
-            "_slotNumber": 2,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mekboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
-            "_slotNumber": 3,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mekboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
-            "_slotNumber": 4,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mekboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
-            "_slotNumber": 5,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mekboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
-            "_slotNumber": 6,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Mekboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
-            "_slotNumber": 7,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Wizboar Scepter",
+            "_itemName": "Golem Core",
             "_quantity": 99,
             "_maxQuantity": 99,
-            "_slotNumber": 8,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Wizboar Scepter",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 9,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Wizboar Scepter",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 10,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Wizboar Scepter",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 11,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Wizboar Scepter",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 12,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Wizboar Scepter",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 13,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Wizboar Scepter",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 14,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Wizboar Scepter",
-            "_quantity": 99,
-            "_maxQuantity": 99,
-            "_slotNumber": 15,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Rageboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
             "_slotNumber": 16,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1244,9 +892,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Rageboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
+            "_itemName": "Golem Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 17,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1255,9 +903,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Rageboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
+            "_itemName": "Golem Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 18,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1266,9 +914,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Rageboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
+            "_itemName": "Golem Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 19,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1277,9 +925,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Rageboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
+            "_itemName": "Golem Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 20,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1288,9 +936,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Rageboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
+            "_itemName": "Golem Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 21,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1299,9 +947,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Rageboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
+            "_itemName": "Golem Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 22,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1310,9 +958,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Rageboar Spear",
-            "_quantity": 30,
-            "_maxQuantity": 30,
+            "_itemName": "Golem Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 23,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1321,9 +969,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Slime Diva Ears",
-            "_quantity": 15,
-            "_maxQuantity": 15,
+            "_itemName": "Monolith Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 24,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1332,9 +980,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Slime Diva Ears",
-            "_quantity": 15,
-            "_maxQuantity": 15,
+            "_itemName": "Monolith Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 25,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1343,9 +991,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Slime Diva Ears",
-            "_quantity": 15,
-            "_maxQuantity": 15,
+            "_itemName": "Monolith Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 26,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1354,9 +1002,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Slime Diva Ears",
-            "_quantity": 15,
-            "_maxQuantity": 15,
+            "_itemName": "Monolith Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 27,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1365,9 +1013,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Slime Diva Ears",
-            "_quantity": 15,
-            "_maxQuantity": 15,
+            "_itemName": "Monolith Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 28,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1376,9 +1024,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Slime Diva Ears",
-            "_quantity": 15,
-            "_maxQuantity": 15,
+            "_itemName": "Monolith Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 29,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1387,9 +1035,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Slime Diva Ears",
-            "_quantity": 15,
-            "_maxQuantity": 15,
+            "_itemName": "Monolith Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 30,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1398,9 +1046,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Slime Diva Ears",
-            "_quantity": 15,
-            "_maxQuantity": 15,
+            "_itemName": "Monolith Core",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 31,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1409,9 +1057,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Green Lipstick",
-            "_quantity": 10,
-            "_maxQuantity": 10,
+            "_itemName": "Blue Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 32,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1420,9 +1068,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Green Lipstick",
-            "_quantity": 10,
-            "_maxQuantity": 10,
+            "_itemName": "Blue Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 33,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1431,64 +1079,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Green Lipstick",
-            "_quantity": 10,
-            "_maxQuantity": 10,
-            "_slotNumber": 35,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Green Lipstick",
-            "_quantity": 10,
-            "_maxQuantity": 10,
-            "_slotNumber": 36,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Green Lipstick",
-            "_quantity": 10,
-            "_maxQuantity": 10,
-            "_slotNumber": 37,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Green Lipstick",
-            "_quantity": 10,
-            "_maxQuantity": 10,
-            "_slotNumber": 38,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Green Lipstick",
-            "_quantity": 10,
-            "_maxQuantity": 10,
-            "_slotNumber": 39,
-            "_modifierTag": "",
-            "_damageTypeOverride": 0,
-            "_useDamageTypeOverride": false,
-            "_isEquipped": false,
-            "_isAltWeapon": false
-        },
-        {
-            "_itemName": "Green Lipstick",
-            "_quantity": 10,
-            "_maxQuantity": 10,
+            "_itemName": "Blue Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 34,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1497,9 +1090,64 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Diva Necklace",
-            "_quantity": 10,
-            "_maxQuantity": 10,
+            "_itemName": "Blue Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
+            "_slotNumber": 35,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Blue Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
+            "_slotNumber": 36,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Blue Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
+            "_slotNumber": 37,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Blue Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
+            "_slotNumber": 38,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Blue Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
+            "_slotNumber": 39,
+            "_modifierTag": "",
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Red Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 40,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1508,9 +1156,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Diva Necklace",
-            "_quantity": 10,
-            "_maxQuantity": 10,
+            "_itemName": "Red Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 41,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1519,9 +1167,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Diva Necklace",
-            "_quantity": 10,
-            "_maxQuantity": 10,
+            "_itemName": "Red Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 42,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1530,9 +1178,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Diva Necklace",
-            "_quantity": 10,
-            "_maxQuantity": 10,
+            "_itemName": "Red Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 43,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1541,9 +1189,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Diva Necklace",
-            "_quantity": 10,
-            "_maxQuantity": 10,
+            "_itemName": "Red Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 44,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1552,9 +1200,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Diva Necklace",
-            "_quantity": 10,
-            "_maxQuantity": 10,
+            "_itemName": "Red Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 45,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1563,9 +1211,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Diva Necklace",
-            "_quantity": 10,
-            "_maxQuantity": 10,
+            "_itemName": "Red Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 46,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
@@ -1574,9 +1222,9 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Diva Necklace",
-            "_quantity": 10,
-            "_maxQuantity": 10,
+            "_itemName": "Red Minchroom Cap",
+            "_quantity": 99,
+            "_maxQuantity": 99,
             "_slotNumber": 47,
             "_modifierTag": "",
             "_damageTypeOverride": 0,
