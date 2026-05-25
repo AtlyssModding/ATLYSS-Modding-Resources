@@ -7,899 +7,182 @@ All of the files and folders were renamed to:
 - Be consistent with in-game displays, excluding unused stuff.
 
 ⚠️ I only claim ownership of the effort put into compiling and formatting this project, all the assets belong to Kiseff (KisSoft) and what you choose to do with them is on you.
+
+[**Homebrewery's Texture Replacer**](https://github.com/Catman-232/Homebrewery/wiki/How-to-use-HB's-Texture-Replacer) and [**Unity Explorer**](https://thunderstore.io/c/atlyss/p/AtlyssModding/Atlyss_UnityExplorer/) were used to gather most of the information presented here.
+# Table of Contents
+- [**SkinTextureGroups**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/edit/main/Vanilla%20Textures/README.md#SkinTextureGroups)
+- [_mesh](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/edit/main/Vanilla%20Textures/_mesh)
+- [_particle](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/edit/main/Vanilla%20Textures/_particle)
+- [_texture](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/edit/main/Vanilla%20Textures/_texture)
+- [_ui](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/edit/main/Vanilla%20Textures/_ui)
+- [Clip Documentation](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Clip%20Documentation) (Different repository that covers `_sound`)
 #
-### Sprites
-List of all available sprite names for the usage of [**CustomQuests**](https://thunderstore.io/c/atlyss/p/Yavamar/CustomQuests/). thanks HB's TextureReplace text files for the lists.
-<details><summary><code>_graphic\_ui</code></summary>
+## SkinTextureGroups
+<details><summary><code>Imps</code></summary>
 
-- `bkOver_01`
-- `bkOver_02`
-- `bk_01`
-- `bk_02`
-- `bk_03`
-- `bk_04`
-- `bk_05`
-- `bk_06`
-- `bk_equipSlotRarityOverlay`
-- `bk_equipSlotTransmogged`
-- `bk_gradient`
-- `bk_skillbook`
-- `bk_solid`
-- `btn_01`
-- `btn_02`
-- `chatBubble`
-- `clockIcon`
-- `equipCell_filter_all`
-- `equipCell_filter_back`
-- `equipCell_filter_chest`
-- `equipCell_filter_helm`
-- `equipCell_filter_leggs`
-- `equipCell_filter_ring`
-- `equipCell_filter_shield`
-- `equipCell_filter_weapon`
-- `gameCursor`
-- `gameCursor_01`
-- `gameCursor_02`
-- `gameCursor_03`
-- `gameCursor_04`
-- `gameCursor_05`
-- `gameCursor_06`
-- `gameCursor_07`
-- `gameIcon`
-- `gamLogo`
-- `hampterCrown`
-- `ic3`
-- `icon_attackStat`
-- `icon_defenseStat`
-- `icon_job`
-- `icon_magicDefenseStat`
-- `icon_speedStat`
-- `icon_spiritStat`
-- `icon_vitalityStat`
-- `ico_networkGlobe`
-- `knob01`
-- `loho11`
-- `maskSprt`
-- `mm_settingsIco`
-- `targetbox`
-- `targetIndicator`
-- `targetLockOn`
-- `uiBox01`
-- `uiBox02 1`
-- `uiBox02`
-- `uiBox03`
-- `uiBox04`
-- `uiSprite_playerIndicator`
-- `ui_castBarFill`
-- `ui_creepHealthFill`
-- `ui_expFill`
-- `ui_healthFill`
-- `ui_threatFill`
-- `valueStatOrbBackdrop`
-- `valueStatOrbFill`
-- `valueStatOrbFill2`
-- `valueStatOrbFill3`
-- `valueStatOrbFill3_ghost`
-- `_aimReticle01`
-- `_atpEffect`
-- `_bk_red`
-- `_bk_redMinus`
-- `_bk_redPlus`
-- `_conditionico_bleed`
-- `_conditionico_curse`
-- `_conditionico_elemental`
-- `_conditionico_poison`
-- `_currencyBagIco`
-- `_currencyBagIDropIco`
-- `_defInfoIco`
-- `_defInfoIco2`
-- `_defInfoIco3`
-- `_dmgValCritBackdrop`
-- `_equipIco`
-- `_gamepadUI_actionbar_downDpad`
-- `_gamepadUI_actionbar_eastButton`
-- `_gamepadUI_actionbar_leftDpad`
-- `_gamepadUI_actionbar_leftShoulder`
-- `_gamepadUI_actionbar_leftTrigger`
-- `_gamepadUI_actionbar_northButton`
-- `_gamepadUI_actionbar_rightDpad`
-- `_gamepadUI_actionbar_rightShoulder`
-- `_gamepadUI_actionbar_rightstickPush`
-- `_gamepadUI_actionbar_rightTrigger`
-- `_gamepadUI_actionbar_southButton`
-- `_gamepadUI_actionbar_upDpad`
-- `_gamepadUI_actionbar_westButton`
-- `_genderIco_f`
-- `_genderIco_m`
-- `_gmIco`
-- `_hpIco`
-- `_icoDungeonKey`
-- `_icoEmerKey`
-- `_icoLock`
-- `_icon_dexterity`
-- `_icon_mind`
-- `_icon_strength`
-- `_icon_vitality`
-- `_icoRubyKey`
-- `_icoSaphKey`
-- `_ico_afk`
-- `_ico_allFilter`
-- `_ico_axe`
-- `_ico_bag`
-- `_ico_caution_lv`
-- `_ico_checkmark`
-- `_ico_console`
-- `_ico_consumable`
-- `_ico_cooldown`
-- `_ico_day`
-- `_ico_dayNightPendulum`
-- `_ico_death`
-- `_ico_diceRoll`
-- `_ico_easyDungeon`
-- `_ico_exclaim`
-- `_ico_fishing`
-- `_ico_hardDungeon`
-- `_ico_high_lv`
-- `_ico_infinite`
-- `_ico_invite`
-- `_ico_lock_00`
-- `_ico_lock_01`
-- `_ico_lvl`
-- `_ico_mining`
-- `_ico_muteSiren`
-- `_ico_night`
-- `_ico_normalDungeon`
-- `_ico_parrySparkle`
-- `_ico_partyDungeon`
-- `_ico_price`
-- `_ico_profession`
-- `_ico_pvp`
-- `_ico_question`
-- `_ico_quitDoor`
-- `_ico_renderHide`
-- `_ico_renderView`
-- `_ico_save`
-- `_ico_settings`
-- `_ico_single`
-- `_ico_skillTabOne`
-- `_ico_skillTabThree`
-- `_ico_skillTabTwo`
-- ` _ico_sort`
-- `_ico_standard`
-- `_ico_steam`
-- `_ico_swapArrow`
-- `_ico_vanity`
-- `_ico_wayPoint_00`
-- `_ico_wayPoint_01`
-- `_ico_wayPoint_02`
-- `_levelUpDispaly`
-- `_lexiconIco01`
-- `_lexiconIco02`
-- `_lobbyTypeIco_pve`
-- `_lobbyTypeIco_pvp`
-- `_lobbyTypeIco_rp`
-- `_lobIco_dualos`
-- `_lobIco_gaia`
-- `_lobIco_loodia`
-- `_lobIco_noth`
-- `_minimap_waypointIco`
-- `_mpIco`
-- `_questQuestionMarker`
-- `_slider01`
-- `_splashDescript_00`
-- `_valueIco_heal`
-- `_valueIco_mana`
-- `_valueIco_shatter`
-- `_valueKnob01`
-- `_vp`
-- `_xpIco`
-- `_zoneSelIco_arena`
-- `_zoneSelIco_dungeon`
-- `_zoneSelIco_field`
-- `_zoneSelIco_safe`
-</details><details><summary><code>_graphic\_ui\_backdropart</code></summary>
+- `_hairGradient` is constant for all hairs.
+- **Imp_Mida**
+  - Head : `_impSkin_voodooHead2`
+  - Ear  : `_impSkin_voodooHead2`
+  - Chest: `_impSkin_voodooChest`
+  - Leg  : `impSkin_voodooLegs`
+  - Tail : `impTailTex`
+- **imp_skullface**
+  - Head : `_impSkin_voodooHead`
+  - Ear  : `_impSkin_voodooHead`
+  - Chest: `_impSkin_voodooChest`
+  - Leg  : `impSkin_voodooLegs`
+  - Tail : `impTailTex`
+- **imp_fullClear**
+  - Head : `_impSkin_head02`
+  - Ear  : `_impSkin_head02`
+  - Chest: `_impSkin_Chest02`
+  - Leg  : `impSkin_legs02`
+  - Tail : `impTailTex`
+</details><details><summary><code>Poons</code></summary>
 
-- `bg`
-- `Bg1`
-- `mapTile_01`
-- `mapTile_02`
-- `mapTile_03`
-- `mapTile_04`
-- `mapTile_05`
-- `mapTile_06`
-- `_worldPortal_z00_0`
-</details></details><details><summary><code>_graphic\_ui\_charactercreationicons</code></summary>
+- **DarkSpots_Tattoo**
+  - Hair: `poonTex02_head`
+  - Head: `poonTex02_head`
+  - Ear : `poonTex02_head`
+  - Body: `poonTex02_chest`
+  - Leg : `poonTex02_leg`
+  - Tail: `poonTex02_head`
+- **DarkSpots_Clear**
+  - Hair: `poonTex01_head`
+  - Head: `poonTex01_head`
+  - Ear : `poonTex01_head`
+  - Body: `poonTex01_chest`
+  - Leg : `poonTex01_leg`
+  - Tail: `poonTex01_head`
+- **LightSpots_Tattoo**
+  - Hair: `poonTex03_head`
+  - Head: `poonTex03_head03`
+  - Ear : `poonTex03_head`
+  - Body: `poonTex03_chest02`
+  - Leg : `poonTex03_leg02`
+  - Tail: `poonTex03_head`
+- **LightSpots_Clear**
+  - Hair: `poonTex03_head`
+  - Head: `poonTex03_head`
+  - Ear : `poonTex03_head`
+  - Body: `poonTex03_chest`
+  - Leg : `poonTex03_leg`
+  - Tail: `poonTex03_head`
+- **LightSpots_DeerHead**
+  - Hair: `poonTex03_head`
+  - Head: `poonTex03_head02`
+  - Ear : `poonTex03_head`
+  - Body: `poonTex03_chest`
+  - Leg : `poonTex03_leg`
+  - Tail: `poonTex03_head`
+- **LightSpots_ValuHead**
+  - Hair: `poonTex03_head`
+  - Head: `poonTex03_head04`
+  - Ear : `poonTex03_head`
+  - Body: `poonTex03_chest`
+  - Leg : `poonTex03_leg`
+  - Tail: `poonTex03_head`
+- **DarkSpots_DeerHead**
+  - Hair: `poonTex01_head`
+  - Head: `poonTex01_head_03`
+  - Ear : `poonTex01_head`
+  - Body: `poonTex01_chest`
+  - Leg : `poonTex01_leg`
+  - Tail: `poonTex01_head`
+- **DarkSpots_ValuHead**
+  - Hair: `poonTex01_head`
+  - Head: `poonTex01_head_02`
+  - Ear : `poonTex01_head`
+  - Body: `poonTex01_chest`
+  - Leg : `poonTex01_leg`
+  - Tail: `poonTex01_head`
+- **Krystal_00**
+  - Hair: `poonTex01_head`
+  - Head: `poonTex01_head06`
+  - Ear : `poonTex03_head06`
+  - Body: `PoonTex03_chest03`
+  - Leg : `poonTex03_leg03`
+  - Tail: `poonTex03_head05`
+</details><details><summary><code>Kubolds</code></summary>
 
-- `customizeIco_body`
-- `customizeIco_head`
-- `customizeIco_randomize`
-- `customizeIco_tail`
-- `fill_bri`
-- `fill_con`
-- `fill_hue`
-- `fill_hue_byrdle`
-- `fill_hue_chang`
-- `fill_hue_imp`
-- `fill_hue_kubold`
-- `fill_hue_poon`
-- `fill_sat`
-- `icon_arm`
-- `icon_belly`
-- `icon_booba`
-- `icon_bri`
-- `icon_butt`
-- `icon_colorTab`
-- `icon_con`
-- `icon_flatChest`
-- `icon_headWidth`
-- `icon_height`
-- `icon_hue`
-- `icon_muzzle`
-- `icon_sat`
-- `icon_tail`
-- `icon_torsowidth`
-- `icon_voicePitch`
-- `icon_width`
-- `_colorCustomizeIco_body`
-- `_colorCustomizeIco_hair`
-- `_colorCustomizeIco_misc`
-</details><details><summary><code>_graphic\_ui\_backdropart\_raceicons</code></summary>
+- `_hairGradient_kubold` is constant for all hairs.
+- **Standard**
+  - Head: `kobold_headTex`
+  - Ear : `_koboldEarTex`
+  - Body: `kobold_chestTex`
+  - Leg : `kobold_legTex`
+  - Tail: `_koboldTailTex`
+- **Glyphed**
+  - Head: `kobold_headTex02`
+  - Ear : `_koboldEarTex`
+  - Body: `kobold_chestTex02`
+  - Leg : `kobold_legTex02`
+  - Tail: `_koboldTailTex02`
+- **Spotted**
+  - Head: `kobold_headTex03`
+  - Ear : `_koboldEarTex02`
+  - Body: `kobold_chestTex03`
+  - Leg : `kobold_legTex03`
+  - Tail: `_koboldTailTex003`
+</details><details><summary><code>Byrdles</code></summary>
 
-- `icoDec_eye`
-- `icoDec_eye00`
-- `icoDec_eye02`
-- `rcIco_azora`
-- `rcIco_byrdle`
-- `rcIco_chang`
-- `rcIco_imp`
-- `rcIco_poon`
-- `_emblem_byrdle`
-- `_emblem_chang`
-- `_emblem_imp`
-- `_emblem_kubold`
-- `_emblem_poon`
-</details><details><summary><code>_graphic\_ui\_classicons</code></summary>
+- **default**
+  - Hair: `byrdleTailTex_01`
+  - Head: `byrdleTex_01`
+  - Ear : `byrdleTex_head01`
+  - Body: `byrdleChestTex_01`
+  - Leg : `byrdleTexLeg_01`
+  - Tail: `byrdleTailTex_01`
+- **greyStreak**
+  - Hair: `byrdleTailTex_02`
+  - Head: `byrdleTex_02`
+  - Ear : `byrdleTex_head02`
+  - Body: `byrdleChestTex_02`
+  - Leg : `byrdleTexLeg_02`
+  - Tail: `byrdleTailTex_02`
+- **raven**
+  - Hair: `byrdleTailTex_03`
+  - Head: `byrdleTex_03`
+  - Ear : `byrdleTex_head03`
+  - Body: `byrdleChestTex_03`
+  - Leg : `byrdleTexLeg_03`
+  - Tail: `byrdleTailTex_03`
+</details><details><summary><code>Changs</code></summary>
 
-- `_clsIco_bandit`
-- `_clsIco_berserker`
-- `_clsIco_bishop`
-- `_clsIco_empty`
-- `_clsIco_engineer`
-- `_clsIco_fighter`
-- `_clsIco_magus`
-- `_clsIco_mystic`
-- `_clsIco_novice`
-- `_clsIco_paladin`
-- `_clsIco_rogue`
-</details><details><summary><code>_graphic\_ui\_combatelementicons</code></summary>
-
-- `elementIcon_earth`
-- `elementIcon_fire`
-- `elementIcon_holy`
-- `elementIcon_nature`
-- `elementIcon_normal`
-- `elementIcon_shadow`
-- `elementIcon_water`
-- `floatValueIco_earth`
-- `floatValueIco_fire`
-- `floatValueIco_holy`
-- `floatValueIco_nature`
-- `floatValueIco_shadow`
-- `floatValueIco_water`
-</details><details><summary><code>_graphic\_ui\_facepics</code></summary>
-
-- `facepic_angela01`
-- `facepic_angela02`
-- `facepic_angela03`
-- `facepic_enok01`
-- `facepic_sally01`
-- `facepic_sally02`
-- `facepic_sally03`
-- `facepic_spike01`
-- `facepic_vivian`
-</details><details><summary><code>_graphic\_ui\_itemicons</code></summary>
-
-- `icon_healthPotion`
-- `icon_magiqPotion`
-- `_gambleIco_consumable`
-- `_gambleIco_gear`
-- `_gambleIco_trade`
-</details><details><summary><code>_graphic\_ui\_itemicons\_chest</code></summary>
-
-- `_capIco_00`
-- `_capIco_01`
-- `_capIco_02`
-- `_capIco_03`
-- `_capIco_04`
-- `_capIco_05`
-- `_capIco_06`
-- `_capIco_07`
-- `_capIco_08`
-- `_capIco_09`
-- `_capIco_10`
-- `_capIco_11`
-- `_capIco_12`
-- `_capIco_13`
-- `_capIco_14`
-- `_capIco_15`
-- `_capIco_16`
-- `_capIco_17`
-- `_capIco_18`
-- `_capIco_19`
-- `_chestIco_00`
-- `_chestIco_01`
-- `_chestIco_02`
-- `_chestIco_03`
-- `_chestIco_04`
-- `_chestIco_05`
-- `_chestIco_06`
-- `_chestIco_07`
-- `_chestIco_08`
-- `_chestIco_09`
-- `_chestIco_10`
-- `_chestIco_11`
-- `_chestIco_12`
-- `_chestIco_13`
-- `_chestIco_14`
-- `_chestIco_15`
-- `_chestIco_16`
-- `_chestIco_17`
-- `_chestIco_18`
-- `_chestIco_19`
-- `_chestIco_20`
-- `_chestIco_21`
-- `_chestIco_22`
-- `_chestIco_23`
-- `_chestIco_24`
-- `_chestIco_25`
-- `_chestIco_26`
-- `_chestIco_27`
-- `_chestIco_28`
-- `_chestIco_29`
-- `_chestIco_30`
-- `_chestIco_31`
-- `_chestIco_32`
-- `_chestIco_33`
-- `_chestIco_34`
-- `_chestIco_35`
-- `_chestIco_36`
-- `_chestIco_37`
-- `_chestIco_38`
-- `_chestIco_39`
-- `_chestIco_40`
-- `_chestIco_41`
-- `_chestIco_42`
-- `_chestIco_43`
-- `_chestIco_44`
-- `_chestIco_45`
-- `_chestIco_46`
-- `_chestIco_47`
-- `_chestIco_48`
-- `_chestIco_49`
-- `_chestIco_50`
-- `_chestIco_51`
-- `_chestIco_52`
-- `_chestIco_53`
-- `_chestIco_54`
-- `_chestIco_55`
-- `_chestIco_56`
-- `_chestIco_57`
-- `_chestpieceIco_bunhost`
-- `_chestpieceIco_imp01`
-- `_chestpieceIco_poon01`
-- `_genericCape01`
-- `_genericRobeIco_01`
-- `_genericRobeIco_02`
-- `_genericTabard01`
-- `_genericVest01`
-- `_leggingIco_bunhost`
-- `_leggingIco_imp01`
-- `_leggingIco_imp02`
-- `_leggingIco_kubold01`
-- `_leggingIco_kubold02`
-- `_leggingIco_poon02`
-- `_leggingIco_00`
-- `_leggingIco_01`
-- `_leggingIco_02`
-- `_leggingIco_03`
-- `_leggingIco_04`
-- `_leggingIco_05`
-- `_leggingIco_06`
-- `_leggingIco_07`
-- `_leggingIco_08`
-- `_leggingIco_09`
-- `_leggingIco_10`
-- `_leggingIco_11`
-- `_leggingIco_12`
-- `_leggingIco_13`
-- `_leggingIco_14`
-- `_leggingIco_15`
-- `_leggingIco_16`
-- `_leggingIco_17`
-- `_leggingIco_18`
-- `_leggingIco_19`
-- `_leggingIco_20`
-- `_leggingIco_21`
-- `_leggingIco_22`
-- `_leggingIco_23`
-- `_leggingIco_24`
-- `_leggingIco_25`
-- `_leggingIco_26`
-- `_leggingIco_27`
-- `_leggingIco_28`
-- `_leggingIco_29`
-- `_leggingIco_30`
-- `_leggingIco_31`
-- `_leggingIco_32`
-- `_leggingIco_33`
-- `_leggingIco_34`
-- `_leggingIco_35`
-- `_silkenTop`
-</details><details><summary><code>_graphic\_ui\_itemicons\_consumable</code></summary>
-
-- `_conIco_02`
-- `_conIco_03`
-- `_conIco_04`
-- `_conIco_05`
-- `_conIco_06`
-- `_conIco_07`
-- `_conIco_08`
-- `_conIco_09`
-- `_conIco_10`
-- `_conIco_11`
-- `_conIco_12`
-- `_conIco_13`
-- `_conIco_14`
-- `_conIco_15`
-- `_conIco_16`
-- `_conIco_17`
-- `_conIco_18`
-- `_conIco_19`
-- `_conIco_20`
-- `_conIco_21`
-- `_conIco_22`
-- `_conIco_23`
-- `_conIco_24`
-- `_conIco_25`
-- `_conIco_26`
-- `_conIco_27`
-- `_conIco_28`
-- `_conIco_29`
-- `_conIco_30`
-- `_conIco_31`
-- `_conIco_32`
-- `_conIco_33`
-- `_conIco_34`
-- `_conIco_35`
-- `_conIco_36`
-- `_conIco_37`
-- `_conIco_38`
-- `_conIco_39`
-- `_conIico_40`
-- `_conIco_cake01`
-</details><details><summary><code>_graphic\_ui\_itemicons\_consumable\_dyeicons</code></summary>
-
-- `_dyeIco_black`
-- `_dyeIco_blue`
-- `_dyeIco_brown`
-- `_dyeIco_cyan`
-- `_dyeIco_green`
-- `_dyeIco_grey`
-- `_dyeIco_lime`
-- `_dyeIco_orange`
-- `_dyeIco_pink`
-- `_dyeIco_purple`
-- `_dyeIco_red`
-- `_dyeIco_white`
-- `_dyeIco_yellow`
-</details><details><summary><code>_graphic\_ui\_itemicons\_consumable\_fishrodicons</code></summary>
-
-- `_fishRodIco_00`
-- `_pickAxe_00`
-</details><details><summary><code>_graphic\_ui\_itemicons\_helm</code></summary>
-
-- `_helmIco_01`
-- `_helmIco_02`
-- `_helmIco_03`
-- `_helmIco_04`
-- `_helmIco_05`
-- `_helmIco_06`
-- `_helmIco_07`
-- `_helmIco_08`
-- `_helmIco_09`
-- `_helmIco_10`
-- `_helmIco_11`
-- `_helmIco_12`
-- `_helmIco_13`
-- `_helmIco_14`
-- `_helmIco_15`
-- `_helmIco_16`
-- `_helmIco_17`
-- `_helmIco_18`
-- `_helmIco_19`
-- `_helmIco_20`
-- `_helmIco_21`
-- `_helmIco_22`
-- `_helmIco_23`
-- `_helmIco_24`
-- `_helmIco_25`
-- `_helmIco_26`
-- `_helmIco_27`
-- `_helmIco_28`
-- `_helmIco_29`
-- `_helmIco_30`
-- `_helmIco_31`
-- `_helmIco_32`
-- `_helmIco_33`
-- `_helmIco_34`
-- `_helmIco_35`
-- `_helmIco_36`
-- `_helmIco_37`
-- `_helmIco_38`
-- `_helmIco_39`
-- `_helmIco_40`
-- `_helmIco_41`
-- `_helmIco_42`
-- `_helmIco_43`
-</details><details><summary><code>_graphic\_ui\_itemicons\_ring</code></summary>
-
-- `icon_ring01`
-- `icon_ring02`
-- `icon_ring03`
-- `icon_ring04`
-- `icon_ring05`
-- `icon_ring06`
-- `icon_ring07`
-- `icon_ring08`
-- `icon_ring09`
-- `icon_ring10`
-- `icon_ring11`
-- `icon_ring12`
-- `icon_ring13`
-- `icon_ring14`
-- `icon_ring15`
-- `icon_ring16`
-- `icon_ring17`
-- `icon_ring18`
-- `icon_ring19`
-- `icon_ring20`
-- `icon_ring21`
-</details><details><summary><code>_graphic\_ui\_itemicons\_shield</code></summary>
-
-- `_shieldIco_01`
-- `_shieldIco_02`
-- `_shieldIco_03`
-- `_shieldIco_04`
-- `_shieldIco_05`
-- `_shieldIco_06`
-- `_shieldIco_07`
-- `_shieldIco_08`
-- `_shieldIco_09`
-- `_shieldIco_10`
-- `_shieldIco_11`
-- `_shieldIco_12`
-- `_shieldIco_13`
-- `_shieldIco_14`
-- `_shieldIco_15`
-- `_shieldIco_16`
-- `_shieldIco_17`
-- `_shieldIco_18`
-- `_shieldIco_19`
-</details><details><summary><code>_graphic\_ui\_itemicons\_tradeitem</code></summary>
-
-- `_tradIco_00`
-- `_tradIco_01`
-- `_tradIco_02`
-- `_tradIco_03`
-- `_tradIco_04`
-- `_tradIco_05`
-- `_tradIco_06`
-- `_tradIco_07`
-- `_tradIco_08`
-- `_tradIco_09`
-- `_tradIco_10`
-- `_tradIco_100`
-- `_tradIco_101`
-- `_tradIco_102`
-- `_tradIco_103`
-- `_tradIco_11`
-- `_tradIco_12`
-- `_tradIco_13`
-- `_tradIco_14`
-- `_tradIco_15`
-- `_tradIco_16`
-- `_tradIco_17`
-- `_tradIco_18`
-- `_tradIco_19`
-- `_tradIco_22`
-- `_tradIco_23`
-- `_tradIco_24`
-- `_tradIco_25`
-- `_tradIco_26`
-- `_tradIco_27`
-- `_tradIco_28`
-- `_tradIco_29`
-- `_tradIco_30`
-- `_tradIco_31`
-- `_tradIco_32`
-- `_tradIco_33`
-- `_tradIco_34`
-- `_tradIco_35`
-- `_tradIco_36`
-- `_tradIco_37`
-- `_tradIco_38`
-- `_tradIco_39`
-- `_tradIco_40`
-- `_tradIco_41`
-- `_tradIco_42`
-- `_tradIco_43`
-- `_tradIco_44`
-- `_tradIco_45`
-- `_tradIco_46`
-- `_tradIco_47`
-- `_tradIco_48`
-- `_tradIco_49`
-- `_tradIco_50`
-- `_tradIco_51`
-- `_tradIco_52`
-- `_tradIco_53`
-- `_tradIco_54`
-- `_tradIco_55`
-- `_tradIco_56`
-- `_tradIco_57`
-- `_tradIco_58`
-- `_tradIco_59`
-- `_tradIco_60`
-- `_tradIco_61`
-- `_tradIco_62`
-- `_tradIco_63`
-- `_tradIco_64`
-- `_tradIco_65`
-- `_tradIco_66`
-- `_tradIco_67`
-- `_tradIco_68`
-- `_tradIco_69`
-- `_tradIco_70`
-- `_tradIco_71`
-- `_tradIco_72`
-- `_tradIco_73`
-- `_tradIco_74`
-- `_tradIco_75`
-- `_tradIco_76`
-- `_tradIco_77`
-- `_tradIco_78`
-- `_tradIco_79`
-- `_tradIco_80`
-- `_tradIco_81`
-- `_tradIco_82`
-- `_tradIco_83`
-- `_tradIco_84`
-- `_tradIco_85`
-- `_tradIco_86`
-- `_tradIco_87`
-- `_tradIco_88`
-- `_tradIco_89`
-- `_tradIco_90`
-- `_tradIco_91`
-- `_tradIco_92`
-- `_tradIco_93`
-- `_tradIco_94`
-- `_tradIco_95`
-- `_tradIco_96`
-- `_tradIco_97`
-- `_tradIco_98`
-- `_tradIco_99`
-</details><details><summary><code>_graphic\_ui\_itemicons\_weapon</code></summary>
-
-- `_wepIco_01`
-- `_wepIco_02`
-- `_wepIco_03`
-- `_wepIco_04`
-- `_wepIco_05`
-- `_wepIco_06`
-- `_wepIco_07`
-- `_wepIco_08`
-- `_wepIco_09`
-- `_wepIco_10`
-- `_wepIco_100`
-- `_wepIco_101`
-- `_wepIco_102`
-- `_wepIco_103`
-- `_wepIco_11`
-- `_wepIco_12`
-- `_wepIco_13`
-- `_wepIco_14`
-- `_wepIco_15`
-- `_wepIco_16`
-- `_wepIco_17`
-- `_wepIco_18`
-- `_wepIco_19`
-- `_wepIco_20`
-- `_wepIco_21`
-- `_wepIco_22`
-- `_wepIco_23`
-- `_wepIco_24`
-- `_wepIco_25`
-- `_wepIco_26`
-- `_wepIco_27`
-- `_wepIco_28`
-- `_wepIco_29`
-- `_wepIco_30`
-- `_wepIco_31`
-- `_wepIco_32`
-- `_wepIco_33`
-- `_wepIco_34`
-- `_wepIco_35`
-- `_wepIco_36`
-- `_wepIco_37`
-- `_wepIco_38`
-- `_wepIco_39`
-- `_wepIco_40`
-- `_wepIco_41`
-- `_wepIco_42`
-- `_wepIco_43`
-- `_wepIco_44`
-- `_wepIco_45`
-- `_wepIco_46`
-- `_wepIco_47`
-- `_wepIco_48`
-- `_wepIco_49`
-- `_wepIco_50`
-- `_wepIco_51`
-- `_wepIco_52`
-- `_wepIco_53`
-- `_wepIco_54`
-- `_wepIco_55`
-- `_wepIco_56`
-- `_wepIco_57`
-- `_wepIco_58`
-- `_wepIco_59`
-- `_wepIco_60`
-- `_wepIco_61`
-- `_wepIco_62`
-- `_wepIco_63`
-- `_wepIco_64`
-- `_wepIco_65`
-- `_wepIco_66`
-- `_wepIco_67`
-- `_wepIco_68`
-- `_wepIco_69`
-- `_wepIco_70`
-- `_wepIco_71`
-- `_wepIco_72`
-- `_wepIco_73`
-- `_wepIco_74`
-- `_wepIco_75`
-- `_wepIco_76`
-- `_wepIco_77`
-- `_wepIco_78`
-- `_wepIco_79`
-- `_wepIco_80`
-- `_wepIco_81`
-- `_wepIco_82`
-- `_wepIco_83`
-- `_wepIco_84`
-- `_wepIco_85`
-- `_wepIco_86`
-- `_wepIco_87`
-- `_wepIco_88`
-- `_wepIco_89`
-- `_wepIco_90`
-- `_wepIco_91`
-- `_wepIco_92`
-- `_wepIco_93`
-- `_wepIco_94`
-- `_wepIco_95`
-- `_wepIco_96`
-- `_wepIco_97`
-- `_wepIco_98`
-- `_wepIco_99`
-- `_wepIco_woodDagger`
-- `_wepIco_woodHammer`
-- `_wepIco_woodScepter`
-- `_wepIco_woodSword`
-</details><details><summary><code>_graphic\_ui\_mapplots</code></summary>
-
-- `minimapFrame`
-- `minimapFrame2`
-- `miniMap_playerSpot`
-- `_minimap_crescentGrove`
-- `_minimap_sanctumCatacombs`
-- `_minimap_zone00_arcwoodPass`
-- `_minimap_zone00_bularrFortress`
-- `_minimap_zone00_crescentKeep`
-- `_minimap_zone00_crescentRoad`
-- `_minimap_zone00_effoldTerrace`
-- `_minimap_zone00_luvoraGarden`
-- `_minimap_zone00_outerSanctum`
-- `_minimap_zone00_sanctum`
-- `_minimap_zone00_trialOfTheStars`
-- `_minimap_zone00_tuulEnclave`
-- `_minimap_zone00_tuulvalley`
-- `_minimap_zone00_wallofStars`
-</details><details><summary><code>_graphic\_ui\_skillicons</code></summary>
-
-- `_abIco00`
-- `_abIco01`
-- `_abIco02`
-- `_abIco03`
-- `_abIco04`
-- `_abIco05`
-- `_abIco06`
-- `_abIco07`
-- `_abIco08`
-- `_abIco09`
-- `_abIco10`
-- `_abIco11`
-- `_abIco12`
-- `_abIco13`
-- `_abIco14`
-- `_abIco15`
-- `_abIco16`
-- `_abIco17`
-- `_abIco18`
-- `_abIco19`
-- `_abIco20`
-- `_abIco21`
-- `_abIco22`
-- `_abIco23`
-- `_abIco24`
-- `_abIco25`
-- `_abIco26`
-- `_abIco27`
-- `_abIco28`
-- `_abIco29`
-- `_abIco30`
-- `_abIco31`
-- `_abIco32`
-- `_abIco33`
-- `_abIco34`
-- `_abIco35`
-- `_abIco36`
-- `_abIco37`
-- `_abIco38`
-- `_abIco39`
-- `_abIco40`
-- `_abIco41`
-- `_abIco42`
-- `_abIco43`
-- `_abIco44`
-- `_abIco45`
-- `_abIco46`
-- `_abIco47`
-- `_abIco48`
-- `_abIco49`
-- `_abIco50`
-- `_abIco51`
-- `_abIco52`
-- `_abIco53`
-- `_abIco54`
-- `_abIco55`
-- `_abIco56`
-- `_abIco57`
-- `_abIco58`
-- `_abIco59`
-- `_abIco60`
-- `_abIco61`
-- `_abIco62`
-- `_abIco63`
-- `_abIco64`
-- `_abIco65`
-- `_abIco66`
-- `_abIco67`
-- `_abIco68`
-- `_abIco69`
-- `_abIco70`
-- `_abIco71`
-- `_abIco72`
-- `_abIco73`
-- `_abIco74`
-- `_abIco75`
-- `_abIco76`
-- `_abIco77`
-- `_abIco78`
-- `_abIco79`
-</details><details><summary><code>_graphic\_ui\_conditionicons</code></summary>
-
-- `_conditionIco_00`
+- **Default Chang**
+  - Hair: `changTex_head`
+  - Head: `changTex_head`
+  - Ear : `changEarTex_01`
+  - Body: `changTex_chest`
+  - Leg : `changTex_leg`
+  - Tail: `changTailTex_01`
+- **Chang Coona**
+  - Hair: `changTex_head02`
+  - Head: `changTex_head02`
+  - Ear : `changEarTex_02`
+  - Body: `changTex_chest`
+  - Leg : `changTex_leg`
+  - Tail: `changTailTex_02`
+- **Changmunk**
+  - Hair: `changTex_head`
+  - Head: `changTex_head03`
+  - Ear : `changEarTex_01`
+  - Body: `changTex_chest`
+  - Leg : `changTex_leg`
+  - Tail: `changTailTex_01`
+- **Clear Chang**
+  - Hair: `changTex_head`
+  - Head: `changTex_head04`
+  - Ear : `changEarTex_01`
+  - Body: `changTex_chest03`
+  - Leg : `changTex_leg03`
+  - Tail: `changTailTex_03`
+- **Changmunk Frekle**
+  - Hair: `changTex_head`
+  - Head: `changTex_head05`
+  - Ear : `changEarTex_01`
+  - Body: `changTex_chest`
+  - Leg : `changTex_leg`
+  - Tail: `changTailTex_01`
 </details>
