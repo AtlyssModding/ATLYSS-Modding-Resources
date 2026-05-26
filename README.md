@@ -8,6 +8,7 @@ This repository is licensed under **CC BY-NC-SA** ([**Attribution-NonCommercial-
 - [**Skin Templates**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Skin%20Templates)
 - [**Vanilla Textures**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Vanilla%20Textures)
 - [**Balance Changes**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Balance%20Changes)
+- [**Maxed Profiles**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Maxed%20Profiles)
 #
 ## External Resources
 Tools or resources that were used during the development of this wiki, some of these are used in guides.
@@ -20,8 +21,8 @@ Tools or resources that were used during the development of this wiki, some of t
 - `Marioalexsan:` Wiki and technical help. ModAudio and Multitool documentation. ([**Github**](https://github.com/Marioalexsan) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Marioalexsan/))
 - `Catman:` Wiki and technical help. Homebrewery documentation. ([**Github**](https://github.com/Catman-232) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Catman232/))
 - `Miss Monster:` Proofreading and feedback during active development. ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/MissMonster/)) <3
-- `Manikun:` Provided the templates and info for [**Skin Templates**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Skin%20Templates). ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Manikun/))
-- `Saito:` Creator of the data spreadsheets used for [Balance Changes](), granted permission to adopt them here.
+- `Manikun:` Provided the templates and info for Skin Templates. ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Manikun/))
+- `Saito:` Creator of the data spreadsheets used for Balance Changes, granted permission to adopt them here.
 
 Other linked resource authors. Additional READMEs may include other contributions that'll be noted separately!
 - `Nessie:` EasySettings documentation. ([**Github**](https://github.com/Nestorboy) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Nessie/))
