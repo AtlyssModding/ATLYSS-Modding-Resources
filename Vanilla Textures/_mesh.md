@@ -1,10 +1,10 @@
 These contain characters, NPCs, enemies, equipment, and some world assets. Check `_texture` for world textures.
 # Table of Contents
-- [**_prop**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/edit/main/Vanilla%20Textures/README.md#_prop)
-- [**00_player**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/edit/main/Vanilla%20Textures/README.md#00_player)
-- [**01_creep**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/edit/main/Vanilla%20Textures/README.md#01_creep)
-- [**02_friendlynpc**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/edit/main/Vanilla%20Textures/README.md#02_friendlynpc)
-- [**03_item**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/edit/main/Vanilla%20Textures/README.md#03_item)
+- [**_prop**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/README.md#_prop)
+- [**00_player**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/README.md#00_player)
+- [**01_creep**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/README.md#01_creep)
+- [**02_friendlynpc**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/README.md#02_friendlynpc)
+- [**03_item**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/README.md#03_item)
 #
 ### _prop
 <details><summary><code>_graphic\_mesh\_projectile</code></summary>
