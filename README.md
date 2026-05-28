@@ -4,9 +4,10 @@ The official dedicated wiki repository for modding ATLYSS with resources for bot
 
 This repository is licensed under **CC BY-NC-SA** ([**Attribution-NonCommercial-ShareAlike 4.0 International**](https://creativecommons.org/licenses/by-nc-sa/4.0/)) and shall be free and public to use by all without additional restrictions applied to them. All work belongs to their respective contributors and owners, which will be noted below.
 # Table of Contents
-- [**Shaders**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Shaders)
+- [**Homebrewery**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Homebrewery)
 - [**Skin Templates**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Skin%20Templates)
 - [**Vanilla Textures**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Vanilla%20Textures)
+- [**Shaders**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Shaders)
 - [**Balance Changes**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Balance%20Changes)
 - [**Maxed Profiles**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Maxed%20Profiles)
 #
@@ -31,4 +32,5 @@ Other linked resource authors. Additional READMEs may include other contribution
 - `WolfKann:` MapLoader and Emote Wheel creator guides. ([**Github**](https://github.com/WolfKann) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/WolfKann/))
 - `WawaTofu:` AtlyssTools Google Drive. ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/WawaTofu/))
 - `Lesserred:` Working in cooperation with the maintainer of the [**Kiseff Posts**](https://steamcommunity.com/sharedfiles/filedetails/?id=3717409755) guide on Steam.
+  - [**Homebrewery**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Homebrewery) includes dedicated creditings.
   - [**Shaders**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Shaders) includes dedicated creditings.
