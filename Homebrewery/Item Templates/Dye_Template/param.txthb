@@ -1,0 +1,15 @@
+{
+  "_dyeParams":
+  {
+    "_hue": 0.0,
+    "_saturation": 1.0,
+    "_brightness": 0.0,
+    "_contrast": 1.0
+  },
+  "_itemName": "Dye Template",
+  "_itemDescription": "Alternate template file for dyes with all available properties.",
+  "dropitemtime": -1,
+  "_destroyOnDrop": false,
+  "secretitem": false,
+  "sortindex": 0
+}

@@ -1,0 +1,16 @@
+{
+  "_shieldMesh": "_shield_01",
+  "_textureColorAdjust":
+  {
+    "_hue": 0.0,
+    "_saturation": 1.0,
+    "_brightness": 0.0,
+    "_contrast": 1.0
+  },
+  "_itemName": "Shield Template",
+  "_itemDescription": "Alternate template file for shields with all available properties.",
+  "dropitemtime": -1,
+  "_destroyOnDrop": false,
+  "secretitem": false,
+  "sortindex": 0
+}

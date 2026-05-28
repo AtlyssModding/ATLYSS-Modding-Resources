@@ -1,0 +1,8 @@
+{
+  "_itemName": "Trade Item Template",
+  "_itemDescription": "Alternate template file for trade items with all available properties.",
+  "dropitemtime": -1,
+  "_destroyOnDrop": false,
+  "secretitem": false,
+  "sortindex": 0
+}

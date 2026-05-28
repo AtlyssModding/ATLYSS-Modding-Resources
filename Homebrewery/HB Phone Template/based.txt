@@ -1,0 +1,20 @@
+{
+	"name": "Department Name",
+	"DiaIntroText": "Introduction dialogue.",
+	"DiaMainText": "Post-intro dialogue.",
+	"SelDPortalText": "Dungeon Button",
+	"DiaDPortalText": "Dungeon dialogue.",
+	"SelDPortalReturnText": "Dungeon Exit",
+	"SelStorageText": "Storage Button",
+	"DiaStorageText": "Storage dialogue.",
+	"SelStorageReturnText": "Storage Exit",
+	"SelWPortalText": "Portal Button",
+	"DiaWPortalText": "Portal dialogue.",
+	"SelWPortalReturnText": "Portal Exit",
+	"SelVanityText": "Vanity Button",
+	"DiaVanityText": "Vanity dialogue.",
+	"SelVanityReturnText": "Vanity Exit",
+	"SelIntroExitText": "Pre-intro Exit",
+	"SelExitText": "Post-intro Exit",
+	"DiaExitText": "Exiting dialogue."
+}

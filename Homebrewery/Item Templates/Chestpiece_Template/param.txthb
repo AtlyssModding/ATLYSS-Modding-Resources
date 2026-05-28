@@ -1,0 +1,28 @@
+{
+  "_chestRenderDisplay": "",
+  "_neckCollarMesh": "",
+  "_shoulderpadMesh": "",
+  "_armCuffRender": "",
+  "_hipMesh": "",
+  "_robeSkirtRender": "",
+  "_lockBoobs": false,
+  "_disableJiggleBoobBones": false,
+  "_textureArms": true,
+  "_shoulderPadDisplayType": 1,
+  "_canDyeArmor": false,
+  "_dyeAffectsCollar": false,
+  "_dyeAffectsShoulderpads": false,
+  "_colorAdjustParams":
+  {
+    "_hue": 0.0,
+    "_saturation": 1.0,
+    "_brightness": 0.0,
+    "_contrast": 1.0
+  },
+  "_itemName": "Chestpiece Template",
+  "_itemDescription": "Alternate template file for chestpieces with all available properties.",
+  "dropitemtime": -1,
+  "_destroyOnDrop": false,
+  "secretitem": false,
+  "sortindex": 0
+}

@@ -1,0 +1,18 @@
+{
+  "_capeMesh": "cape01",
+  "_keepTailUp": false,
+  "_canDyeArmor": false,
+  "_colorAdjustParams":
+  {
+    "_hue": 0.0,
+    "_saturation": 1.0,
+    "_brightness": 0.0,
+    "_contrast": 1.0
+  },
+  "_itemName": "Cape Template",
+  "_itemDescription": "Alternate template file for capes with all available properties.",
+  "dropitemtime": -1,
+  "_destroyOnDrop": false,
+  "secretitem": false,
+  "sortindex": 0
+}

@@ -1,0 +1,25 @@
+{
+  "_helmRender": "",
+  "_helmOverrideMesh": "",
+  "_blendHelmValue": 0,
+  "_useHelmHairDisplay": false,
+  "_hideHair": false,
+  "_hideEars": false,
+  "_hideMisc": false,
+  "_isFullHelm": false,
+  "_noFlip": false,
+  "_canDyeArmor": false,
+  "_colorAdjustParams":
+  {
+    "_hue": 0.0,
+    "_saturation": 1.0,
+    "_brightness": 0.0,
+    "_contrast": 1.0
+  },
+  "_itemName": "Helm Template",
+  "_itemDescription": "Alternate template file for helmets with all available properties.",
+  "dropitemtime": -1,
+  "_destroyOnDrop": false,
+  "secretitem": false,
+  "sortindex": 0
+}
