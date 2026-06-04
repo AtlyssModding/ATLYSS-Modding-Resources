@@ -1,5 +1,5 @@
 # README
-Go to the [**Wiki page**](/wiki).\
+Go to the [**Wiki page**](/ATLYSS-Modding-Resources/wiki).\
 The official dedicated wiki repository for modding ATLYSS with resources for both beginner and experienced user/creators. The goal of this project is to create a hub that connects the community's knowledge together into one coherent wiki for all to learn from. Everything is very work in progress and only pertains to one maintainer as of May 2026, but will gradually gather valuable information that isn't easily found elsewhere in the community.
 
 This repository is licensed under **CC BY-NC-SA** ([**Attribution-NonCommercial-ShareAlike 4.0 International**](https://creativecommons.org/licenses/by-nc-sa/4.0/)) and shall be free and public to use by all without additional restrictions applied to them. All work belongs to their respective contributors and owners, which will be noted below.
