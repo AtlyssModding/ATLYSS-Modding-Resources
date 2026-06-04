@@ -8,11 +8,11 @@ All of the files and folders were renamed to:
 
 ⚠️ I only claim ownership of the effort put into compiling and formatting this project, all the assets belong to Kiseff (KisSoft) and what you choose to do with them is on you.
 # Table of Contents
-- [**SkinTextureGroups**](../tree/main/Vanilla%20Textures#skintexturegroups)
-- [_mesh](../blob/main/Vanilla%20Textures/_mesh.md)
-- [_particle](../blob/main/Vanilla%20Textures/_particle.md)
-- [_texture](../blob/main/Vanilla%20Textures/_texture.md)
-- [_ui](../blob/main/Vanilla%20Textures/_ui.md)
+- [**SkinTextureGroups**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Vanilla%20Textures#skintexturegroups)
+- [_mesh](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/_mesh.md)
+- [_particle](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/_particle.md)
+- [_texture](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/_texture.md)
+- [_ui](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/_ui.md)
 - [Clip Documentation](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Clip%20Documentation) (Different repository that covers `_sound`)
 #
 ## SkinTextureGroups
@@ -456,7 +456,7 @@ The lack of a state is "null", reusing the Center state.
 - Hurt  : poonEYe14_Hurt
 - Pissed: poonEYe14_Pissed
 ```
-</details><details><summary><Code>Kubolds</code></summary>
+</details><details><summary><code>Kubolds</code></summary>
 
 #1
 ```
@@ -531,7 +531,7 @@ The lack of a state is "null", reusing the Center state.
 - Hurt  : _koboldEye10_hurt
 - Pissed: _koboldEye10_pissed
 ```
-</details><details><summary><Code>Byrdles</code></summary>
+</details><details><summary><code>Byrdles</code></summary>
 
 #1
 ```
@@ -641,7 +641,7 @@ The lack of a state is "null", reusing the Center state.
 - Hurt  : byrdle_eyes12_hurt
 - Pissed: byrdle_eyes12_pissed
 ```
-</details><details><summary><Code>Changs</code></summary>
+</details><details><summary><code>Changs</code></summary>
 
 #1
 ```
@@ -759,7 +759,7 @@ The lack of a state is "null", reusing the Center state.
 
 #
 ## MouthTextureGroups
-<details><summary><Code>Imps</code></summary>
+<details><summary><code>Imps</code></summary>
 
 ```
 #1 m10 + m7
@@ -769,7 +769,7 @@ The lack of a state is "null", reusing the Center state.
 #5 m11 + m11_open
 #6 m12 + m12_open
 ```
-</details><details><summary><Code>Poons</code></summary>
+</details><details><summary><code>Poons</code></summary>
 
 ```
 #1 poonmouth01 + poonmouth05
@@ -781,7 +781,7 @@ The lack of a state is "null", reusing the Center state.
 #7 poonmouth10 + poonmouth05
 #8 poonmouth11 + poonmouth11_open
 ```
-</details><details><summary><Code>Kubolds</code></summary>
+</details><details><summary><code>Kubolds</code></summary>
 
 - `_mouth_kobold01_open` is constant for all mouths.
 ```
@@ -791,7 +791,7 @@ The lack of a state is "null", reusing the Center state.
 #4 _mouth_kobold04
 #5 _mouth_kobold05
 ```
-</details><details><summary><Code>Changs</code></summary>
+</details><details><summary><code>Changs</code></summary>
 
 ```
 #1  changMouth_01 + changMouth_01_open
