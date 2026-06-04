@@ -1,15 +1,14 @@
 # README
 Collection of tools and resources for [**Homebrewery**](https://thunderstore.io/c/atlyss/p/Catman232/Homebrewery/) that don't easily fit anywhere else.
 # Table of Contents
-- [**Item Templates**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Homebrewery/Item%20Templates)
-- [**Icons Render**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Homebrewery/Icons%20Render)
-- [LimitCFGs](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Homebrewery/LimitCFGs)
-- [JiggleSettings](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Homebrewery/JiggleSettings)
-- [HB Phone Template](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Homebrewery/HB%20Phone%20Template)
+- [**Item Templates**](/Homebrewery/Item%20Templates)
+- [**Icons Render**](/Homebrewery/Icons%20Render)
+- [LimitCFGs](/Homebrewery/LimitCFGs)
+- [JiggleSettings](/Homebrewery/JiggleSettings)
+- [HB Phone Template](/Homebrewery/HB%20Phone%20Template)
 -
-- [**Skin Templates**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Skin%20Templates)
-- [**Vanilla Textures**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Vanilla%20Textures)
-- [**UV Maps**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Vanilla%20Textures/_UV%20Maps)
+- [**Skin Templates**](../Skin%20Templates)
+- [**Vanilla Textures**](../Vanilla%20Textures)
 #
 ## Additional Information
 Item Templates and Icons Render are a set of tools for easily creating items, they're based off of the Homebrewery User Manual but designed for active development instead. The `ATLYSS_HEADS_TEMPLATE` file is a 3D mesh template for creating [Helm Renders](https://github.com/Catman-232/Homebrewery/wiki/Properties-that-only-Helms-have#_helmrender), though you should also read about [Helm Override Meshes](https://github.com/Catman-232/Homebrewery/wiki/Properties-that-only-Helms-have#_helmoverridemesh).
