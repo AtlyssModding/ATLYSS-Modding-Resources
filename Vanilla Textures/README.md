@@ -8,11 +8,11 @@ All of the files and folders were renamed to:
 
 ⚠️ I only claim ownership of the effort put into compiling and formatting this project, all the assets belong to Kiseff (KisSoft) and what you choose to do with them is on you.
 # Table of Contents
-- [**SkinTextureGroups**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Vanilla%20Textures#skintexturegroups)
-- [_mesh](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/_mesh.md)
-- [_particle](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/_particle.md)
-- [_texture](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/_texture.md)
-- [_ui](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/blob/main/Vanilla%20Textures/_ui.md)
+- [**SkinTextureGroups**](../tree/main/Vanilla%20Textures#skintexturegroups)
+- [_mesh](../blob/main/Vanilla%20Textures/_mesh.md)
+- [_particle](../blob/main/Vanilla%20Textures/_particle.md)
+- [_texture](../blob/main/Vanilla%20Textures/_texture.md)
+- [_ui](../blob/main/Vanilla%20Textures/_ui.md)
 - [Clip Documentation](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Clip%20Documentation) (Different repository that covers `_sound`)
 #
 ## SkinTextureGroups
