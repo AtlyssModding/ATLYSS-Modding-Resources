@@ -4,7 +4,7 @@ The official dedicated wiki repository for modding ATLYSS with resources for bot
 
 This repository is licensed under **CC BY-NC-SA** ([**Attribution-NonCommercial-ShareAlike 4.0 International**](https://creativecommons.org/licenses/by-nc-sa/4.0/)) and shall be free and public to use by all without additional restrictions applied to them. All work belongs to their respective contributors and owners, which will be noted below.
 # Table of Contents
-- [**Homebrewery**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Homebrewery)
+- [**Homebrewery**](/Homebrewery)
 - [**Skin Templates**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Skin%20Templates)
 - [**Vanilla Textures**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Vanilla%20Textures)
 - [**Shaders**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/tree/main/Shaders)
