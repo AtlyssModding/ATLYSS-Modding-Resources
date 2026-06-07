@@ -28,7 +28,7 @@ These shaders require `TerrainSplatmapCustom.cginc` to work. This is only requir
 - `LODDER Triplanar Terrain Diffuse`
 #
 ## Contributors
-- `Nessie:` ColorAdjust, diffuse_standard, QuakeLiquid. ([**Github**](https://github.com/Nestorboy) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Nessie/))
+- `Nessie:` ColorAdjust, diffuse_standard_RESTORED, QuakeLiquid. ([**Github**](https://github.com/Nestorboy) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Nessie/))
 - `Rootbeer:` unlit_colorAdjust, unlit_colorAdjust_Cutout, unlit_colorAdjust_noHue, diffuse_colorAdjust, diffuse_standard, LODDER Triplanar Terrain Standard. ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Rootbeer/))
 - `Zera:` MovingTexture, MovingSkybox. ([**Github**](https://github.com/LefiloMandering) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/ZenFishes/))
 - `Dipi11:` FoliageShaderSphereize, FoliageShaderSphereizeSkybox. ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Dipi11/))
