@@ -12,7 +12,7 @@ Official shaders provided by Kiseff.
 
 Shaders that have been recreated or restored as well as custom shaders that were used for Fray Fields and Fray Valley.
 - `DiffuseColorAdjust_RESTORED`
-- `diffuse_standard`
+- `diffuse_standard_RESTORED`
 - `ColorAdjust`
 - `QuakeLiquid`
 - `MovingTexture` (SG)
@@ -23,7 +23,7 @@ The foliage shader made by Dipi11. The "Skybox" variant just has the vertex shad
 - `FoliageShaderSphereizeSkybox`
 
 These shaders require `TerrainSplatmapCustom.cginc` to work. This is only required for the terrain and will require the material of the terrain to be set to `_mat_TerrainTriPlanar.mat` (edited by Wolfkann for increase layer compatibility).
-- `LODDER Triplanar Terrain Standard`
+- `LODDER Triplanar Terrain Standard (Edit)`
 - `LODDER Triplanar Terrain Specular`
 - `LODDER Triplanar Terrain Diffuse`
 #
