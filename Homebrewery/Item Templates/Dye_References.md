@@ -22,8 +22,8 @@ Up to date as of May 28th 2026, Atlyss 12026.a3, Homebrewery 4.7.30.
   },
 ```
 - **Green** (Reduce saturation to 1 for OG Green dye)
-"_dyeParams":
 ```json
+"_dyeParams":
   {
     "_hue": 0,
     "_saturation": 1.5,
