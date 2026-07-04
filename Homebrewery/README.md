@@ -20,15 +20,15 @@ LimitCFGs require you configure "SliderRangeOverride" and "ClampPlayerProportion
 
 **Green.png** is a quick list of suggested Dye-compatibility greens for Eyes, Mouths, Clothing.
 - `#00FF21`
-- `#B5EF9C`
-- `#89C97B`
-- `#6BAA5A`
-- `#63A64A`
-- `#62944A`
-- `#5A794A`
-- `#69A060`
-- `#619459`
-- `#4A7941`
+- `#B5EF9C`\
+  `#89C97B`\
+  `#6BAA5A`
+- `#63A64A`\
+  `#62944A`\
+  `#5A794A`
+- `#69A060`\
+  `#619459`\
+  `#4A7941`
 
 ![Greens](/Homebrewery/Green.png)
 #
