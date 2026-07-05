@@ -89,7 +89,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Sleeper's Robe",
+            "_itemName": "Skywrill Tabard",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 8,
@@ -100,7 +100,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Lord Breastplate",
+            "_itemName": "Sleeper's Robe",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 9,
@@ -111,7 +111,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Reapsow Garb",
+            "_itemName": "Lord Breastplate",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 10,
@@ -122,7 +122,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Witchlock Robe",
+            "_itemName": "Reapsow Garb",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 11,
@@ -133,7 +133,7 @@
             "_isAltWeapon": false
         },
         {
-            "_itemName": "Skywrill Tabard",
+            "_itemName": "Witchlock Robe",
             "_quantity": 1,
             "_maxQuantity": 1,
             "_slotNumber": 12,
