@@ -2,7 +2,7 @@
 Go to the [**Wiki page**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/wiki).\
 The official dedicated wiki repository for modding ATLYSS with resources for both beginner and experienced user/creators. The goal of this project is to create a hub that connects the community's knowledge together into one coherent wiki for all to learn from. Everything is very work in progress and only pertains to one maintainer as of May 2026, but will gradually gather valuable information that isn't easily found elsewhere in the community.
 
-Download the whole repository using `<> Code` -> "Download ZIP" or download individual folders using [**Download Github directory**](https://download-directory.github.io/).
+Download the whole repository using `<> Code` -> "Download ZIP" or individual folders using [**Download-Directory**](https://download-directory.github.io/).
 
 This repository is licensed under **CC BY-NC-SA** ([**Attribution-NonCommercial-ShareAlike 4.0 International**](https://creativecommons.org/licenses/by-nc-sa/4.0/)) and shall be free and public to use by all without additional restrictions applied to them. All work belongs to their respective contributors and owners, which will be noted below.
 
@@ -38,5 +38,5 @@ Other linked resource authors. Additional READMEs may include other contribution
 - `Lesserred:` Working in cooperation with the maintainer of the [**Kiseff Posts**](https://steamcommunity.com/sharedfiles/filedetails/?id=3717409755) guide on Steam.
 - **Includes dedicated creditings:**
   - [Homebrewery](/Homebrewery)
-  - [Vanilla Changes](/Vanilla%Changes)
+  - [Vanilla Changes](/Vanilla%20Changes)
   - [Shaders](/Shaders)
