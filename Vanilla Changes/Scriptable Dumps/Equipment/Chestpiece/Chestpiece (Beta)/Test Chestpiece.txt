@@ -1,0 +1,59 @@
+- ScriptableItem -
+name : (lv-1) CHESTPIECE_Test Chestpiece
+_itemName : Test Chestpiece
+_itemDescription : Used to test texturing.
+_destroyOnDrop : False
+_vendorCost : 1
+_maxStackAmount : 1
+_itemIcon : _abIco00 (UnityEngine.Sprite)
+_itemRarity : Cosmetic
+
+- ScriptableEquipment -
+_equipmentLevel : 1
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 9
+    _saturation : 1.75
+    _brightness : 0
+    _contrast : 0.97
+}
+_armorTexture : _chTex_37a (UnityEngine.Texture2D)
+
+- ScriptableChestpiece -
+_lockBoobs : False
+_disableJiggleBoobBones : False
+_textureArms : False
+_legOverlayTexture : 
+_boobOverrideTexture : 
+_neckCollarMesh : 
+_neckCollarTexture : 
+_chestRenderDisplay : 
+_chestRenderTexture : 
+_chestRenderBoobTexture : 
+_robeSkirtRender : armorRender_robeSkirt01 (ScriptableArmorRender)
+_robeSkirtTexture : _lgTex_39 (UnityEngine.Texture2D)
+_armCuffRender : 
+_shoulderpadMesh : 
+_shoulderpadTexture : 
+_shoulderPadDisplayType : None

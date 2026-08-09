@@ -1,0 +1,52 @@
+- ScriptableItem -
+name : (lv-16) WEAPON_Serrated Blade (Melee)
+_itemName : Serrated Blade
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 730
+_maxStackAmount : 1
+_itemIcon : _wepIco_59 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 17
+_classRequirement : 
+_statArray : {
+    _maxHealth : 2
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 10
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 4
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 0
+}
+
+- ScriptableWeapon -
+weaponType : Melee
+_combatElement : None
+_weaponProjectileSet : 
+_weaponDamage : 16
+_damageBonus : 4
+_weaponConditionSlot : None
+weaponTexture : blade07Tex_00 (UnityEngine.Texture2D)
+weaponMesh : _weapon_blade07 (UnityEngine.Mesh)
+trailColors : #FFFFFFFF & #A4A4A4FF
+_textureColorAdjust : {
+    _hue : -5
+    _saturation : 1.478
+    _brightness : -0.053
+    _contrast : 1.577
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _mediumSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingMedium (UnityEngine.AudioClip)

@@ -1,0 +1,59 @@
+- ScriptableItem -
+name : (lv-15) CHESTPIECE_Mercenary Vestment
+_itemName : Mercenary Vestment
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 680
+_maxStackAmount : 1
+_itemIcon : _chestIco_22 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 15
+_classRequirement : 
+_statArray : {
+    _maxHealth : 5
+    _maxMana : 0
+    _maxStamina : 3
+    _experience : 0
+    _attackPower : 6
+    _magicPower : 5
+    _dexPower : 3
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 7
+    _magicDefense : 6
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 2
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : _chTex_26a (UnityEngine.Texture2D)
+
+- ScriptableChestpiece -
+_lockBoobs : False
+_disableJiggleBoobBones : False
+_textureArms : True
+_legOverlayTexture : _chTex_26_leg (UnityEngine.Texture2D)
+_boobOverrideTexture : _chTex_26b (UnityEngine.Texture2D)
+_neckCollarMesh : 
+_neckCollarTexture : 
+_chestRenderDisplay : 
+_chestRenderTexture : 
+_chestRenderBoobTexture : 
+_robeSkirtRender : 
+_robeSkirtTexture : 
+_armCuffRender : 
+_shoulderpadMesh : 
+_shoulderpadTexture : 
+_shoulderPadDisplayType : None

@@ -1,0 +1,59 @@
+- ScriptableItem -
+name : (lv-12) WEAPON_Necroroyal Halberd (Polearm, Strength)
+_itemName : Necroroyal Halberd
+_itemDescription : Used by the royal guard of the undead.
+_destroyOnDrop : False
+_vendorCost : 576
+_maxStackAmount : 1
+_itemIcon : _wepIco_42 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 12
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 4
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0.018
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Hellsludge Core (ScriptableTradeItem)
+    _scriptItemQuantity : 3
+}
+
+- ScriptableWeapon -
+weaponType : Strength_Melee_2H
+_weaponHoldClipIndex : 2
+_combatElement : None
+_weaponProjectileSet : 
+_weaponDamage : 10
+_damageBonus : 6
+_weaponConditionSlot : None
+weaponTexture : polearm02Tex_02 (UnityEngine.Texture2D)
+weaponMesh : polearm_02_alt00 (UnityEngine.Mesh)
+trailColors : #FFFFFFA3 & #8C8C8C84
+_textureColorAdjust : {
+    _hue : 141
+    _saturation : 1.71
+    _brightness : -0.13
+    _contrast : 1.35
+}
+_weaponTakeOutSfxIndex : 2
+_setWeaponTakeOutSfx : _polearmTakeOut01 (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 1
+_setWeaponSwingSfx : _polearmSwing03 (UnityEngine.AudioClip)

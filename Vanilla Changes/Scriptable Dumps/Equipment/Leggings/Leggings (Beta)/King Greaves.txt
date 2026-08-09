@@ -1,0 +1,53 @@
+- ScriptableItem -
+name : (lv-18) LEGGINGS_King Greaves
+_itemName : King Greaves
+_itemDescription : Your pants, my liege?
+_destroyOnDrop : False
+_vendorCost : 1000
+_maxStackAmount : 1
+_itemIcon : _legIco_05 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 18
+_classRequirement : 00_CLASS_fighter (ScriptablePlayerBaseClass)
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 6
+    _experience : 0
+    _attackPower : 7
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 13
+    _magicDefense : 5
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Hellsludge Core (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 1
+    _saturation : 2
+    _brightness : -0.08
+    _contrast : 1.12
+}
+_armorTexture : _lgTex_19b (UnityEngine.Texture2D)
+
+- ScriptableLeggings -
+_textureUpperLegOnly : False
+_textureFeet : True
+_legPieceRender_01 : armorRender_legPads03 (ScriptableArmorRender)
+_legPieceTexture_01 : _legpadsTex_04 (UnityEngine.Texture2D)
+_legPieceRender_02 : armorRender_shinPads01 (ScriptableArmorRender)
+_legPieceTexture_02 : _legpadsTex_04 (UnityEngine.Texture2D)
+_legPieceRender_03 : 
+_legPieceTexture_03 : legCuffs03Tex_01 (UnityEngine.Texture2D)
+_legPieceRender_04 : 
+_legPieceTexture_04 : _lgTex_16a (UnityEngine.Texture2D)

@@ -1,0 +1,55 @@
+- ScriptableItem -
+name : (lv-17) WEAPON_Coldgeist Frostcaller (Magic Bell)
+_itemName : Coldgeist Frostcaller
+_itemDescription : Used to awaken Geistlords with its spine chilling tone.
+_destroyOnDrop : False
+_vendorCost : 875
+_maxStackAmount : 1
+_itemIcon : _wepIco_47 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 17
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 5
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 8
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0.0015
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 3
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Soul Pearl (ScriptableTradeItem)
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Magic Bell
+_combatElement : Water
+_weaponProjectileSet : weaponProjectileSet_bell_coldgeist (ScriptableWeaponProjectileSet)
+_weaponDamage : 19
+_damageBonus : 3
+_weaponConditionSlot : {
+    _scriptableCondition : Cold
+    _chance : 0.1
+}
+weaponTexture : bell03Tex_00 (UnityEngine.Texture2D)
+weaponMesh : _bell_03 (UnityEngine.Mesh)
+trailColors : #45A7FFFF & #2455F5FF
+_textureColorAdjust : {
+    _hue : -31
+    _saturation : 2
+    _brightness : 0
+    _contrast : 1.09
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _takeOutBell3 (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _bellSwing04 (UnityEngine.AudioClip)

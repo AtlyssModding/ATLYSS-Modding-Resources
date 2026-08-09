@@ -1,0 +1,53 @@
+- ScriptableItem -
+name : (lv-10) LEGGINGS_Sash Leggings
+_itemName : Sash Leggings
+_itemDescription : Tight.
+_destroyOnDrop : False
+_vendorCost : 120
+_maxStackAmount : 1
+_itemIcon : _legIco_13 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 10
+_classRequirement : 02_CLASS_bandit (ScriptablePlayerBaseClass)
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 5
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 3
+    _criticalRate : 0.0085
+    _magicCriticalRate : 0
+    _evasion : 0.0085
+    _defense : 6
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Blightwood Stick (ScriptableTradeItem)
+    _scriptItemQuantity : 3
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : _lgTex_17a (UnityEngine.Texture2D)
+
+- ScriptableLeggings -
+_textureUpperLegOnly : False
+_textureFeet : True
+_legPieceRender_01 : 
+_legPieceTexture_01 : _lgTex_13a (UnityEngine.Texture2D)
+_legPieceRender_02 : 
+_legPieceTexture_02 : _lgTex_16a (UnityEngine.Texture2D)
+_legPieceRender_03 : 
+_legPieceTexture_03 : _lgTex_16a (UnityEngine.Texture2D)
+_legPieceRender_04 : 
+_legPieceTexture_04 : _lgTex_16a (UnityEngine.Texture2D)

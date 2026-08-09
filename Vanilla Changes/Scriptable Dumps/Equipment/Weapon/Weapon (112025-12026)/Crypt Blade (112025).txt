@@ -1,0 +1,58 @@
+- ScriptableItem -
+name : (lv-2) WEAPON_Crypt Blade (Sword, Strength)
+_itemName : Crypt Blade
+_itemDescription : The sharped blade was a bone of a madman.
+_destroyOnDrop : False
+_vendorCost : 25
+_maxStackAmount : 1
+_itemIcon : _wepIco_26 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 2
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Sword
+_combatElement : None
+_weaponProjectileSet : 
+_weaponDamage : 4
+_damageBonus : 4
+_weaponConditionSlot : None
+weaponTexture : meleeWepTex_blade05 (UnityEngine.Texture2D)
+weaponMesh : _weapon_blade05 (UnityEngine.Mesh)
+trailColors : #FFFFFFFF & #A8A8A8FF
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 2
+    _brightness : -0.12
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _mediumSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingMedium (UnityEngine.AudioClip)

@@ -1,0 +1,55 @@
+- ScriptableItem -
+name : (lv-17) WEAPON_Coldgeist Punisher (Heavy Melee)
+_itemName : Coldgeist Punisher
+_itemDescription : The blade of the axe is forever frigid.
+_destroyOnDrop : False
+_vendorCost : 900
+_maxStackAmount : 1
+_itemIcon : _wepIco_41 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 17
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 3
+    _experience : 0
+    _attackPower : 8
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0.012
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Soul Pearl (ScriptableTradeItem)
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Heavy Melee
+_combatElement : Water
+_weaponProjectileSet : 
+_weaponDamage : 26
+_damageBonus : 3
+_weaponConditionSlot : {
+    _scriptableCondition : Cold
+    _chance : 0.1
+}
+weaponTexture : axeHammer04Tex_00 (UnityEngine.Texture2D)
+weaponMesh : _axeHammer_04 (UnityEngine.Mesh)
+trailColors : #00A4F3FF & #286EFFFF
+_textureColorAdjust : {
+    _hue : -27
+    _saturation : 2
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _heavySheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingHeavy (UnityEngine.AudioClip)

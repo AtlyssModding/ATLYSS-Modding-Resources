@@ -1,0 +1,41 @@
+- ScriptableItem -
+name : (lv-15) RING_Slitherwraith Ring
+_itemName : Slitherwraith Ring
+_itemDescription : Slither through and past the doors.
+_destroyOnDrop : False
+_vendorCost : 380
+_maxStackAmount : 1
+_itemIcon : icon_ring09 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 15
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 7
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0.012
+    _defense : 8
+    _magicDefense : 4
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Ghostdust (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : 

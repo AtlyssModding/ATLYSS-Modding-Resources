@@ -1,0 +1,22 @@
+- ScriptableItem -
+name : (lv-10) STATUSCONSUMABLE_Regeneration Potion
+_itemName : Regeneration Potion
+_itemDescription : Temporarily regenerates 8 health over time.
+_destroyOnDrop : False
+_vendorCost : 280
+_maxStackAmount : 99
+_itemIcon : _conIco_31 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableConsumable -
+_consumableCooldown : 60
+_consumableObject : _consumableEffect_healthConsumable (UnityEngine.GameObject)
+_useOnlyInTown : False
+
+- ScriptableStatusConsumable -
+_healthApply : 0
+_manaApply : 0
+_staminaApply : 0
+_expGain : 0
+_resetSkillPoints : False
+_resetAttributePoints : False

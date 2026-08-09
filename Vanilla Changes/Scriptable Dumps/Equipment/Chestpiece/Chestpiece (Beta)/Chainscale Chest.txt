@@ -1,0 +1,59 @@
+- ScriptableItem -
+name : (lv-17) CHESTPIECE_Chainscale Chest
+_itemName : Chainscale Chest
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 800
+_maxStackAmount : 1
+_itemIcon : _chestIco_31 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 17
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 8
+    _experience : 0
+    _attackPower : 9
+    _magicPower : 0
+    _dexPower : 5
+    _criticalRate : 0.012
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 12
+    _magicDefense : 5
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 0
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : _chTex_40a (UnityEngine.Texture2D)
+
+- ScriptableChestpiece -
+_lockBoobs : False
+_disableJiggleBoobBones : False
+_textureArms : True
+_legOverlayTexture : _chTex_40_leg (UnityEngine.Texture2D)
+_boobOverrideTexture : _chTex_40b (UnityEngine.Texture2D)
+_neckCollarMesh : 
+_neckCollarTexture : 
+_chestRenderDisplay : 
+_chestRenderTexture : 
+_chestRenderBoobTexture : 
+_robeSkirtRender : 
+_robeSkirtTexture : 
+_armCuffRender : armorRender_armCuff02 (ScriptableArmorRender)
+_shoulderpadMesh : _shoulderpad_01 (UnityEngine.Mesh)
+_shoulderpadTexture : shoulderpad00Tex_01 (UnityEngine.Texture2D)
+_shoulderPadDisplayType : Both

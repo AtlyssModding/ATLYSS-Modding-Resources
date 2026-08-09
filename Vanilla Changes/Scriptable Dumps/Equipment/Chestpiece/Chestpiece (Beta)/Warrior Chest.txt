@@ -1,0 +1,59 @@
+- ScriptableItem -
+name : (lv-10) CHESTPIECE_Warrior Chest
+_itemName : Warrior Chest
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 250
+_maxStackAmount : 1
+_itemIcon : _chestIco_11 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 10
+_classRequirement : 00_CLASS_fighter (ScriptablePlayerBaseClass)
+_statArray : {
+    _maxHealth : 5
+    _maxMana : 0
+    _maxStamina : 5
+    _experience : 0
+    _attackPower : 4
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 8
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Blightwood Stick (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : _chTex_13a (UnityEngine.Texture2D)
+
+- ScriptableChestpiece -
+_lockBoobs : True
+_disableJiggleBoobBones : True
+_textureArms : False
+_legOverlayTexture : 
+_boobOverrideTexture : 
+_neckCollarMesh : 
+_neckCollarTexture : 
+_chestRenderDisplay : armorRender_chestpiece03 (ScriptableArmorRender)
+_chestRenderTexture : chestPiece03Tex_01 (UnityEngine.Texture2D)
+_chestRenderBoobTexture : 
+_robeSkirtRender : 
+_robeSkirtTexture : 
+_armCuffRender : 
+_shoulderpadMesh : shoulderpad_pad01 (UnityEngine.Mesh)
+_shoulderpadTexture : _legpadsTex_01 (UnityEngine.Texture2D)
+_shoulderPadDisplayType : Right

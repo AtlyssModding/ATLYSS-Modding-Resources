@@ -1,0 +1,22 @@
+- ScriptableItem -
+name : (lv-0) STATUSCONSUMABLE_Lesser Defense Potion
+_itemName : Lesser Defense Potion
+_itemDescription : Temporarily increases Defense by 5.
+_destroyOnDrop : False
+_vendorCost : 85
+_maxStackAmount : 99
+_itemIcon : _conIco_35 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableConsumable -
+_consumableCooldown : 60
+_consumableObject : _consumableEffect_healthConsumable (UnityEngine.GameObject)
+_useOnlyInTown : False
+
+- ScriptableStatusConsumable -
+_healthApply : 0
+_manaApply : 0
+_staminaApply : 0
+_expGain : 0
+_resetSkillPoints : False
+_resetAttributePoints : False

@@ -1,0 +1,9 @@
+- ScriptableItem -
+name : TRADEITEM_Rageboar Spear
+_itemName : Rageboar Spear
+_itemDescription : The bloodstain on this spear means deadly business.
+_destroyOnDrop : False
+_vendorCost : 28
+_maxStackAmount : 99
+_itemIcon : _tradIco_44 (UnityEngine.Sprite)
+_itemRarity : Common

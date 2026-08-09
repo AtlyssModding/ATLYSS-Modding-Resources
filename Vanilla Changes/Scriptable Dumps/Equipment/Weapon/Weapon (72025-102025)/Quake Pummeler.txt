@@ -1,0 +1,64 @@
+- ScriptableItem -
+name : (lv-18) WEAPON_Quake Pummeler (Hammer, Strength)
+_itemName : Quake Pummeler
+_itemDescription : Smash them all into oblivion.
+_destroyOnDrop : False
+_vendorCost : 1895
+_maxStackAmount : 1
+_itemIcon : _wepIco_72 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 18
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 8
+    _experience : 0
+    _attackPower : 12
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Soul Pearl (ScriptableTradeItem)
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Strength_Melee_2H
+_weaponHoldClipIndex : 0
+_combatElement : Earth - ID: 4
+_weaponProjectileSet : 
+_weaponDamage : 42
+_damageBonus : 15
+_weaponConditionSlot : {
+    _scriptableCondition : Brittle - ID: 6
+    _chance : 0.12
+    _bonusPower : 0
+    _bonusDuration : 7
+}
+weaponTexture : heavyWeapon01Tex_00 (UnityEngine.Texture2D)
+weaponMesh : _heavyWeapon_00 (UnityEngine.Mesh)
+trailColors : #F33F00FF & #FF6428FF
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 1.28
+    _brightness : 0.1
+    _contrast : 1.24
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _heavySheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingHeavy (UnityEngine.AudioClip)

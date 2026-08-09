@@ -1,0 +1,49 @@
+- ScriptableItem -
+name : (lv-7) HELM_Diva Crown
+_itemName : Diva Crown
+_itemDescription : A crown worn by a Slime Diva. Contains unusual power.
+_destroyOnDrop : False
+_vendorCost : 136
+_maxStackAmount : 1
+_itemIcon : _helmIco_12 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 7
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 3
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 3
+    _magicDefense : 5
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Slime Diva Ears (ScriptableTradeItem)
+    _scriptItemQuantity : 3
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0.06
+    _contrast : 1
+}
+_armorTexture : halo03Tex_00 (UnityEngine.Texture2D)
+
+- ScriptableHelm -
+_blendHelmValue : 0
+_useHelmHairDisplay : False
+_hideEars : False
+_hideMisc : False
+_helmRender : helmRender_halo (ScriptableArmorRender)
+_helmOverrideMesh : _helm_halo_03 (UnityEngine.Mesh)

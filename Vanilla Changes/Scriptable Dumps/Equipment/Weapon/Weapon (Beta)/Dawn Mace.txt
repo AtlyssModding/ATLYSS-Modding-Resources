@@ -1,0 +1,52 @@
+- ScriptableItem -
+name : (lv-10) WEAPON_Dawn Mace (Melee)
+_itemName : Dawn Mace
+_itemDescription : Clubbed to death.
+_destroyOnDrop : False
+_vendorCost : 165
+_maxStackAmount : 1
+_itemIcon : _wepIco_14 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 10
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 3
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Mouth Bittertooth (ScriptableTradeItem)
+    _scriptItemQuantity : 8
+}
+
+- ScriptableWeapon -
+weaponType : Melee
+_combatElement : None
+_weaponProjectileSet : 
+_weaponDamage : 10
+_damageBonus : 2
+_weaponConditionSlot : None
+weaponTexture : lightWep_mace01Tex_01 (UnityEngine.Texture2D)
+weaponMesh : _lightWeapon_mace01 (UnityEngine.Mesh)
+trailColors : #FFFFFFFF & #ADADAD59
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _mediumSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingMedium (UnityEngine.AudioClip)

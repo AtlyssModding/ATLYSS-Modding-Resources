@@ -1,0 +1,50 @@
+- ScriptableItem -
+name : (lv-16) CAPE_Sagecaller Cape
+_itemName : Sagecaller Cape
+_itemDescription : Brimming with magical power.
+_destroyOnDrop : False
+_vendorCost : 923
+_maxStackAmount : 1
+_itemIcon : _capIco_07 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 16
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 8
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 8
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0.0012
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 8
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 0
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 1
+    _saturation : 2
+    _brightness : 0.047
+    _contrast : 1.286
+}
+_armorTexture : _capeTex_05 (UnityEngine.Texture2D)
+
+- ScriptableCape -
+_capeMesh : cape01 (UnityEngine.Mesh)

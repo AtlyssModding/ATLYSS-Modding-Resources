@@ -1,0 +1,44 @@
+- ScriptableItem -
+name : (lv-15) CAPE_Cozy Cloak
+_itemName : Cozy Cloak
+_itemDescription : Keeps you warm in the cold weather.
+_destroyOnDrop : False
+_vendorCost : 600
+_maxStackAmount : 1
+_itemIcon : _capIco_09 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 15
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 3
+    _magicPower : 3
+    _dexPower : 3
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 8
+    _magicDefense : 5
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Rageboar Spear (ScriptableTradeItem)
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : _capeTex_09 (UnityEngine.Texture2D)
+
+- ScriptableCape -
+_capeMesh : cape01 (UnityEngine.Mesh)

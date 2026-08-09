@@ -1,0 +1,58 @@
+- ScriptableItem -
+name : (lv-20) WEAPON_Magitek Burstgun (Shotgun, Dexterity)
+_itemName : Magitek Burstgun
+_itemDescription : The mysterious components inside of this gun use energies from Blightwoods.
+_destroyOnDrop : False
+_vendorCost : 1150
+_maxStackAmount : 1
+_itemIcon : _wepIco_74 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 20
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 5
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Shotgun
+_combatElement : Normal - ID: 0
+_weaponProjectileSet : weaponProjectileSet_magitekBurstGun (ScriptableWeaponProjectileSet)
+_weaponDamage : 23
+_damageBonus : 4
+_weaponConditionSlot : None
+weaponTexture : gun00Tex_00 (UnityEngine.Texture2D)
+weaponMesh : gun_00 (UnityEngine.Mesh)
+trailColors : #FFFFFFFF & #FF0000FF
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 1
+_setWeaponTakeOutSfx : weapon_pickup (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 1
+_setWeaponSwingSfx : forceshotgun_lv1 (UnityEngine.AudioClip)

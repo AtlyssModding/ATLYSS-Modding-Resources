@@ -1,0 +1,47 @@
+- ScriptableItem -
+name : (lv-16) RING_Geistlord Band
+_itemName : Geistlord Band
+_itemDescription : Whispers of Kaluuz's memories echo and reverberate inside your soul.
+_destroyOnDrop : False
+_vendorCost : 1200
+_maxStackAmount : 1
+_itemIcon : icon_ring11 (UnityEngine.Sprite)
+_itemRarity : Exotic
+
+- ScriptableEquipment -
+_equipmentLevel : 16
+_classRequirement : 
+_statArray : {
+    _maxHealth : 8
+    _maxMana : 8
+    _maxStamina : 8
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0.005
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : 

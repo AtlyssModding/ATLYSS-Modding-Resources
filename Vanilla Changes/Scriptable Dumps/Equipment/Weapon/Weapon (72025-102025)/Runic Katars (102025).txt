@@ -1,0 +1,59 @@
+- ScriptableItem -
+name : (lv-10) WEAPON_Runic Katars (Fist Weapons, Dexterity)
+_itemName : Runic Katars
+_itemDescription : Forged by a sadistic being of torture.
+_destroyOnDrop : False
+_vendorCost : 285
+_maxStackAmount : 1
+_itemIcon : _wepIco_23 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 10
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 4
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Mouth Bittertooth (ScriptableTradeItem)
+    _scriptItemQuantity : 12
+}
+
+- ScriptableWeapon -
+weaponType : Dexterity_Melee_2H
+_weaponHoldClipIndex : 0
+_combatElement : None
+_weaponProjectileSet : 
+_weaponDamage : 9
+_damageBonus : 3
+_weaponConditionSlot : None
+weaponTexture : katar02_texture (UnityEngine.Texture2D)
+weaponMesh : katar_02 (UnityEngine.Mesh)
+trailColors : #FFFFFFFF & #959595FF
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 2
+    _brightness : 0.281
+    _contrast : 1.815
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _lightSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingLight (UnityEngine.AudioClip)

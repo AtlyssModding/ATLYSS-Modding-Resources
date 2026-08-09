@@ -1,0 +1,52 @@
+- ScriptableItem -
+name : (lv-13) WEAPON_Wizwand (Magic Scepter)
+_itemName : Wizwand
+_itemDescription : Electrifying.
+_destroyOnDrop : False
+_vendorCost : 568
+_maxStackAmount : 1
+_itemIcon : _wepIco_66 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 13
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 5
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 3
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Wizboar Scepter (ScriptableTradeItem)
+    _scriptItemQuantity : 3
+}
+
+- ScriptableWeapon -
+weaponType : Magic Scepter
+_combatElement : Normal
+_weaponProjectileSet : weaponProjectileSet_scepter(wizscepter) (ScriptableWeaponProjectileSet)
+_weaponDamage : 13
+_damageBonus : 1
+_weaponConditionSlot : None
+weaponTexture : scepter07Tex_00 (UnityEngine.Texture2D)
+weaponMesh : _scepter07 (UnityEngine.Mesh)
+trailColors : #0006FFFF & #0A60ECFF
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : weapon_scepterSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _spinScepter (UnityEngine.AudioClip)

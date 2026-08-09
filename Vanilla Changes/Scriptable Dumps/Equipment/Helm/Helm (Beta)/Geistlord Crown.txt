@@ -1,0 +1,49 @@
+- ScriptableItem -
+name : (lv-12) HELM_Geistlord Crown
+_itemName : Geistlord Crown
+_itemDescription : Can you handle the madness that ensues?
+_destroyOnDrop : False
+_vendorCost : 1200
+_maxStackAmount : 1
+_itemIcon : _helmIco_13 (UnityEngine.Sprite)
+_itemRarity : Exotic
+
+- ScriptableEquipment -
+_equipmentLevel : 13
+_classRequirement : 
+_statArray : {
+    _maxHealth : 5
+    _maxMana : 5
+    _maxStamina : 5
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0.013
+    _magicCriticalRate : 0.013
+    _evasion : 0
+    _defense : 3
+    _magicDefense : 4
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : halo04Tex_00 (UnityEngine.Texture2D)
+
+- ScriptableHelm -
+_blendHelmValue : 0
+_useHelmHairDisplay : False
+_hideEars : False
+_hideMisc : False
+_helmRender : helmRender_halo (ScriptableArmorRender)
+_helmOverrideMesh : _helm_halo_04 (UnityEngine.Mesh)

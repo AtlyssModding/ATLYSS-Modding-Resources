@@ -1,0 +1,22 @@
+- ScriptableItem -
+name : DYE_Grey Dye
+_itemName : Grey Dye
+_itemDescription : A vial of grey dye. Use it to make your gear dye color grey.
+_destroyOnDrop : False
+_vendorCost : 160
+_maxStackAmount : 1
+_itemIcon : _dyeIco_grey (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableConsumable -
+_consumableCooldown : 1.5
+_consumableObject : 
+_useOnlyInTown : False
+
+- ScriptableArmorDye -
+_dyeParams : {
+    _hue : 0
+    _saturation : 0
+    _brightness : 0.08
+    _contrast : 1
+}

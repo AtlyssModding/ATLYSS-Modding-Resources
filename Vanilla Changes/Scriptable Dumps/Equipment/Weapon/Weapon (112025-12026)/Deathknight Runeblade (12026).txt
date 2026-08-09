@@ -1,0 +1,57 @@
+- ScriptableItem -
+name : (lv-22) WEAPON_Deathknight Runeblade (Greatblade, Strength)
+_itemName : Deathknight Runeblade
+_itemDescription : Do not listen to what this blade tells you.
+_destroyOnDrop : False
+_vendorCost : 1685
+_maxStackAmount : 1
+_itemIcon : _wepIco_75 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 22
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 8
+    _magicPower : 3
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Deathknight Gauntlet (ScriptableTradeItem)
+    _scriptItemQuantity : 2
+}
+
+- ScriptableWeapon -
+weaponType : Greatblade
+_combatElement : Shadow - ID: 6
+_weaponProjectileSet : 
+_weaponDamage : 40
+_damageBonus : 9
+weaponTexture : _deathKnightSwordTex (UnityEngine.Texture2D)
+weaponMesh : _playerDeathKnightSword (UnityEngine.Mesh)
+trailColors : #5D0589C9 & #8C149CFF
+_textureColorAdjust : {
+    _hue : 0
+    _saturation : 1.61
+    _brightness : -0.09
+    _contrast : 1.1
+}
+_weaponTakeOutSfxIndex : 1
+_setWeaponTakeOutSfx : _heavySheath_02 (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingHeavy (UnityEngine.AudioClip)

@@ -1,0 +1,58 @@
+- ScriptableItem -
+name : (lv-8) WEAPON_Cryptcall Bell (Magic Bell, Mind)
+_itemName : Cryptcall Bell
+_itemDescription : The bell tolls for the dead.
+_destroyOnDrop : False
+_vendorCost : 62
+_maxStackAmount : 1
+_itemIcon : _wepIco_29 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 8
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 5
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Ghostdust (ScriptableTradeItem)
+    _scriptItemQuantity : 10
+}
+
+- ScriptableWeapon -
+weaponType : Bell
+_combatElement : Shadow - ID: 6
+_weaponProjectileSet : weaponProjectileSet_bell_shadow (ScriptableWeaponProjectileSet)
+_weaponDamage : 10
+_damageBonus : 4
+_weaponConditionSlot : None
+weaponTexture : bell02Tex (UnityEngine.Texture2D)
+weaponMesh : _bell_02 (UnityEngine.Mesh)
+trailColors : #8931B7FF & #560787FF
+_textureColorAdjust : {
+    _hue : 38
+    _saturation : 0.54
+    _brightness : 0.04
+    _contrast : 1.67
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _takeOutBell3 (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _bellSwing04 (UnityEngine.AudioClip)

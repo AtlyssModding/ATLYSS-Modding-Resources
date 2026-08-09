@@ -1,0 +1,64 @@
+- ScriptableItem -
+name : (lv-20) WEAPON_Golemfist Katars (Fist Weapons, Dexterity)
+_itemName : Golemfist Katars
+_itemDescription : Pow!
+_destroyOnDrop : False
+_vendorCost : 1320
+_maxStackAmount : 1
+_itemIcon : _wepIco_73 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 20
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 15
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 5
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Soul Pearl (ScriptableTradeItem)
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Dexterity_Melee_2H
+_weaponHoldClipIndex : 0
+_combatElement : Earth - ID: 4
+_weaponProjectileSet : 
+_weaponDamage : 30
+_damageBonus : 15
+_weaponConditionSlot : {
+    _scriptableCondition : Gash - ID: 0
+    _chance : 0.12
+    _bonusPower : 0
+    _bonusDuration : 0
+}
+weaponTexture : katar08Tex_00 (UnityEngine.Texture2D)
+weaponMesh : katar_08 (UnityEngine.Mesh)
+trailColors : #FFB925FF & #FF4200FF
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _lightSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingLight (UnityEngine.AudioClip)

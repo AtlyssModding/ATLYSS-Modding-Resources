@@ -1,0 +1,55 @@
+- ScriptableItem -
+name : (lv-20) WEAPON_Colossus Tone (Magic Bell)
+_itemName : Colossus Tone
+_itemDescription : Pieces of a Colossus are embedded into this bell.
+_destroyOnDrop : False
+_vendorCost : 1350
+_maxStackAmount : 1
+_itemIcon : _wepIco_71 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 20
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 10
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 15
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 8
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Soul Pearl (ScriptableTradeItem)
+    _scriptItemQuantity : 3
+}
+
+- ScriptableWeapon -
+weaponType : Magic Bell
+_combatElement : Earth
+_weaponProjectileSet : weaponProjectileSet_bell_colossusTone (ScriptableWeaponProjectileSet)
+_weaponDamage : 24
+_damageBonus : 3
+_weaponConditionSlot : {
+    _scriptableCondition : Gash
+    _chance : 0.1
+}
+weaponTexture : bell05Tex_01 (UnityEngine.Texture2D)
+weaponMesh : _bell_05 (UnityEngine.Mesh)
+trailColors : #FFA445FF & #F56624FF
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 0.9
+    _brightness : 0
+    _contrast : 1.25
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _takeOutBell3 (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _bellSwing04 (UnityEngine.AudioClip)

@@ -1,0 +1,53 @@
+- ScriptableItem -
+name : (lv-10) LEGGINGS_Warrior Leggings
+_itemName : Warrior Leggings
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 85
+_maxStackAmount : 1
+_itemIcon : _legIco_09 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 10
+_classRequirement : 00_CLASS_fighter (ScriptablePlayerBaseClass)
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 3
+    _experience : 0
+    _attackPower : 3
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 7
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Blightwood Stick (ScriptableTradeItem)
+    _scriptItemQuantity : 3
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : _lgTex_13a (UnityEngine.Texture2D)
+
+- ScriptableLeggings -
+_textureUpperLegOnly : False
+_textureFeet : True
+_legPieceRender_01 : armorRender_legPads01 (ScriptableArmorRender)
+_legPieceTexture_01 : _legpadsTex_01 (UnityEngine.Texture2D)
+_legPieceRender_02 : 
+_legPieceTexture_02 : _lgTex_16a (UnityEngine.Texture2D)
+_legPieceRender_03 : 
+_legPieceTexture_03 : _lgTex_16a (UnityEngine.Texture2D)
+_legPieceRender_04 : 
+_legPieceTexture_04 : _lgTex_16a (UnityEngine.Texture2D)

@@ -1,0 +1,44 @@
+- ScriptableItem -
+name : (lv-15) CAPE_Nethercrypt Cloak
+_itemName : Nethercrypt Cloak
+_itemDescription : Rug for the feet of the dead.
+_destroyOnDrop : False
+_vendorCost : 536
+_maxStackAmount : 1
+_itemIcon : _capIco_01 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 15
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 2
+    _magicPower : 2
+    _dexPower : 3
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 7
+    _magicDefense : 3
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Geist Collar (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : -46
+    _saturation : 1.63
+    _brightness : -0.23
+    _contrast : 0.69
+}
+_armorTexture : _capeTex_00 (UnityEngine.Texture2D)
+
+- ScriptableCape -
+_capeMesh : cape01 (UnityEngine.Mesh)

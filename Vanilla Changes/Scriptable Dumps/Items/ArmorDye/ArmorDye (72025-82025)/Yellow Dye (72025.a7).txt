@@ -1,0 +1,23 @@
+- ScriptableItem -
+name : DYE_Yellow Dye
+_itemName : Yellow Dye
+_itemDescription : A vial of yellow dye.
+_destroyOnDrop : False
+_vendorCost : 160
+_maxStackAmount : 1
+_itemIcon : _dyeIco_yellow (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableConsumable -
+_consumableCooldown : 1.5
+_consumableObject : _consumableEffect_yellowDye (UnityEngine.GameObject)
+_useOnlyInTown : False
+_unperishable : False
+
+- ScriptableArmorDye -
+_dyeParams : {
+    _hue : -64
+    _saturation : 1.8
+    _brightness : 0
+    _contrast : 1.15
+}

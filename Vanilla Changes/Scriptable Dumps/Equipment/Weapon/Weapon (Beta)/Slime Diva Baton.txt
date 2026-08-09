@@ -1,0 +1,52 @@
+- ScriptableItem -
+name : (lv-10) WEAPON_Slime Diva Baton (Magic Scepter)
+_itemName : Slime Diva Baton
+_itemDescription : Only a Slime Diva can truly maximize the full potential of this Scepter.
+_destroyOnDrop : False
+_vendorCost : 200
+_maxStackAmount : 1
+_itemIcon : _wepIco_04 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 10
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 2
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 1
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0.0065
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Diva Necklace (ScriptableTradeItem)
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Magic Scepter
+_combatElement : Shadow
+_weaponProjectileSet : weaponProjectileSet_slmDivaBaton (ScriptableWeaponProjectileSet)
+_weaponDamage : 9
+_damageBonus : 2
+_weaponConditionSlot : None
+weaponTexture : slimeDivaStaffTex_01 (UnityEngine.Texture2D)
+weaponMesh : _scepter03 (UnityEngine.Mesh)
+trailColors : #3AFF00FF & #00AD3DFF
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : weapon_scepterSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _spinScepter (UnityEngine.AudioClip)

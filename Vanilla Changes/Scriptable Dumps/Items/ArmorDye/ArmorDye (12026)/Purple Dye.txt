@@ -1,0 +1,24 @@
+- ScriptableItem -
+name : DYE_Purple Dye
+_itemName : Purple Dye
+_itemDescription : A vial of purple dye.
+_destroyOnDrop : False
+_vendorCost : 160
+_maxStackAmount : 1
+_itemIcon : _dyeIco_purple (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableConsumable -
+_consumableCooldown : 1.5
+_consumableObject : _consumableEffect_purpleDye (UnityEngine.GameObject)
+_useOnlyInTown : False
+_unperishable : False
+
+- ScriptableArmorDye -
+_particleColoration : E018F3FF
+_dyeParams : {
+    _hue : 155
+    _saturation : 1.3
+    _brightness : 0
+    _contrast : 1
+}

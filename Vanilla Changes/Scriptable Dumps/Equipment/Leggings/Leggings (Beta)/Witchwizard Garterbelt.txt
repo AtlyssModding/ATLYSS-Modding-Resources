@@ -1,0 +1,53 @@
+- ScriptableItem -
+name : (lv-18) LEGGINGS_Witchwizard Garterbelt
+_itemName : Witchwizard Garterbelt
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 1000
+_maxStackAmount : 1
+_itemIcon : _legIco_04 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 18
+_classRequirement : 01_CLASS_mystic (ScriptablePlayerBaseClass)
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 10
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 5
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0.0033
+    _evasion : 0
+    _defense : 8
+    _magicDefense : 2
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Ghostdust (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 28
+    _saturation : 0
+    _brightness : 0.07
+    _contrast : 2
+}
+_armorTexture : _lgTex_34 (UnityEngine.Texture2D)
+
+- ScriptableLeggings -
+_textureUpperLegOnly : False
+_textureFeet : True
+_legPieceRender_01 : 
+_legPieceTexture_01 : _lgTex_13a (UnityEngine.Texture2D)
+_legPieceRender_02 : 
+_legPieceTexture_02 : _lgTex_16a (UnityEngine.Texture2D)
+_legPieceRender_03 : 
+_legPieceTexture_03 : _lgTex_16a (UnityEngine.Texture2D)
+_legPieceRender_04 : 
+_legPieceTexture_04 : _lgTex_16a (UnityEngine.Texture2D)

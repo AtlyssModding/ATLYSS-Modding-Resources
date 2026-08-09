@@ -1,0 +1,47 @@
+- ScriptableItem -
+name : (lv-14) RING_Pearlpond Ring
+_itemName : Pearlpond Ring
+_itemDescription : The pearls chime, providing a peace of mind and clarity.
+_destroyOnDrop : False
+_vendorCost : 289
+_maxStackAmount : 1
+_itemIcon : icon_ring10 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 14
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 6
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 5
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Ghostdust (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : 

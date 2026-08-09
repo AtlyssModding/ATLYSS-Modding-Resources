@@ -1,0 +1,52 @@
+- ScriptableItem -
+name : (lv-10) WEAPON_Mekspear (Polearm)
+_itemName : Mekspear
+_itemDescription : A usable partisan with a Mekboar's spear attached to it.
+_destroyOnDrop : False
+_vendorCost : 475
+_maxStackAmount : 1
+_itemIcon : _wepIco_65 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 10
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 3
+    _experience : 0
+    _attackPower : 5
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Mekboar Spear (ScriptableTradeItem)
+    _scriptItemQuantity : 3
+}
+
+- ScriptableWeapon -
+weaponType : Polearm
+_combatElement : None
+_weaponProjectileSet : 
+_weaponDamage : 8
+_damageBonus : 5
+_weaponConditionSlot : None
+weaponTexture : polearm04Tex_00 (UnityEngine.Texture2D)
+weaponMesh : polearm_04 (UnityEngine.Mesh)
+trailColors : #FFFFFFA3 & #8C8C8C84
+_textureColorAdjust : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _polearmTakeOut01 (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _polearmSwing03 (UnityEngine.AudioClip)

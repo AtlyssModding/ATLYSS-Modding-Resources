@@ -1,0 +1,452 @@
+{
+    "_nickName": "Jane Poon",
+    "_version": "82025.a2",
+    "_currency": 1000000,
+    "_appearanceProfile": {
+        "_setRaceTag": "Poon",
+        "_setEye": 7,
+        "_setMouth": 6,
+        "_setHairStyle": 1,
+        "_setEar": 0,
+        "_setTail": 2,
+        "_setMisc": 1,
+        "_displayBoobs": true,
+        "_isLeftHanded": false,
+        "_voicePitch": 1.1399999856948853,
+        "_helmDyeIndex": 2,
+        "_headWidth": 1.0199999809265137,
+        "_muzzleWeight": 25.0,
+        "_heightWeight": 1.0099999904632569,
+        "_widthWeight": 1.0199999809265137,
+        "_torsoWeight": 0.0,
+        "_armWeight": 56.90999984741211,
+        "_boobWeight": 17.280000686645509,
+        "_bellyWeight": -10.0,
+        "_bottomWeight": 7.630000114440918,
+        "_setTexture": 0,
+        "_hideHelm": false,
+        "_hideCape": false,
+        "_hideChest": false,
+        "_hideLeggings": false,
+        "_hideVanityHelm": false,
+        "_hideVanityCape": false,
+        "_hideVanityChest": false,
+        "_hideVanityLeggings": false,
+        "_hairColorProfile": {
+            "_hue": 32.06999969482422,
+            "_saturation": 1.7999999523162842,
+            "_brightness": -0.3100000023841858,
+            "_contrast": 0.8100000023841858
+        },
+        "_hairIsBodyColor": true,
+        "_miscColorProfile": {
+            "_hue": 206.3000030517578,
+            "_saturation": 1.2300000190734864,
+            "_brightness": -0.1899999976158142,
+            "_contrast": 1.2000000476837159
+        },
+        "_setSkinColorProfile": {
+            "_hue": 360.0,
+            "_saturation": 1.3300000429153443,
+            "_brightness": -0.019999999552965165,
+            "_contrast": 1.0499999523162842
+        }
+    },
+    "_statsProfile": {
+        "_currentLevel": 40,
+        "_classID": "",
+        "_classTier": 0,
+        "_currentExp": 0,
+        "_skillPoints": 60,
+        "_attributePoints": 123,
+        "_attributes": [
+            {
+                "_attributeName": "Strength",
+                "_attributeID": 0,
+                "_attributeValue": 1
+            },
+            {
+                "_attributeName": "Mind",
+                "_attributeID": 1,
+                "_attributeValue": 1
+            },
+            {
+                "_attributeName": "Dexterity",
+                "_attributeID": 2,
+                "_attributeValue": 1
+            },
+            {
+                "_attributeName": "Vitality",
+                "_attributeID": 3,
+                "_attributeValue": 1
+            }
+        ]
+    },
+    "_skillsProfile": {
+        "_setSkillsProfile": [
+            {
+                "_skillName": "Recovery",
+                "_skillLibraryIndex": 0,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Rock Toss",
+                "_skillLibraryIndex": 1,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Leg Up",
+                "_skillLibraryIndex": 2,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Strength Mastery",
+                "_skillLibraryIndex": 3,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Mind Mastery",
+                "_skillLibraryIndex": 4,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Dexterity Mastery",
+                "_skillLibraryIndex": 5,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Siphon Leech",
+                "_skillLibraryIndex": 6,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Talus",
+                "_skillLibraryIndex": 7,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Gust",
+                "_skillLibraryIndex": 8,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Aquos",
+                "_skillLibraryIndex": 9,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Spire",
+                "_skillLibraryIndex": 10,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Crya",
+                "_skillLibraryIndex": 11,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Fira",
+                "_skillLibraryIndex": 12,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Focus Shot",
+                "_skillLibraryIndex": 13,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Spread Shot",
+                "_skillLibraryIndex": 14,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Multi Bash",
+                "_skillLibraryIndex": 15,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Sturdy",
+                "_skillLibraryIndex": 16,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Inner Focus",
+                "_skillLibraryIndex": 17,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Alacrity",
+                "_skillLibraryIndex": 18,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Life Tap",
+                "_skillLibraryIndex": 19,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Curis",
+                "_skillLibraryIndex": 20,
+                "_skillUnlocked": false
+            },
+            {
+                "_skillName": "Taunt",
+                "_skillLibraryIndex": 21,
+                "_skillUnlocked": false
+            }
+        ],
+        "_setSkillPresetProfile": {
+            "_skillPresetIndex": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "_altSkillPresetIndex": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        },
+        "_bonusSkillProfile": [
+            {
+                "_bonusSkillTag": "Strength Mastery",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Mind Mastery",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Dexterity Mastery",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Siphon Leech",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Talus",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Gust",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Aquos",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Spire",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Crya",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Fira",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Focus Shot",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Spread Shot",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Multi Bash",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Sturdy",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Leg Up",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Inner Focus",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Alacrity",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Life Tap",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Curis",
+                "_isLearned": true
+            },
+            {
+                "_bonusSkillTag": "Taunt",
+                "_isLearned": true
+            }
+        ]
+    },
+    "_questProgressProfile": {
+        "_questProgressStructs": [],
+        "_finishedQuests": [
+            "A Warm Welcome",
+            "Communing Catacombs",
+            "The Effold Terrace",
+            "Diva Must Die",
+            "The Keep Within",
+            "Tethering Grove",
+            "Ridding Slimes",
+            "Night Spirits",
+            "Cleaning Terrace",
+            "Huntin' Hogs",
+            "Ancient Beings",
+            "Wicked Wizboars",
+            "Silencing Gahool",
+            "The Voice of Zuulneruda",
+            "The Colossus",
+            "Reviling the Rageboars",
+            "Killing Tomb",
+            "Rattlecage Rage",
+            "Purging the Undead",
+            "Consumed Madness",
+            "Eradicating the Undead",
+            "Spiraling In The Grove",
+            "Hell In The Grove",
+            "Purging the Grove",
+            "Cleansing the Grove",
+            "Ghostly Goods",
+            "Summore' Spectral Powder!",
+            "Makin' a Mekspear",
+            "Makin' More Mekspears",
+            "Makin' a Wizwand",
+            "Makin' More Wizwands",
+            "Makin' a Vile Blade",
+            "Makin' More Vile Blades",
+            "Makin' a Golem Chestpiece",
+            "Summore' Golem Chestpieces",
+            "Makin' a Ragespear",
+            "Makin' More Ragespears",
+            "Makin' a Monolith Chestpiece",
+            "Summore' Monolith Chestpieces",
+            "Call of Fury",
+            "Beckoning Foes",
+            "Focusin' in",
+            "Cold Shoulder",
+            "Blossom of Life",
+            "Mastery of Strength",
+            "Mastery of Dexterity",
+            "Mastery of Mind",
+            "Up and Over It"
+        ]
+    },
+    "_inventoryProfile": [
+        {
+            "_itemName": "Wood Daggers",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 0,
+            "_modifierID": 0,
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": true,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Silken Top",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 0,
+            "_modifierID": 0,
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": true,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Silken Loincloth",
+            "_quantity": 1,
+            "_maxQuantity": 1,
+            "_slotNumber": 0,
+            "_modifierID": 0,
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": true,
+            "_isAltWeapon": false
+        },
+        {
+            "_itemName": "Illusion Stone",
+            "_quantity": 20,
+            "_maxQuantity": 20,
+            "_slotNumber": 23,
+            "_modifierID": 0,
+            "_damageTypeOverride": 0,
+            "_useDamageTypeOverride": false,
+            "_isEquipped": false,
+            "_isAltWeapon": false
+        }
+    ],
+    "_vanityStruct": {
+        "_helmTag": "",
+        "_helmModifier": 0,
+        "_chestTag": "",
+        "_chestModifier": 0,
+        "_leggingTag": "",
+        "_leggingModifier": 0,
+        "_capeTag": "",
+        "_capeModifier": 0,
+        "_ringTag": "",
+        "_ringModifier": 0,
+        "_weaponTag": "",
+        "_weaponModifier": 0,
+        "_damageOverride_mainWep": 0,
+        "_useDamageOverride_mainWep": false,
+        "_altWeaponTag": "",
+        "_altWeaponModifier": 0,
+        "_damageOverride_altWep": 0,
+        "_useDamageOverride_altWep": false,
+        "_shieldTag": "",
+        "_shieldModifier": 0
+    },
+    "_quickItemSlotProfile": [
+        "",
+        "",
+        "",
+        ""
+    ],
+    "_dialogIntroProfile": [
+        "Angela",
+        "Sally",
+        "Enok",
+        "Zuula",
+        "Vivian",
+        "Torta",
+        "Skrit",
+        "Frankie",
+        "Craig",
+        "Spike",
+        "Trip",
+        "Mirror of Illusion",
+        ""
+    ],
+    "_waypointAttunementProfile": [
+        "sanctum",
+        "catacmbs",
+        "tvalley00",
+        "ckeep",
+        "ckeep2",
+        "wallstar00"
+    ],
+    "_isAltWeaponEquipped": false,
+    "_isEmptySlot": false,
+    "_isNewCharacter": false
+}

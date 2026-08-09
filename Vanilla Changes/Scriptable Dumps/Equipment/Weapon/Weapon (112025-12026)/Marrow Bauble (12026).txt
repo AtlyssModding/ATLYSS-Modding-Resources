@@ -1,0 +1,57 @@
+- ScriptableItem -
+name : (lv-2) WEAPON_Marrow Bauble (Scepter, Mind)
+_itemName : Marrow Bauble
+_itemDescription : Who's skull is this?
+_destroyOnDrop : False
+_vendorCost : 48
+_maxStackAmount : 1
+_itemIcon : _wepIco_33 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 2
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 1
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Scepter
+_combatElement : Shadow - ID: 6
+_weaponProjectileSet : weaponProjectileSet_scepter(ele_shadow) (ScriptableWeaponProjectileSet)
+_weaponDamage : 7
+_damageBonus : 6
+weaponTexture : scepter05Tex_00 (UnityEngine.Texture2D)
+weaponMesh : _scepter05 (UnityEngine.Mesh)
+trailColors : #711EC3FF & #AD1AB2FF
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : weapon_scepterSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _spinScepter (UnityEngine.AudioClip)

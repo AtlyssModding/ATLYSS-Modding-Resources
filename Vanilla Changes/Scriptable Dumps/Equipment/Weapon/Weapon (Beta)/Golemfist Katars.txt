@@ -1,0 +1,55 @@
+- ScriptableItem -
+name : (lv-21) WEAPON_Golemfist Katars (Katars)
+_itemName : Golemfist Katars
+_itemDescription : Pow!
+_destroyOnDrop : False
+_vendorCost : 1320
+_maxStackAmount : 1
+_itemIcon : _wepIco_73 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 21
+_classRequirement : 
+_statArray : {
+    _maxHealth : 5
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 12
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 3
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Soul Pearl (ScriptableTradeItem)
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Katars
+_combatElement : Earth
+_weaponProjectileSet : 
+_weaponDamage : 20
+_damageBonus : 8
+_weaponConditionSlot : {
+    _scriptableCondition : Gash
+    _chance : 0.12
+}
+weaponTexture : katar08Tex_00 (UnityEngine.Texture2D)
+weaponMesh : katar_08 (UnityEngine.Mesh)
+trailColors : #FFB925FF & #FF4200FF
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _lightSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingLight (UnityEngine.AudioClip)

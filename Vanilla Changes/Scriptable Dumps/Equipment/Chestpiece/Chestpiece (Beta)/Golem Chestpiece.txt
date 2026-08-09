@@ -1,0 +1,59 @@
+- ScriptableItem -
+name : (lv-13) CHESTPIECE_Golem Chestpiece
+_itemName : Golem Chestpiece
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 478
+_maxStackAmount : 1
+_itemIcon : _chestIco_29 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 13
+_classRequirement : 
+_statArray : {
+    _maxHealth : 8
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 3
+    _magicPower : 3
+    _dexPower : 3
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 12
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Golem Core (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : _chTex_39a (UnityEngine.Texture2D)
+
+- ScriptableChestpiece -
+_lockBoobs : False
+_disableJiggleBoobBones : False
+_textureArms : False
+_legOverlayTexture : 
+_boobOverrideTexture : 
+_neckCollarMesh : 
+_neckCollarTexture : 
+_chestRenderDisplay : 
+_chestRenderTexture : 
+_chestRenderBoobTexture : 
+_robeSkirtRender : 
+_robeSkirtTexture : 
+_armCuffRender : armorRender_armCuff01 (ScriptableArmorRender)
+_shoulderpadMesh : 
+_shoulderpadTexture : 
+_shoulderPadDisplayType : None

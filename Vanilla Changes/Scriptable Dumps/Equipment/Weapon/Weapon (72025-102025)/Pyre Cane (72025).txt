@@ -1,0 +1,64 @@
+- ScriptableItem -
+name : (lv-12) WEAPON_Pyre Cane (Magic Scepter)
+_itemName : Pyre Cane
+_itemDescription : Let them burn.
+_destroyOnDrop : False
+_vendorCost : 250
+_maxStackAmount : 1
+_itemIcon : _wepIco_13 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 12
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Blightwood Stick (ScriptableTradeItem)
+    _scriptItemQuantity : 3
+}
+
+- ScriptableWeapon -
+weaponType : Mind_Ranged_1H
+_weaponHoldClipIndex : 0
+_combatElement : Fire - ID: 1
+_weaponProjectileSet : weaponProjectileSet_scepter(ele_fire)_00 (ScriptableWeaponProjectileSet)
+_weaponDamage : 9
+_damageBonus : 1
+_weaponConditionSlot : {
+    _scriptableCondition : Burn - ID: 7
+    _chance : 0.012
+    _bonusPower : -3
+    _bonusDuration : -3
+}
+weaponTexture : scepter04Tex_02 (UnityEngine.Texture2D)
+weaponMesh : _scepter04 (UnityEngine.Mesh)
+trailColors : #FF8400FF & #651010FF
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : weapon_scepterSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _spinScepter (UnityEngine.AudioClip)

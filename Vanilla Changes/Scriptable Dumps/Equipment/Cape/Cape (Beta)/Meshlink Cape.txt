@@ -1,0 +1,44 @@
+- ScriptableItem -
+name : (lv-16) CAPE_Meshlink Cape
+_itemName : Meshlink Cape
+_itemDescription : Evasive and light.
+_destroyOnDrop : False
+_vendorCost : 865
+_maxStackAmount : 1
+_itemIcon : _capIco_06 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 16
+_classRequirement : 02_CLASS_bandit (ScriptablePlayerBaseClass)
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 5
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 7
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0.03
+    _defense : 8
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 0
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 51
+    _saturation : 2
+    _brightness : 0.44
+    _contrast : 2
+}
+_armorTexture : _capeTex_08 (UnityEngine.Texture2D)
+
+- ScriptableCape -
+_capeMesh : cape01 (UnityEngine.Mesh)

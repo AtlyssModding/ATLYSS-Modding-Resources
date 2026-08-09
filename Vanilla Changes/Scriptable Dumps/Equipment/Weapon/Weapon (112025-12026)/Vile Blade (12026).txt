@@ -1,0 +1,57 @@
+- ScriptableItem -
+name : (lv-8) WEAPON_Vile Blade (Sword, Strength)
+_itemName : Vile Blade
+_itemDescription : A Rude Blade, but more... vile.
+_destroyOnDrop : False
+_vendorCost : 215
+_maxStackAmount : 1
+_itemIcon : _wepIco_70 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 8
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 4
+    _magicPower : 0
+    _dexPower : 3
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Mouth Bittertooth (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableWeapon -
+weaponType : Blade
+_combatElement : None
+_weaponProjectileSet : 
+_weaponDamage : 14
+_damageBonus : 3
+weaponTexture : blade04Tex_02 (UnityEngine.Texture2D)
+weaponMesh : _lightWeapon_blade04 (UnityEngine.Mesh)
+trailColors : #FF45DDFF & #6D018E59
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 1
+    _brightness : -0.08
+    _contrast : 1.48
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _mediumSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingMedium (UnityEngine.AudioClip)

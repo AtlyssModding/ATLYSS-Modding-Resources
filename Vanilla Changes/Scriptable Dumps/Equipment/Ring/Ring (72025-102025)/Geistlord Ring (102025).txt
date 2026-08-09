@@ -1,0 +1,47 @@
+- ScriptableItem -
+name : (lv-12) RING_Geistlord Ring
+_itemName : Geistlord Ring
+_itemDescription : Whispers of Zuulneruda's memories echo and reverberate inside your soul.
+_destroyOnDrop : False
+_vendorCost : 860
+_maxStackAmount : 1
+_itemIcon : icon_ring08 (UnityEngine.Sprite)
+_itemRarity : Exotic
+
+- ScriptableEquipment -
+_equipmentLevel : 12
+_classRequirement : 
+_statArray : {
+    _maxHealth : 3
+    _maxMana : 3
+    _maxStamina : 3
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0.0025
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : 

@@ -1,0 +1,49 @@
+- ScriptableItem -
+name : (lv-7) HELM_Iron Halo
+_itemName : Iron Halo
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 200
+_maxStackAmount : 1
+_itemIcon : _helmIco_21 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 7
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 1
+    _magicPower : 1
+    _dexPower : 1
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 4
+    _magicDefense : 2
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 0
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 0
+    _brightness : 0.047
+    _contrast : 1
+}
+_armorTexture : halo06Tex_00 (UnityEngine.Texture2D)
+
+- ScriptableHelm -
+_blendHelmValue : 0
+_useHelmHairDisplay : False
+_hideEars : False
+_hideMisc : False
+_helmRender : helmRender_halo (ScriptableArmorRender)
+_helmOverrideMesh : _helm_halo_06 (UnityEngine.Mesh)

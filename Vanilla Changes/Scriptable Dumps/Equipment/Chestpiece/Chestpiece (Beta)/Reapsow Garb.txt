@@ -1,0 +1,59 @@
+- ScriptableItem -
+name : (lv-12) CHESTPIECE_Reapsow Garb
+_itemName : Reapsow Garb
+_itemDescription : Fear the hidden.
+_destroyOnDrop : False
+_vendorCost : 680
+_maxStackAmount : 1
+_itemIcon : _chestIco_03 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 12
+_classRequirement : 02_CLASS_bandit (ScriptablePlayerBaseClass)
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 5
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 8
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 8
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Geist Collar (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : -75
+    _saturation : 0.99
+    _brightness : -0.12
+    _contrast : 0.92
+}
+_armorTexture : _chTex_33a (UnityEngine.Texture2D)
+
+- ScriptableChestpiece -
+_lockBoobs : False
+_disableJiggleBoobBones : False
+_textureArms : True
+_legOverlayTexture : _chTex_33a_leg (UnityEngine.Texture2D)
+_boobOverrideTexture : 
+_neckCollarMesh : 
+_neckCollarTexture : 
+_chestRenderDisplay : 
+_chestRenderTexture : 
+_chestRenderBoobTexture : 
+_robeSkirtRender : 
+_robeSkirtTexture : 
+_armCuffRender : armorRender_armCuff02 (ScriptableArmorRender)
+_shoulderpadMesh : _shoulderpad_00 (UnityEngine.Mesh)
+_shoulderpadTexture : shoulderpad00Tex_00 (UnityEngine.Texture2D)
+_shoulderPadDisplayType : Both

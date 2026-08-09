@@ -1,0 +1,55 @@
+- ScriptableItem -
+name : (lv-10) WEAPON_Sinner Bardiche (Polearm)
+_itemName : Sinner Bardiche
+_itemDescription : Blood of the sinners coat this weapon.
+_destroyOnDrop : False
+_vendorCost : 432
+_maxStackAmount : 1
+_itemIcon : _wepIco_31 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 10
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 6
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0.03
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Deathgel Core (ScriptableTradeItem)
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Polearm
+_combatElement : None
+_weaponProjectileSet : 
+_weaponDamage : 8
+_damageBonus : 6
+_weaponConditionSlot : {
+    _scriptableCondition : Gash
+    _chance : 0.026
+}
+weaponTexture : bardiche_texure (UnityEngine.Texture2D)
+weaponMesh : polearm_bardiche (UnityEngine.Mesh)
+trailColors : #FF4C4CA3 & #84000084
+_textureColorAdjust : {
+    _hue : -12
+    _saturation : 1.56
+    _brightness : 0.04
+    _contrast : 1.58
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _polearmTakeOut01 (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _polearmSwing03 (UnityEngine.AudioClip)

@@ -1,0 +1,55 @@
+- ScriptableItem -
+name : (lv-17) WEAPON_Ragespear (Polearm)
+_itemName : Ragespear
+_itemDescription : The tip of the spear looks bloody, but it appears to be a corrosive material.
+_destroyOnDrop : False
+_vendorCost : 750
+_maxStackAmount : 1
+_itemIcon : _wepIco_69 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 17
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 8
+    _experience : 0
+    _attackPower : 12
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0.0048
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 3
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Rageboar Spear (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableWeapon -
+weaponType : Polearm
+_combatElement : None
+_weaponProjectileSet : 
+_weaponDamage : 20
+_damageBonus : 2
+_weaponConditionSlot : {
+    _scriptableCondition : Gash
+    _chance : 0.08
+}
+weaponTexture : polearm04Tex_01 (UnityEngine.Texture2D)
+weaponMesh : polearm_04_alt00 (UnityEngine.Mesh)
+trailColors : #FF5858A3 & #E2000084
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 2
+    _brightness : -0.08
+    _contrast : 1.42
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _polearmTakeOut01 (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _polearmSwing03 (UnityEngine.AudioClip)

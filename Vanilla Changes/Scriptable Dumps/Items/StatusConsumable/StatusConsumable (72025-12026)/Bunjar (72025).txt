@@ -1,0 +1,23 @@
+- ScriptableItem -
+name : (lv-0) STATUSCONSUMABLE_Bunjar
+_itemName : Bunjar
+_itemDescription : A big healing salve.
+_destroyOnDrop : False
+_vendorCost : 50
+_maxStackAmount : 99
+_itemIcon : _conIco_21 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableConsumable -
+_consumableCooldown : 0.8
+_consumableObject : _consumableEffect_healthConsumable (UnityEngine.GameObject)
+_useOnlyInTown : False
+_unperishable : False
+
+- ScriptableStatusConsumable -
+_healthApply : 50
+_manaApply : 0
+_staminaApply : 0
+_expGain : 0
+_resetSkillPoints : False
+_resetAttributePoints : False

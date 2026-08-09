@@ -1,0 +1,53 @@
+- ScriptableItem -
+name : (lv-21) LEGGINGS_Magilord Boots
+_itemName : Magilord Boots
+_itemDescription : Keeps the toes warm.
+_destroyOnDrop : False
+_vendorCost : 1530
+_maxStackAmount : 1
+_itemIcon : _legIco_21 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 21
+_classRequirement : 01_CLASS_mystic (ScriptablePlayerBaseClass)
+_statArray : {
+    _maxHealth : 5
+    _maxMana : 0
+    _maxStamina : 3
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 8
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0.0048
+    _evasion : 0
+    _defense : 5
+    _magicDefense : 10
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Carbuncle Foot (ScriptableTradeItem)
+    _scriptItemQuantity : 3
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : _lgTex_31 (UnityEngine.Texture2D)
+
+- ScriptableLeggings -
+_textureUpperLegOnly : False
+_textureFeet : True
+_legPieceRender_01 : 
+_legPieceTexture_01 : _lgTex_13a (UnityEngine.Texture2D)
+_legPieceRender_02 : 
+_legPieceTexture_02 : _lgTex_16a (UnityEngine.Texture2D)
+_legPieceRender_03 : 
+_legPieceTexture_03 : _lgTex_16a (UnityEngine.Texture2D)
+_legPieceRender_04 : 
+_legPieceTexture_04 : _lgTex_16a (UnityEngine.Texture2D)

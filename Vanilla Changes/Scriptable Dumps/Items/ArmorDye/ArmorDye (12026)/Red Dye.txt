@@ -1,0 +1,24 @@
+- ScriptableItem -
+name : DYE_Red Dye
+_itemName : Red Dye
+_itemDescription : A vial of red dye.
+_destroyOnDrop : False
+_vendorCost : 160
+_maxStackAmount : 1
+_itemIcon : _dyeIco_red (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableConsumable -
+_consumableCooldown : 1.5
+_consumableObject : _consumableEffect_redDye (UnityEngine.GameObject)
+_useOnlyInTown : False
+_unperishable : False
+
+- ScriptableArmorDye -
+_particleColoration : F50606FF
+_dyeParams : {
+    _hue : -107
+    _saturation : 2
+    _brightness : 0
+    _contrast : 1
+}

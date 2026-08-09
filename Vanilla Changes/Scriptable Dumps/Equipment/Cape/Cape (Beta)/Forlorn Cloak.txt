@@ -1,0 +1,44 @@
+- ScriptableItem -
+name : (lv-16) CAPE_Forlorn Cloak
+_itemName : Forlorn Cloak
+_itemDescription : Forever lost.
+_destroyOnDrop : False
+_vendorCost : 1200
+_maxStackAmount : 1
+_itemIcon : _capIco_05 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 16
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 4
+    _experience : 0
+    _attackPower : 4
+    _magicPower : 3
+    _dexPower : 1
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 6
+    _magicDefense : 3
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 0
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1.44
+    _brightness : 0.2
+    _contrast : 1.03
+}
+_armorTexture : _capeTex_07 (UnityEngine.Texture2D)
+
+- ScriptableCape -
+_capeMesh : cape01 (UnityEngine.Mesh)

@@ -1,0 +1,52 @@
+- ScriptableItem -
+name : (lv-2) WEAPON_Slimecrust Blade (Melee)
+_itemName : Slimecrust Blade
+_itemDescription : Looks to be an Iron Sword, but the blade is intensely dulled by slime.
+_destroyOnDrop : False
+_vendorCost : 7
+_maxStackAmount : 1
+_itemIcon : _wepIco_02 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 2
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Slime Core (ScriptableTradeItem)
+    _scriptItemQuantity : 3
+}
+
+- ScriptableWeapon -
+weaponType : Melee
+_combatElement : None
+_weaponProjectileSet : 
+_weaponDamage : 4
+_damageBonus : 1
+_weaponConditionSlot : None
+weaponTexture : blade03Tex_02 (UnityEngine.Texture2D)
+weaponMesh : _weapon_blade03 (UnityEngine.Mesh)
+trailColors : #FFFFFFFF & #ADADAD59
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _mediumSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingMedium (UnityEngine.AudioClip)

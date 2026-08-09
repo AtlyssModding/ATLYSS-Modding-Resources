@@ -1,0 +1,55 @@
+- ScriptableItem -
+name : (lv-18) WEAPON_Flamepetal Staff (Magic Scepter)
+_itemName : Flamepetal Staff
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 945
+_maxStackAmount : 1
+_itemIcon : _wepIco_63 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 18
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 5
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 10
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0.018
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Red Minchroom Cap (ScriptableTradeItem)
+    _scriptItemQuantity : 3
+}
+
+- ScriptableWeapon -
+weaponType : Magic Scepter
+_combatElement : Fire
+_weaponProjectileSet : weaponProjectileSet_scepter(ele_fire)_01 (ScriptableWeaponProjectileSet)
+_weaponDamage : 12
+_damageBonus : 9
+_weaponConditionSlot : {
+    _scriptableCondition : Burn
+    _chance : 0.2
+}
+weaponTexture : scepter06Tex_00 (UnityEngine.Texture2D)
+weaponMesh : _scepter06 (UnityEngine.Mesh)
+trailColors : #FF8400FF & #651010FF
+_textureColorAdjust : {
+    _hue : -197
+    _saturation : 2
+    _brightness : 0.1
+    _contrast : 2
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : weapon_scepterSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _spinScepter (UnityEngine.AudioClip)

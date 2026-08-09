@@ -1,0 +1,59 @@
+- ScriptableItem -
+name : (lv-14) WEAPON_Nethercrypt Bauble (Magic Scepter)
+_itemName : Nethercrypt Bauble
+_itemDescription : It's hard to comprehend how terrible the malformed skull is.
+_destroyOnDrop : False
+_vendorCost : 215
+_maxStackAmount : 1
+_itemIcon : _wepIco_39 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 14
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 4
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0.007
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Ghostdust (ScriptableTradeItem)
+    _scriptItemQuantity : 8
+}
+
+- ScriptableWeapon -
+weaponType : Mind_Ranged_1H
+_weaponHoldClipIndex : 0
+_combatElement : Shadow - ID: 6
+_weaponProjectileSet : weaponProjectileSet_scepter(ele_shadow)_alt00 (ScriptableWeaponProjectileSet)
+_weaponDamage : 11
+_damageBonus : 4
+_weaponConditionSlot : None
+weaponTexture : scepter05Tex_00 (UnityEngine.Texture2D)
+weaponMesh : _scepter05 (UnityEngine.Mesh)
+trailColors : #711EC3FF & #AD1AB2FF
+_textureColorAdjust : {
+    _hue : 119
+    _saturation : 2
+    _brightness : -0.28
+    _contrast : 2
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : weapon_scepterSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _spinScepter (UnityEngine.AudioClip)

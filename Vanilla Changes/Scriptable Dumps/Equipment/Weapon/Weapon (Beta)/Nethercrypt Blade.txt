@@ -1,0 +1,52 @@
+- ScriptableItem -
+name : (lv-13) WEAPON_Nethercrypt Blade (Melee)
+_itemName : Nethercrypt Blade
+_itemDescription : Twisted, infused with nether magic.
+_destroyOnDrop : False
+_vendorCost : 234
+_maxStackAmount : 1
+_itemIcon : _wepIco_43 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 13
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 3
+    _magicPower : 2
+    _dexPower : 0
+    _criticalRate : 0.0075
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Hellsludge Core (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableWeapon -
+weaponType : Melee
+_combatElement : Shadow
+_weaponProjectileSet : 
+_weaponDamage : 12
+_damageBonus : 3
+_weaponConditionSlot : None
+weaponTexture : meleeWepTex_blade05 (UnityEngine.Texture2D)
+weaponMesh : _weapon_blade05_alt00 (UnityEngine.Mesh)
+trailColors : #7E1FB0FF & #5F298EFF
+_textureColorAdjust : {
+    _hue : -284
+    _saturation : 2
+    _brightness : -0.05
+    _contrast : 1.27
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _mediumSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingMedium (UnityEngine.AudioClip)

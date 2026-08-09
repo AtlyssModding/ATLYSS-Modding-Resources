@@ -1,0 +1,59 @@
+- ScriptableItem -
+name : (lv-21) CHESTPIECE_Fuguefall Duster
+_itemName : Fuguefall Duster
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 2150
+_maxStackAmount : 1
+_itemIcon : _chestIco_28 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 21
+_classRequirement : 02_CLASS_bandit (ScriptablePlayerBaseClass)
+_statArray : {
+    _maxHealth : 6
+    _maxMana : 0
+    _maxStamina : 8
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 20
+    _criticalRate : 0.015
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 16
+    _magicDefense : 10
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Monolith Gem (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : _chTex_38a (UnityEngine.Texture2D)
+
+- ScriptableChestpiece -
+_lockBoobs : True
+_disableJiggleBoobBones : False
+_textureArms : True
+_legOverlayTexture : _chTex_38_leg (UnityEngine.Texture2D)
+_boobOverrideTexture : _chTex_38b (UnityEngine.Texture2D)
+_neckCollarMesh : 
+_neckCollarTexture : 
+_chestRenderDisplay : 
+_chestRenderTexture : 
+_chestRenderBoobTexture : 
+_robeSkirtRender : 
+_robeSkirtTexture : 
+_armCuffRender : armorRender_armCuff02 (ScriptableArmorRender)
+_shoulderpadMesh : vikingArmor_shoulderPad (UnityEngine.Mesh)
+_shoulderpadTexture : shoulderpad00Tex_00 (UnityEngine.Texture2D)
+_shoulderPadDisplayType : None

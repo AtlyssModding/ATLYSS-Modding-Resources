@@ -1,0 +1,44 @@
+- ScriptableItem -
+name : (lv-17) CAPE_Deathward Cape
+_itemName : Deathward Cape
+_itemDescription : You can hear the laughter from the skull motif.
+_destroyOnDrop : False
+_vendorCost : 1530
+_maxStackAmount : 1
+_itemIcon : _capIco_02 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 17
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 5
+    _magicPower : 5
+    _dexPower : 5
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 10
+    _magicDefense : 3
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Soul Pearl (ScriptableTradeItem)
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 11
+    _saturation : 0.94
+    _brightness : -0.14
+    _contrast : 1.01
+}
+_armorTexture : _capeTex_03 (UnityEngine.Texture2D)
+
+- ScriptableCape -
+_capeMesh : cape01 (UnityEngine.Mesh)

@@ -1,0 +1,55 @@
+- ScriptableItem -
+name : (lv-18) WEAPON_Coldgeist Bow (Range Weapon)
+_itemName : Coldgeist Bow
+_itemDescription : Ruination of the lost frozen souls.
+_destroyOnDrop : False
+_vendorCost : 875
+_maxStackAmount : 1
+_itemIcon : _wepIco_46 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 18
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 5
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 8
+    _criticalRate : 0.028
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Soul Pearl (ScriptableTradeItem)
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Range Weapon
+_combatElement : Water
+_weaponProjectileSet : weaponProjectileSet_bow(water) (ScriptableWeaponProjectileSet)
+_weaponDamage : 20
+_damageBonus : 3
+_weaponConditionSlot : {
+    _scriptableCondition : Cold
+    _chance : 0.1
+}
+weaponTexture : bow05Tex_01 (UnityEngine.Texture2D)
+weaponMesh : bow_05_alt00 (UnityEngine.Mesh)
+trailColors : #47ABFFFF & #005DFFFF
+_textureColorAdjust : {
+    _hue : -18
+    _saturation : 1.06
+    _brightness : 0.17
+    _contrast : 1.54
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : bow_takeOut (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : bow_fire01 (UnityEngine.AudioClip)

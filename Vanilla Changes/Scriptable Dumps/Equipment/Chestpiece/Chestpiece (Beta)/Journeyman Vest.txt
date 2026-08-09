@@ -1,0 +1,59 @@
+- ScriptableItem -
+name : (lv-3) CHESTPIECE_Journeyman Vest
+_itemName : Journeyman Vest
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 50
+_maxStackAmount : 1
+_itemIcon : _chestIco_21 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 3
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 1
+    _magicPower : 1
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 4
+    _magicDefense : 1
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : _chTex_15a (UnityEngine.Texture2D)
+
+- ScriptableChestpiece -
+_lockBoobs : True
+_disableJiggleBoobBones : False
+_textureArms : True
+_legOverlayTexture : 
+_boobOverrideTexture : 
+_neckCollarMesh : 
+_neckCollarTexture : 
+_chestRenderDisplay : 
+_chestRenderTexture : 
+_chestRenderBoobTexture : 
+_robeSkirtRender : 
+_robeSkirtTexture : 
+_armCuffRender : 
+_shoulderpadMesh : 
+_shoulderpadTexture : 
+_shoulderPadDisplayType : None

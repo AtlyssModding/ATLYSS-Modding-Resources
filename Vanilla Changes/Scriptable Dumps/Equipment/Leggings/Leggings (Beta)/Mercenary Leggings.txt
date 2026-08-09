@@ -1,0 +1,53 @@
+- ScriptableItem -
+name : (lv-15) LEGGINGS_Mercenary Leggings
+_itemName : Mercenary Leggings
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 560
+_maxStackAmount : 1
+_itemIcon : _legIco_18 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 15
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 2
+    _maxStamina : 8
+    _experience : 0
+    _attackPower : 1
+    _magicPower : 0
+    _dexPower : 2
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 7
+    _magicDefense : 3
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : _lgTex_21 (UnityEngine.Texture2D)
+
+- ScriptableLeggings -
+_textureUpperLegOnly : False
+_textureFeet : True
+_legPieceRender_01 : 
+_legPieceTexture_01 : _lgTex_15a (UnityEngine.Texture2D)
+_legPieceRender_02 : 
+_legPieceTexture_02 : _lgTex_15a (UnityEngine.Texture2D)
+_legPieceRender_03 : 
+_legPieceTexture_03 : _lgTex_15a (UnityEngine.Texture2D)
+_legPieceRender_04 : 
+_legPieceTexture_04 : _lgTex_15a (UnityEngine.Texture2D)

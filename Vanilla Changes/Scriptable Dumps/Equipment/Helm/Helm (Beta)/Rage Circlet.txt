@@ -1,0 +1,49 @@
+- ScriptableItem -
+name : (lv-10) HELM_Rage Circlet
+_itemName : Rage Circlet
+_itemDescription : Fervor of angst and envy.
+_destroyOnDrop : False
+_vendorCost : 250
+_maxStackAmount : 1
+_itemIcon : _helmIco_10 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 10
+_classRequirement : 00_CLASS_fighter (ScriptablePlayerBaseClass)
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 4
+    _experience : 0
+    _attackPower : 4
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0.028
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 5
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 139
+    _saturation : 2
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : halo02Tex_00 (UnityEngine.Texture2D)
+
+- ScriptableHelm -
+_blendHelmValue : 0
+_useHelmHairDisplay : False
+_hideEars : False
+_hideMisc : False
+_helmRender : helmRender_halo (ScriptableArmorRender)
+_helmOverrideMesh : _helm_halo_02 (UnityEngine.Mesh)

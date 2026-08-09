@@ -1,0 +1,44 @@
+- ScriptableItem -
+name : (lv-7) CAPE_Rugged Cloak
+_itemName : Rugged Cloak
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 34
+_maxStackAmount : 1
+_itemIcon : _capIco_03 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 7
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 2
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : -27
+    _saturation : 2
+    _brightness : -0.23
+    _contrast : 1.23
+}
+_armorTexture : _capeTex_01 (UnityEngine.Texture2D)
+
+- ScriptableCape -
+_capeMesh : cape01 (UnityEngine.Mesh)

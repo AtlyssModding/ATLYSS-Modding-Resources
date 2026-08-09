@@ -1,0 +1,23 @@
+- ScriptableItem -
+name : (lv-0) STATUSCONSUMABLE_Bunpot
+_itemName : Bunpot
+_itemDescription : A small healing salve.
+_destroyOnDrop : False
+_vendorCost : 15
+_maxStackAmount : 99
+_itemIcon : _conIco_20 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableConsumable -
+_consumableCooldown : 0.8
+_consumableObject : _consumableEffect_healthConsumable (UnityEngine.GameObject)
+_useOnlyInTown : False
+_unperishable : False
+
+- ScriptableStatusConsumable -
+_healthApply : 20
+_manaApply : 0
+_staminaApply : 0
+_expGain : 0
+_resetSkillPoints : False
+_resetAttributePoints : False

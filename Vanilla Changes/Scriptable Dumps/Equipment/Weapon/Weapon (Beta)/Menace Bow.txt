@@ -1,0 +1,52 @@
+- ScriptableItem -
+name : (lv-12) WEAPON_Menace Bow (Range Weapon)
+_itemName : Menace Bow
+_itemDescription : You feel a surge of swiftness holding this bow.
+_destroyOnDrop : False
+_vendorCost : 450
+_maxStackAmount : 1
+_itemIcon : _wepIco_19 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 12
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 3
+    _criticalRate : 0.038
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Blightwood Log (ScriptableTradeItem)
+    _scriptItemQuantity : 10
+}
+
+- ScriptableWeapon -
+weaponType : Range Weapon
+_combatElement : Air
+_weaponProjectileSet : weaponProjectileSet_bow(air) (ScriptableWeaponProjectileSet)
+_weaponDamage : 9
+_damageBonus : 5
+_weaponConditionSlot : None
+weaponTexture : bow04Tex_01 (UnityEngine.Texture2D)
+weaponMesh : bow_04 (UnityEngine.Mesh)
+trailColors : #A3FF39FF & #FF0000FF
+_textureColorAdjust : {
+    _hue : -325
+    _saturation : 2
+    _brightness : 0.05
+    _contrast : 1.59
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : bow_takeOut (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : bow_fire01 (UnityEngine.AudioClip)

@@ -1,0 +1,9 @@
+- ScriptableItem -
+name : TRADEITEM_Golem Core
+_itemName : Golem Core
+_itemDescription : The once functioning heart of a Golem. Quite heavy.
+_destroyOnDrop : False
+_vendorCost : 20
+_maxStackAmount : 5
+_itemIcon : _tradIco_17 (UnityEngine.Sprite)
+_itemRarity : Common

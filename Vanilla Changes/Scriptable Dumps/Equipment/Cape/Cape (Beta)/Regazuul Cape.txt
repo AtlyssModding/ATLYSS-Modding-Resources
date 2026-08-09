@@ -1,0 +1,44 @@
+- ScriptableItem -
+name : (lv-12) CAPE_Regazuul Cape
+_itemName : Regazuul Cape
+_itemDescription : A long forgotten heirloom of Lord Zuulneruda.
+_destroyOnDrop : False
+_vendorCost : 400
+_maxStackAmount : 1
+_itemIcon : _capIco_00 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 12
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 2
+    _magicPower : 2
+    _dexPower : 2
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 5
+    _magicDefense : 2
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : -1
+    _saturation : 0.65
+    _brightness : 0.03
+    _contrast : 1.29
+}
+_armorTexture : _capeTex_02 (UnityEngine.Texture2D)
+
+- ScriptableCape -
+_capeMesh : cape01 (UnityEngine.Mesh)

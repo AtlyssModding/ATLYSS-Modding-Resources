@@ -1,0 +1,52 @@
+- ScriptableItem -
+name : (lv-13) WEAPON_Petrified Bow (Range Weapon)
+_itemName : Petrified Bow
+_itemDescription : Lost souls of the damned are welded to this bow.
+_destroyOnDrop : False
+_vendorCost : 489
+_maxStackAmount : 1
+_itemIcon : _wepIco_35 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 13
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 3
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 3
+    _criticalRate : 0.04
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Ghostdust (ScriptableTradeItem)
+    _scriptItemQuantity : 15
+}
+
+- ScriptableWeapon -
+weaponType : Range Weapon
+_combatElement : Shadow
+_weaponProjectileSet : weaponProjectileSet_bow(shadow) (ScriptableWeaponProjectileSet)
+_weaponDamage : 12
+_damageBonus : 3
+_weaponConditionSlot : None
+weaponTexture : bow05Tex_00 (UnityEngine.Texture2D)
+weaponMesh : bow_05 (UnityEngine.Mesh)
+trailColors : #8914C8FF & #FF0000FF
+_textureColorAdjust : {
+    _hue : 25
+    _saturation : 1.55
+    _brightness : -0.05
+    _contrast : 1.24
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : bow_takeOut (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : bow_fire01 (UnityEngine.AudioClip)

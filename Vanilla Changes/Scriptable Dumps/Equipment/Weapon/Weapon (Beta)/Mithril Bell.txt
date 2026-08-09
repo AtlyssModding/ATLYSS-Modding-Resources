@@ -1,0 +1,52 @@
+- ScriptableItem -
+name : (lv-16) WEAPON_Mithril Bell (Magic Bell)
+_itemName : Mithril Bell
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 980
+_maxStackAmount : 1
+_itemIcon : _wepIco_53 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 16
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 8
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 7
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0.002
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 0
+}
+
+- ScriptableWeapon -
+weaponType : Magic Bell
+_combatElement : None
+_weaponProjectileSet : weaponProjectileSet_bell_normal (ScriptableWeaponProjectileSet)
+_weaponDamage : 13
+_damageBonus : 4
+_weaponConditionSlot : None
+weaponTexture : bell01Tex_03 (UnityEngine.Texture2D)
+weaponMesh : _bell_04 (UnityEngine.Mesh)
+trailColors : #FFFFFFFF & #FF0000FF
+_textureColorAdjust : {
+    _hue : -17
+    _saturation : 1.33
+    _brightness : 0.06
+    _contrast : 1.44
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _takeOutBell3 (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _bellSwing04 (UnityEngine.AudioClip)

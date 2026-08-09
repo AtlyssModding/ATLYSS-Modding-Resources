@@ -1,0 +1,24 @@
+- ScriptableItem -
+name : DYE_Orange Dye
+_itemName : Orange Dye
+_itemDescription : A vial of orange dye.
+_destroyOnDrop : False
+_vendorCost : 160
+_maxStackAmount : 1
+_itemIcon : _dyeIco_orange (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableConsumable -
+_consumableCooldown : 1.5
+_consumableObject : _consumableEffect_orangeDye (UnityEngine.GameObject)
+_useOnlyInTown : False
+_unperishable : False
+
+- ScriptableArmorDye -
+_particleColoration : FFA319FF
+_dyeParams : {
+    _hue : -84
+    _saturation : 2
+    _brightness : 0
+    _contrast : 1.25
+}

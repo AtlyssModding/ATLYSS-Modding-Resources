@@ -1,0 +1,22 @@
+- ScriptableItem -
+name : DYE_Green Dye
+_itemName : Green Dye
+_itemDescription : A vial of green dye. Use it to make your gear dye color green.
+_destroyOnDrop : False
+_vendorCost : 160
+_maxStackAmount : 1
+_itemIcon : _dyeIco_green (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableConsumable -
+_consumableCooldown : 1.5
+_consumableObject : 
+_useOnlyInTown : False
+
+- ScriptableArmorDye -
+_dyeParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0.08
+    _contrast : 1
+}

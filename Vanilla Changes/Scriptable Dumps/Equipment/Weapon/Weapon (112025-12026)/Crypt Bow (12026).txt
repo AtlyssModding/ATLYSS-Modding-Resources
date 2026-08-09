@@ -1,0 +1,57 @@
+- ScriptableItem -
+name : (lv-2) WEAPON_Crypt Bow (Bow, Dexterity)
+_itemName : Crypt Bow
+_itemDescription : Glue-like soot keeps the bones together.
+_destroyOnDrop : False
+_vendorCost : 45
+_maxStackAmount : 1
+_itemIcon : _wepIco_17 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 2
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Bow
+_combatElement : Normal - ID: 0
+_weaponProjectileSet : weaponProjectileSet_arrow (ScriptableWeaponProjectileSet)
+_weaponDamage : 6
+_damageBonus : 2
+weaponTexture : bow02Tex_01 (UnityEngine.Texture2D)
+weaponMesh : bow_02 (UnityEngine.Mesh)
+trailColors : #FFFFFFFF & #FF0000FF
+_textureColorAdjust : {
+    _hue : 1
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : bow_takeOut (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : bow_fire01 (UnityEngine.AudioClip)

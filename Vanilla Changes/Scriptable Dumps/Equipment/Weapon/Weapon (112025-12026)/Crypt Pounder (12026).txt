@@ -1,0 +1,57 @@
+- ScriptableItem -
+name : (lv-8) WEAPON_Crypt Pounder (Hammer, Strength)
+_itemName : Crypt Pounder
+_itemDescription : Made with the bones of sinners.
+_destroyOnDrop : False
+_vendorCost : 650
+_maxStackAmount : 1
+_itemIcon : _wepIco_10 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 8
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 6
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0.0045
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Ghostdust (ScriptableTradeItem)
+    _scriptItemQuantity : 15
+}
+
+- ScriptableWeapon -
+weaponType : Hammer
+_combatElement : Shadow - ID: 6
+_weaponProjectileSet : 
+_weaponDamage : 23
+_damageBonus : 10
+weaponTexture : hammer02Tex (UnityEngine.Texture2D)
+weaponMesh : _axeHammer_02 (UnityEngine.Mesh)
+trailColors : #3E00B0FF & #4528FFFF
+_textureColorAdjust : {
+    _hue : -18
+    _saturation : 2
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _heavySheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingHeavy (UnityEngine.AudioClip)

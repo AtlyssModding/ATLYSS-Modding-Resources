@@ -1,0 +1,23 @@
+- ScriptableItem -
+name : DYE_Black Dye
+_itemName : Black Dye
+_itemDescription : A vial of black dye.
+_destroyOnDrop : False
+_vendorCost : 1000
+_maxStackAmount : 1
+_itemIcon : _dyeIco_black (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableConsumable -
+_consumableCooldown : 1.5
+_consumableObject : _consumableEffect_blackDye (UnityEngine.GameObject)
+_useOnlyInTown : False
+_unperishable : False
+
+- ScriptableArmorDye -
+_dyeParams : {
+    _hue : 0
+    _saturation : 0
+    _brightness : -0.5
+    _contrast : 1.5
+}

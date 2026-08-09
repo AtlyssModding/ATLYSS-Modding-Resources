@@ -1,0 +1,57 @@
+- ScriptableItem -
+name : (lv-24) WEAPON_Valdur Blade (Sword, Strength)
+_itemName : Valdur Blade
+_itemDescription : The blade of Wind Golems...
+_destroyOnDrop : False
+_vendorCost : 2300
+_maxStackAmount : 1
+_itemIcon : _wepIco_78 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 24
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 5
+    _experience : 0
+    _attackPower : 13
+    _magicPower : 0
+    _dexPower : 15
+    _criticalRate : 0.011
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+    _fireResist : 0
+    _waterResist : 0
+    _natureResist : 0
+    _earthResist : 0
+    _holyResist : 0
+    _shadowResist : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Windcore Badge (ScriptableTradeItem)
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Blade
+_combatElement : Nature - ID: 3
+_weaponProjectileSet : 
+_weaponDamage : 28
+_damageBonus : 9
+weaponTexture : blade08_tex00 (UnityEngine.Texture2D)
+weaponMesh : _weapon_blade08 (UnityEngine.Mesh)
+trailColors : #ABFF5DFF & #81D638FF
+_textureColorAdjust : {
+    _hue : 0
+    _saturation : 1.45
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _mediumSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingMedium (UnityEngine.AudioClip)

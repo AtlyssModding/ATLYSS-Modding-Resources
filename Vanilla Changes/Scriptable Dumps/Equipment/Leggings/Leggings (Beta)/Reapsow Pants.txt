@@ -1,0 +1,53 @@
+- ScriptableItem -
+name : (lv-12) LEGGINGS_Reapsow Pants
+_itemName : Reapsow Pants
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 800
+_maxStackAmount : 1
+_itemIcon : _legIco_02 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 12
+_classRequirement : 02_CLASS_bandit (ScriptablePlayerBaseClass)
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 5
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 5
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0.009
+    _defense : 7
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Geist Collar (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : -46
+    _saturation : 0.99
+    _brightness : -0.12
+    _contrast : 0.92
+}
+_armorTexture : _lgTex_32 (UnityEngine.Texture2D)
+
+- ScriptableLeggings -
+_textureUpperLegOnly : False
+_textureFeet : True
+_legPieceRender_01 : 
+_legPieceTexture_01 : _legpadsTex_03 (UnityEngine.Texture2D)
+_legPieceRender_02 : 
+_legPieceTexture_02 : _lgTex_16a (UnityEngine.Texture2D)
+_legPieceRender_03 : 
+_legPieceTexture_03 : _lgTex_16a (UnityEngine.Texture2D)
+_legPieceRender_04 : 
+_legPieceTexture_04 : _lgTex_16a (UnityEngine.Texture2D)

@@ -1,0 +1,55 @@
+- ScriptableItem -
+name : (lv-17) WEAPON_Coldgeist Blade (Melee)
+_itemName : Coldgeist Blade
+_itemDescription : Forged from corrupted frost, formally used by ancient sages.
+_destroyOnDrop : False
+_vendorCost : 798
+_maxStackAmount : 1
+_itemIcon : _wepIco_45 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 17
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 5
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 7
+    _magicPower : 5
+    _dexPower : 0
+    _criticalRate : 0.0025
+    _magicCriticalRate : 0.002
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Soul Pearl (ScriptableTradeItem)
+    _scriptItemQuantity : 1
+}
+
+- ScriptableWeapon -
+weaponType : Melee
+_combatElement : Water
+_weaponProjectileSet : 
+_weaponDamage : 19
+_damageBonus : 1
+_weaponConditionSlot : {
+    _scriptableCondition : Cold
+    _chance : 0.1
+}
+weaponTexture : blade06Tex_00 (UnityEngine.Texture2D)
+weaponMesh : _weapon_blade06 (UnityEngine.Mesh)
+trailColors : #3BCFFFFF & #266BB9FF
+_textureColorAdjust : {
+    _hue : -8
+    _saturation : 1.51
+    _brightness : -0.07
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _mediumSheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingMedium (UnityEngine.AudioClip)

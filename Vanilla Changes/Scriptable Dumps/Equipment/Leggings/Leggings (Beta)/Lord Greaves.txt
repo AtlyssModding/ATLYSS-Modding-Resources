@@ -1,0 +1,53 @@
+- ScriptableItem -
+name : (lv-12) LEGGINGS_Lord Greaves
+_itemName : Lord Greaves
+_itemDescription : Your pants, sire?
+_destroyOnDrop : False
+_vendorCost : 800
+_maxStackAmount : 1
+_itemIcon : _legIco_01 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 12
+_classRequirement : 00_CLASS_fighter (ScriptablePlayerBaseClass)
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 3
+    _experience : 0
+    _attackPower : 4
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 9
+    _magicDefense : 2
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Deathgel Core (ScriptableTradeItem)
+    _scriptItemQuantity : 5
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1.38
+    _brightness : -0.07
+    _contrast : 1.01
+}
+_armorTexture : _lgTex_19a (UnityEngine.Texture2D)
+
+- ScriptableLeggings -
+_textureUpperLegOnly : False
+_textureFeet : True
+_legPieceRender_01 : armorRender_legPads03 (ScriptableArmorRender)
+_legPieceTexture_01 : _legpadsTex_02 (UnityEngine.Texture2D)
+_legPieceRender_02 : armorRender_shinPads01 (ScriptableArmorRender)
+_legPieceTexture_02 : _legpadsTex_02 (UnityEngine.Texture2D)
+_legPieceRender_03 : 
+_legPieceTexture_03 : _lgTex_16a (UnityEngine.Texture2D)
+_legPieceRender_04 : 
+_legPieceTexture_04 : _lgTex_16a (UnityEngine.Texture2D)

@@ -1,0 +1,52 @@
+- ScriptableItem -
+name : (lv-10) WEAPON_Crypt Pounder (Heavy Melee)
+_itemName : Crypt Pounder
+_itemDescription : Made with the bones of sinners.
+_destroyOnDrop : False
+_vendorCost : 650
+_maxStackAmount : 1
+_itemIcon : _wepIco_10 (UnityEngine.Sprite)
+_itemRarity : Rare
+
+- ScriptableEquipment -
+_equipmentLevel : 10
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 3
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0.0045
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : TRADEITEM_Ghostdust (ScriptableTradeItem)
+    _scriptItemQuantity : 15
+}
+
+- ScriptableWeapon -
+weaponType : Heavy Melee
+_combatElement : Shadow
+_weaponProjectileSet : 
+_weaponDamage : 15
+_damageBonus : 2
+_weaponConditionSlot : None
+weaponTexture : hammer02Tex (UnityEngine.Texture2D)
+weaponMesh : _axeHammer_02 (UnityEngine.Mesh)
+trailColors : #3E00B0FF & #4528FFFF
+_textureColorAdjust : {
+    _hue : -18
+    _saturation : 2
+    _brightness : 0
+    _contrast : 1
+}
+_weaponTakeOutSfxIndex : 0
+_setWeaponTakeOutSfx : _heavySheath (UnityEngine.AudioClip)
+_weaponSwingSfxIndex : 0
+_setWeaponSwingSfx : _swingHeavy (UnityEngine.AudioClip)

@@ -1,0 +1,41 @@
+- ScriptableItem -
+name : (lv-17) RING_Jadetrout Ring
+_itemName : Jadetrout Ring
+_itemDescription : The tail of the fish on this ring moves rapidly.
+_destroyOnDrop : False
+_vendorCost : 815
+_maxStackAmount : 1
+_itemIcon : icon_ring13 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 17
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 8
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 6
+    _magicPower : 8
+    _dexPower : 12
+    _criticalRate : 0.032
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 0
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 0
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : 

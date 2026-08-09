@@ -1,0 +1,53 @@
+- ScriptableItem -
+name : (lv-17) LEGGINGS_Stridebond Pants
+_itemName : Stridebond Pants
+_itemDescription : 
+_destroyOnDrop : False
+_vendorCost : 962
+_maxStackAmount : 1
+_itemIcon : _legIco_19 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 17
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 4
+    _experience : 0
+    _attackPower : 3
+    _magicPower : 2
+    _dexPower : 5
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 10
+    _magicDefense : 6
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : False
+_colorAdjustParams : {
+    _hue : 1
+    _saturation : 1.86
+    _brightness : -0.12
+    _contrast : 0.83
+}
+_armorTexture : _lgTex_38 (UnityEngine.Texture2D)
+
+- ScriptableLeggings -
+_textureUpperLegOnly : False
+_textureFeet : True
+_legPieceRender_01 : 
+_legPieceTexture_01 : _lgTex_15a (UnityEngine.Texture2D)
+_legPieceRender_02 : 
+_legPieceTexture_02 : _lgTex_15a (UnityEngine.Texture2D)
+_legPieceRender_03 : 
+_legPieceTexture_03 : _lgTex_15a (UnityEngine.Texture2D)
+_legPieceRender_04 : 
+_legPieceTexture_04 : _lgTex_15a (UnityEngine.Texture2D)

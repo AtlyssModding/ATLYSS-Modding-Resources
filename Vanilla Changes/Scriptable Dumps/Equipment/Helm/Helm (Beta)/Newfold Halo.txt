@@ -1,0 +1,49 @@
+- ScriptableItem -
+name : (lv-1) HELM_Newfold Halo
+_itemName : Newfold Halo
+_itemDescription : A sigil to indicate a new soul's introduction to the world.
+_destroyOnDrop : False
+_vendorCost : 15
+_maxStackAmount : 1
+_itemIcon : _helmIco_05 (UnityEngine.Sprite)
+_itemRarity : Common
+
+- ScriptableEquipment -
+_equipmentLevel : 1
+_classRequirement : 
+_statArray : {
+    _maxHealth : 0
+    _maxMana : 0
+    _maxStamina : 0
+    _experience : 0
+    _attackPower : 0
+    _magicPower : 0
+    _dexPower : 0
+    _criticalRate : 0
+    _magicCriticalRate : 0
+    _evasion : 0
+    _defense : 2
+    _magicDefense : 0
+}
+_statModifierCost : {
+    _scriptItem : 
+    _scriptItemQuantity : 1
+}
+
+- ScriptableArmor -
+_canDyeArmor : True
+_colorAdjustParams : {
+    _hue : 0
+    _saturation : 1
+    _brightness : 0
+    _contrast : 1
+}
+_armorTexture : halo00Tex_00 (UnityEngine.Texture2D)
+
+- ScriptableHelm -
+_blendHelmValue : 0
+_useHelmHairDisplay : False
+_hideEars : False
+_hideMisc : False
+_helmRender : helmRender_halo (ScriptableArmorRender)
+_helmOverrideMesh : _helm_halo_00 (UnityEngine.Mesh)
