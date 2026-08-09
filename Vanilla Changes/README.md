@@ -23,7 +23,7 @@ Different versions of [**MoreBankTabsFixed**](https://thunderstore.io/c/atlyss/p
 - `102025` (Designed for V2.0.1 but V1.0.1 is fine for equipment)
 - `112025-12026` (Equipment is accessible without the mod, otherwise V2.1.1)
 
-\- Warning pre-82026: Items like the Epic Carrot and Glyphik Pages require their respective quests active to collect!
+\- Warning post-72025: Items like the Epic Carrot and Glyphik Pages require their respective quests active to collect!
 #
 ## Scriptable Dumps
 Stripped-down dumps of the game's Scriptables using a semi-friendly JSON format. C# Scripts were used to generate the folders and edited for different game versions. The Dumpers are available if you wish to use them yourself.
