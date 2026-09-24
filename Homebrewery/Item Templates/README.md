@@ -1,4 +1,5 @@
-# [**Homebrewery User Manual**](https://github.com/Catman-232/Homebrewery/wiki/Homebrewery-User-Manual)
+# [Homebrewery User Manual](https://github.com/Catman-232/Homebrewery/wiki/Homebrewery-User-Manual)
+### [HB Reference Items Pack](https://thunderstore.io/c/atlyss/p/Catman232/HB_Reference_Items_Pack/)
 Reminder this is a tool for swiftly creating custom items and requires you understand basic Homebrewery!
 - [**How to make anything**](https://github.com/Catman-232/Homebrewery/wiki/How-to-make-Anything)
 - Item Properties that:\
