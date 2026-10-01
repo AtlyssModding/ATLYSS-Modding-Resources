@@ -1,5 +1,5 @@
 This is a public resource of shaders for custom map creators, these were sourced from the [**Atlyss: Mod Devs**](https://discord.gg/PCryMfmJGw) Discord server.\
-**.SHADERGRAPH** files (SG) require ShaderGraph to be installed through the Package Manager before being usable.
+`.SHADERGRAPH` files (SG) require ShaderGraph to be installed through the Package Manager before being usable.
 
 Official shaders provided by Kiseff.
 ```
@@ -32,10 +32,10 @@ These shaders require `TerrainSplatmapCustom.cginc` to work. This is only requir
 ```
 #
 ## Contributors
-- `Nessie:` ColorAdjust, diffuse_standard_RESTORED, QuakeLiquid. ([**Github**](https://github.com/Nestorboy) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Nessie/))
-- `Rootbeer:` unlit_colorAdjust, unlit_colorAdjust_Cutout, unlit_colorAdjust_noHue, diffuse_colorAdjust, diffuse_standard, LODDER Triplanar Terrain Standard. ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Rootbeer/))
-- `Zera:` MovingTexture, MovingSkybox. ([**Github**](https://github.com/LefiloMandering) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/ZenFishes/))
-- `Dipi11:` FoliageShaderSphereize, FoliageShaderSphereizeSkybox. ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Dipi11/))
-- `Toman:` DiffuseColorAdjust_RESTORED.
+- `Nessie:` "ColorAdjust", "diffuse_standard_RESTORED", "QuakeLiquid". ([**Github**](https://github.com/Nestorboy) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Nessie/))
+- `Rootbeer:` "unlit_colorAdjust", "unlit_colorAdjust_Cutout", "unlit_colorAdjust_noHue", "diffuse_colorAdjust", "diffuse_standard", "LODDER Triplanar Terrain Standard". ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Rootbeer/))
+- `Zera:` "MovingTexture", "MovingSkybox". ([**Github**](https://github.com/LefiloMandering) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/ZenFishes/))
+- `Dipi11:` "FoliageShaderSphereize", "FoliageShaderSphereizeSkybox". ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Dipi11/))
+- `Toman:` "diffuse_colorAdjust_RESTORED".
 - `WolfKann:` Edits to the LODDER shaders, source below. ([**Github**](https://github.com/WolfKann) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/WolfKann/))
 - This [**Unity Discussions**](https://discussions.unity.com/t/free-triplanar-terrain-shaders/605376) thread was the source of the LODDER Triplanar shaders.
