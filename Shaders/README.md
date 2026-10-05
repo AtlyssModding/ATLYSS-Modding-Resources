@@ -18,6 +18,7 @@ Recreated/restored shaders as well as custom shaders that were used for Fray Fie
 - QuakeLiquid
 - MovingTexture (SG)
 - MovingSkybox (SG)
+- PanUV_RESTORED
 ```
 The foliage shader made by Dipi11. The "Skybox" variant just has the vertex shader (that makes the foliage blow in the wind) turned off. But the shader primarily simulates spherical normals to hide low-poly foliage.
 ```
