@@ -16,9 +16,9 @@ Recreated/restored shaders as well as custom shaders that were used for Fray Fie
 - diffuse_standard_RESTORED
 - ColorAdjust
 - QuakeLiquid
+- PanUV_RESTORED
 - MovingTexture (SG)
 - MovingSkybox (SG)
-- PanUV_RESTORED
 ```
 The foliage shader made by Dipi11. The "Skybox" variant just has the vertex shader (that makes the foliage blow in the wind) turned off. But the shader primarily simulates spherical normals to hide low-poly foliage.
 ```
@@ -35,7 +35,7 @@ These shaders require `TerrainSplatmapCustom.cginc` to work. This is only requir
 ## Contributors
 - `Nessie:` "ColorAdjust", "diffuse_standard_RESTORED", "QuakeLiquid". ([**Github**](https://github.com/Nestorboy) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/Nessie/))
 - `Rootbeer:` "unlit_colorAdjust", "unlit_colorAdjust_Cutout", "unlit_colorAdjust_noHue", "diffuse_colorAdjust", "diffuse_standard", "LODDER Triplanar Terrain Standard". ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Rootbeer/))
-- `Zera:` "MovingTexture", "MovingSkybox". ([**Github**](https://github.com/LefiloMandering) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/ZenFishes/))
+- `Zera:` "PanUV_RESTORED", "MovingTexture", "MovingSkybox". ([**Github**](https://github.com/LefiloMandering) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/ZenFishes/))
 - `Dipi11:` "FoliageShaderSphereize", "FoliageShaderSphereizeSkybox". ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Dipi11/))
 - `Toman:` "diffuse_colorAdjust_RESTORED".
 - `WolfKann:` Edits to the LODDER shaders, source below. ([**Github**](https://github.com/WolfKann) - [**Thunderstore**](https://thunderstore.io/c/atlyss/p/WolfKann/))
