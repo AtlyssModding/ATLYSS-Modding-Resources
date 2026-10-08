@@ -1,5 +1,6 @@
 This is a public resource of shaders for custom map creators, these were sourced from the [**Atlyss: Mod Devs**](https://discord.gg/PCryMfmJGw) Discord server.\
-`.SHADERGRAPH` files (SG) require ShaderGraph to be installed through the Package Manager before being usable.
+`.SHADERGRAPH` files (SG) require ShaderGraph to be installed through the Package Manager before being usable.\
+Deprecated Shaders that were replaced can be found in the [LEGACY](/Shaders/LEGACY) folder.
 
 Official shaders provided by Kiseff.
 ```
@@ -12,7 +13,7 @@ Official shaders provided by Kiseff.
 ```
 Recreated/restored shaders as well as custom shaders that were used for Fray Fields & Fray Valley.
 ```
-- DiffuseColorAdjust_RESTORED
+- diffuse_colorAdjust_RESTORED
 - diffuse_standard_RESTORED
 - ColorAdjust
 - QuakeLiquid
