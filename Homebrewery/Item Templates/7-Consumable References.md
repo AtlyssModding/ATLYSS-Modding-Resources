@@ -89,7 +89,7 @@ For showcases of the VFXs, check out [**HB Reference Items Pack**](https://thund
 - "removeall" — "clearall" — "clear" (None)
 - "damage"
 - "gash"  — "hurt"  (None)
-- "cold" (None)
+- "cold"            (None)
 - "burn"  — "spicy" (None)
 - "gravity"
 - "speed" — "hyper"

@@ -1,10 +1,10 @@
-# Shield References
+# Universal References
 ### Up-to-Dateness
 - **Date:** October 8th 2026
 - **ATLYSS:** 12026.a3
 - **Homebrewery:** 4.7.40
 
-For more information:
+For more information: Properties that all [items](https://github.com/Catman-232/Homebrewery/wiki/Properties-that-all-items-can-have) & [armor](https://github.com/Catman-232/Homebrewery/wiki/Properties-that-all-items-can-have) can have.
 #
 ### ArmorRenders & Mesh fields
 | Property                 | Type          | Texture               |

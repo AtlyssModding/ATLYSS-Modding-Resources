@@ -15,7 +15,7 @@ For more information: [Proprties that only Dyes have](https://github.com/Catman-
   "_contrast":   1.0     // 0  — 2. Value for distinguishing colours.
 }
 ```
-`_consumableObject` from [Consumables](../Homebrewery/Item%20Templates/7-Consumable%20References.md#_consumableobject-cheatsheet) applies here too!
+`_consumableObject` from [Consumables](/Homebrewery/Item%20Templates/7-Consumable%20References.md#_consumableobject-cheatsheet) applies here too!
 #
 ## Dyes Cheatsheet
 <details open>
